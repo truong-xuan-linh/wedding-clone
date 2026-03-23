@@ -1,12 +1,16 @@
-import type { NextPage } from 'next';
+import type { GetStaticProps, NextPage } from 'next';
 import Head from 'next/head';
 import { useEffect } from 'react';
-import pageContent from '../lib/pageContent';
+import fs from 'fs';
+import path from 'path';
 
-// Wedding date: January 3, 2026 at 10:00 AM (Vietnam time, UTC+7)
-const WEDDING_DATE = new Date('2026-01-03T10:00:00+07:00');
+const WEDDING_DATE = new Date('2026-04-22T11:00:00+07:00');
 
-const Home: NextPage = () => {
+interface HomeProps {
+  pageContent: string;
+}
+
+const Home: NextPage<HomeProps> = ({ pageContent }) => {
   useEffect(() => {
     // --- Audio Control ---
     const audioEl = document.querySelector('audio') as HTMLAudioElement | null;
@@ -189,6 +193,17 @@ const Home: NextPage = () => {
       />
     </>
   );
+};
+
+export const getStaticProps: GetStaticProps = async () => {
+  const filePath = path.join(process.cwd(), 'content', 'pageContent.html');
+  const pageContent = fs.readFileSync(filePath, 'utf-8');
+
+  return {
+    props: {
+      pageContent,
+    },
+  };
 };
 
 export default Home;
