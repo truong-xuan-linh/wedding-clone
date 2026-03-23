@@ -1,0 +1,1297 @@
+import React from 'react';
+
+const InvitationContent: React.FC = () => {
+  return (
+    <>
+      <div id="__next">
+  <div className="ant-spin-nested-loading css-var-«R36»">
+    <div className="ant-spin-container">
+      <div style={{ backgroundColor: '#f0f2f5', height: '100vh', width: '100vw', paddingTop: '5vh' } as React.CSSProperties} className="jsx-3147566159 pc-container">
+        <div style={{ width: '474px', height: '90vh', margin: 'auto', position: 'relative', border: '1px solid rgb(224, 224, 224)', boxShadow: 'rgba(0, 0, 0, 0.1) 0px 0px 10px 0px', borderRadius: '3px', overflow: 'hidden' } as React.CSSProperties} className="jsx-3147566159 pc-content">
+          <div id="app-view-index" className="jsx-773491098">
+            <div id="audio-control-wrapper" className="jsx-3522513885 cursor-pointer">
+              <div className="jsx-3522513885 audio-toggle">
+                <img src="/assets/audio-6.png" alt="music icon" className="jsx-3522513885 music-icon" />
+                <div className="jsx-3522513885 icon-cancel">
+                  <div className="jsx-3522513885 icon-line"></div>
+                </div>
+              </div>
+            </div>
+            <audio
+              src="https://assets.cinelove.me/audio/81f921b5-2580-4dd8-a528-cf59a24c18e6/dd057ac8-b42b-42b5-ab96-8ed37de61973.mp3"
+              loop preload="auto"></audio>
+            <div className="relative overflow-x-hidden styles_customScroll__X5r6w h-full" style={{ backgroundColor: '#fff', overflowY: 'auto', touchAction: 'auto' } as React.CSSProperties}>
+              <div id="root-page-container" className="jsx-2177353859" style={{ backgroundColor: 'rgb(153, 153, 153)', backgroundImage: 'none', backgroundSize: 'cover', width: '474px', height: '8453.42px', position: 'relative' } as React.CSSProperties}>
+                <div style={{ position: 'relative', userSelect: 'auto', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', width: '474px', height: '8453.42px', minWidth: '50px', minHeight: '50px' } as React.CSSProperties}>
+                  <div className="jsx-2177353859 w-full h-full">
+                    <div data-node-id="CldFb6azfQ" className="jsx-1944329802" style={{ position: 'absolute', top: '0px', left: '0px', width: '474px', height: '939.944px', zIndex: '0', cursor: 'default', transform: 'rotate(0deg) scale(1, 1)' } as React.CSSProperties}>
+                      <div data-transition-key="CldFb6azfQ-fade-in-1.6-0-ease-out-false" data-node-id="CldFb6azfQ"
+                        style={{ transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1944329802" style={{ position: 'relative', width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', border: '0px solid', padding: '0px', backgroundColor: 'transparent', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', opacity: '1', boxShadow: 'none', borderRadius: '0px' } as React.CSSProperties}>
+                          <div className="jsx-1944329802 photo-component" style={{ WebkitMaskBoxImageSource: 'none', WebkitMaskBoxImageSlice: '0 fill', maskImage: 'none', maskSize: '100% 100%', maskRepeat: 'no-repeat' } as React.CSSProperties}>
+                            <div className="jsx-1944329802 photo-bg-wrap" style={{ backgroundImage: 'url(\'/assets/a4575674-74a4-4283-a7cd-ff2d64f7c490.png\')', borderRadius: '0px' } as React.CSSProperties}></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="DieFumcUXm" className="jsx-1828971989 text-box-component" style={{ position: 'absolute', top: '-8.713px', left: '2.1804px', width: '455.04px', height: 'auto', zIndex: '0', cursor: 'default', transform: 'rotate(0deg)' } as React.CSSProperties}>
+                      <div data-transition-key="DieFumcUXm-fade-in-1.6-0-ease-out-false" data-node-id="DieFumcUXm"
+                        style={{ transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1828971989" style={{ position: 'relative', width: '100%', height: '100%', padding: '0px', borderRadius: '0px', boxShadow: 'none', backgroundColor: 'transparent', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', opacity: '1', border: '0px solid' } as React.CSSProperties}>
+                          <div contentEditable="false" style={{ height: 'auto', width: '100%', minWidth: '20px', color: 'rgb(70, 92, 61)', fontSize: '61.62px', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', fontWeight: 'normal', fontFamily: 'Aquarelle', textAlign: 'center', lineHeight: 'normal', letterSpacing: '0px', textTransform: 'none', textDecoration: 'none', fontStyle: 'normal', pointerEvents: 'none', overflow: 'hidden', wordBreak: 'break-word' } as React.CSSProperties}>
+                            Save our date
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="FlIA12U-JR" className="jsx-992657205 animated-envelope-component" style={{ position: 'absolute', top: '241.23px', left: '62.276px', width: '349.156px', height: '232.77px', zIndex: '0', cursor: 'move', transform: 'rotate(0deg)' } as React.CSSProperties}>
+                      <div data-transition-key="FlIA12U-JR-fade-in-1.6-0-ease-out-false" data-node-id="FlIA12U-JR"
+                        style={{ transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1974917414 envelope-shadow"></div>
+                        <div className="jsx-1974917414 envelope-container close">
+                          <div className="jsx-1974917414 front flap"></div>
+                          <div className="jsx-1974917414 front pocket"></div>
+                          <div className="jsx-1974917414 wax-seal" style={{ backgroundImage: 'url(\'/assets/wax-seal.webp\')' } as React.CSSProperties}></div>
+                          <div className="jsx-1974917414 letter">
+                            <img alt="Letter" className="jsx-1974917414 letter-image"
+                              src="/assets/e14656ba-9141-4c93-b5cc-5c57e946ec78.JPG" />
+                          </div>
+                          <div className="jsx-1974917414 hearts">
+                            <div className="jsx-1974917414 heart a1"></div>
+                            <div className="jsx-1974917414 heart a2"></div>
+                            <div className="jsx-1974917414 heart a3"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="XvSCq9mnJA" className="jsx-1944329802" style={{ position: 'absolute', top: '33.053px', left: '-20.7347px', width: '149.018px', height: '274.225px', zIndex: '0', cursor: 'default', transform: 'rotate(0deg) scale(1, 1)' } as React.CSSProperties}>
+                      <div data-transition-key="XvSCq9mnJA-fade-in-1.6-0-ease-out-false" data-node-id="XvSCq9mnJA"
+                        style={{ transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1944329802" style={{ position: 'relative', width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', border: '0px solid', padding: '0px', backgroundColor: 'transparent', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', opacity: '1', boxShadow: 'none', borderRadius: '0px' } as React.CSSProperties}>
+                          <div className="jsx-1944329802 photo-component" style={{ WebkitMaskBoxImageSource: 'none', WebkitMaskBoxImageSlice: '0 fill', maskImage: 'none', maskSize: '100% 100%', maskRepeat: 'no-repeat' } as React.CSSProperties}>
+                            <div className="jsx-1944329802 photo-bg-wrap" style={{ backgroundImage: 'url(\'/assets/bd7bf8f4-643f-47c8-995f-3bd8ce3235d1__crop_24_27_194_357.png\')', borderRadius: '0px' } as React.CSSProperties}></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="NXo_uTrFXa" className="jsx-1944329802" style={{ position: 'absolute', top: '33.8436px', left: '343.25px', width: '136.291px', height: '136.986px', zIndex: '0', cursor: 'default', transform: 'rotate(336.155deg) scale(1, 1)' } as React.CSSProperties}>
+                      <div data-transition-key="NXo_uTrFXa-fade-in-1.6-0-ease-out-false" data-node-id="NXo_uTrFXa"
+                        style={{ transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1944329802" style={{ position: 'relative', width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', border: '0px solid', padding: '0px', backgroundColor: 'transparent', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', opacity: '1', boxShadow: 'none', borderRadius: '0px' } as React.CSSProperties}>
+                          <div className="jsx-1944329802 photo-component" style={{ WebkitMaskBoxImageSource: 'none', WebkitMaskBoxImageSlice: '0 fill', maskImage: 'none', maskSize: '100% 100%', maskRepeat: 'no-repeat' } as React.CSSProperties}>
+                            <div className="jsx-1944329802 photo-bg-wrap" style={{ backgroundImage: 'url(\'/assets/bd7bf8f4-643f-47c8-995f-3bd8ce3235d1__crop_152_337_196_197.png\')', borderRadius: '0px' } as React.CSSProperties}></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="KGa_bGKNPL" className="jsx-1944329802" style={{ position: 'absolute', top: '939.942px', left: '0px', width: '474px', height: '1098.26px', zIndex: '0', cursor: 'default', transform: 'rotate(0deg) scale(1, 1)' } as React.CSSProperties}>
+                      <div data-transition-key="KGa_bGKNPL-fade-in-1.6-0-ease-out-false" data-node-id="KGa_bGKNPL"
+                        style={{ transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1944329802" style={{ position: 'relative', width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', border: '0px solid', padding: '0px', backgroundColor: 'transparent', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', opacity: '1', boxShadow: 'none', borderRadius: '0px' } as React.CSSProperties}>
+                          <div className="jsx-1944329802 photo-component" style={{ WebkitMaskBoxImageSource: 'none', WebkitMaskBoxImageSlice: '0 fill', maskImage: 'none', maskSize: '100% 100%', maskRepeat: 'no-repeat' } as React.CSSProperties}>
+                            <div className="jsx-1944329802 photo-bg-wrap" style={{ backgroundImage: 'url(\'/assets/a4575674-74a4-4283-a7cd-ff2d64f7c490.png\')', borderRadius: '0px' } as React.CSSProperties}></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="hkBC0wNsbm" className="jsx-1828971989 text-box-component" style={{ position: 'absolute', top: '943.737px', left: '-10.9968px', width: '209.508px', height: 'auto', zIndex: '1', cursor: 'default', transform: 'rotate(0deg)' } as React.CSSProperties}>
+                      <div data-transition-key="hkBC0wNsbm-rotate-in-1.6-0-ease-out-false" data-node-id="hkBC0wNsbm"
+                        style={{ transition: '1.6s ease-out', transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1828971989" style={{ position: 'relative', width: '100%', height: '100%', padding: '0px', borderRadius: '0px', boxShadow: 'none', backgroundColor: 'transparent', display: 'flex', alignItems: 'center', justifyContent: 'flex-end', boxSizing: 'border-box', opacity: '1', border: '0px solid' } as React.CSSProperties}>
+                          <div contentEditable="false" style={{ height: 'auto', width: '100%', minWidth: '20px', color: 'rgb(58, 74, 58)', fontSize: '60.672px', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', fontWeight: 'normal', fontFamily: 'Carlytte', textAlign: 'right', lineHeight: 'normal', letterSpacing: '0px', textTransform: 'none', textDecoration: 'none', fontStyle: 'normal', pointerEvents: 'none', overflow: 'hidden', wordBreak: 'break-word' } as React.CSSProperties}>
+                            Nhà Trai
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="sHSRmmnhDe" className="jsx-1828971989 text-box-component" style={{ position: 'absolute', top: '942.873px', left: '269.357px', width: '205.701px', height: 'auto', zIndex: '2', cursor: 'default', transform: 'rotate(0deg)' } as React.CSSProperties}>
+                      <div data-transition-key="sHSRmmnhDe-rotate-in-1.6-0-cubic-bezier(0.68, -0.55, 0.265, 1.55)-false"
+                        data-node-id="sHSRmmnhDe" style={{ transition: '1.6s cubic-bezier(0.68, -0.55, 0.265, 1.55)', transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1828971989" style={{ position: 'relative', width: '100%', height: '100%', padding: '0px', borderRadius: '0px', boxShadow: 'none', backgroundColor: 'transparent', display: 'flex', alignItems: 'center', justifyContent: 'flex-start', boxSizing: 'border-box', opacity: '1', border: '0px solid' } as React.CSSProperties}>
+                          <div contentEditable="false" style={{ height: 'auto', width: '100%', minWidth: '20px', color: 'rgb(58, 74, 58)', fontSize: '60.672px', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', fontWeight: 'normal', fontFamily: 'Carlytte', textAlign: 'left', lineHeight: 'normal', letterSpacing: '0px', textTransform: 'none', textDecoration: 'none', fontStyle: 'normal', pointerEvents: 'none', overflow: 'hidden', wordBreak: 'break-word' } as React.CSSProperties}>
+                            Nhà Gái
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="OvZuKQod5_" className="jsx-1828971989 text-box-component" style={{ position: 'absolute', top: '1031.63px', left: '14.9784px', width: '212.352px', height: 'auto', zIndex: '2', cursor: 'default', transform: 'rotate(0deg)' } as React.CSSProperties}>
+                      <div data-transition-key="OvZuKQod5_-scale-in-1.6-0-ease-out-false" data-node-id="OvZuKQod5_"
+                        style={{ transition: '1.6s ease-out', transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1828971989" style={{ position: 'relative', width: '100%', height: '100%', padding: '0px', borderRadius: '0px', boxShadow: 'none', backgroundColor: 'transparent', display: 'flex', alignItems: 'center', justifyContent: 'flex-start', boxSizing: 'border-box', opacity: '1', border: '0px solid' } as React.CSSProperties}>
+                          <div contentEditable="false" style={{ height: 'auto', width: '100%', minWidth: '20px', color: 'rgb(58, 74, 58)', fontSize: '26.544px', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', fontWeight: 'bold', fontFamily: 'Signora', textAlign: 'left', lineHeight: 'normal', letterSpacing: '0px', textTransform: 'none', textDecoration: 'none', fontStyle: 'normal', pointerEvents: 'none', overflow: 'hidden', wordBreak: 'break-word' } as React.CSSProperties}>
+                            Phan Binh
+                            <div>
+                              <span style={{ letterSpacing: '0px', backgroundColor: 'transparent' } as React.CSSProperties}>Nguyễn Thị Mẩn</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="uaoSRch0Zt" className="jsx-1828971989 text-box-component" style={{ position: 'absolute', top: '1027.35px', left: '270.275px', width: '207.612px', height: 'auto', zIndex: '3', cursor: 'default', transform: 'rotate(0deg)' } as React.CSSProperties}>
+                      <div data-transition-key="uaoSRch0Zt-scale-in-1.6-0-ease-out-false" data-node-id="uaoSRch0Zt"
+                        style={{ transition: '1.6s ease-out', transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1828971989" style={{ position: 'relative', width: '100%', height: '100%', padding: '0px', borderRadius: '0px', boxShadow: 'none', backgroundColor: 'transparent', display: 'flex', alignItems: 'center', justifyContent: 'flex-start', boxSizing: 'border-box', opacity: '1', border: '0px solid' } as React.CSSProperties}>
+                          <div contentEditable="false" style={{ height: 'auto', width: '100%', minWidth: '20px', color: 'rgb(51, 51, 51)', fontSize: '26.544px', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', fontWeight: 'bold', fontFamily: 'Signora', textAlign: 'left', lineHeight: 'normal', letterSpacing: '0px', textTransform: 'none', textDecoration: 'none', fontStyle: 'normal', pointerEvents: 'none', overflow: 'hidden', wordBreak: 'break-word' } as React.CSSProperties}>
+                            Phêrô Nguyễn Đình Hưng
+                            <div>Maria Phạm Thị Lan</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="0AGIWVlwUg" className="jsx-1828971989 text-box-component" style={{ position: 'absolute', top: '1081.74px', left: '13.5564px', width: '200.028px', height: 'auto', zIndex: '3', cursor: 'default', transform: 'rotate(0deg)' } as React.CSSProperties}>
+                      <div data-transition-key="0AGIWVlwUg-scale-in-1.6-0-ease-out-false" data-node-id="0AGIWVlwUg"
+                        style={{ transition: '1.6s ease-out', transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1828971989" style={{ position: 'relative', width: '100%', height: '100%', padding: '0px', borderRadius: '0px', boxShadow: 'none', backgroundColor: 'transparent', display: 'flex', alignItems: 'center', justifyContent: 'flex-end', boxSizing: 'border-box', opacity: '1', border: '0px solid' } as React.CSSProperties}>
+                          <div contentEditable="false" style={{ height: 'auto', width: '100%', minWidth: '20px', color: 'rgb(51, 51, 51)', fontSize: '18.012px', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', fontWeight: 'bold', fontFamily: 'Quicksand', textAlign: 'right', lineHeight: 'normal', letterSpacing: '0px', textTransform: 'none', textDecoration: 'none', fontStyle: 'italic', pointerEvents: 'none', overflow: 'hidden', wordBreak: 'break-word' } as React.CSSProperties}>
+                            <br />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="CGyUmyvyP0" className="jsx-1828971989 text-box-component" style={{ position: 'absolute', top: '1082.45px', left: '259.088px', width: '215.196px', height: 'auto', zIndex: '4', cursor: 'default', transform: 'rotate(0deg)' } as React.CSSProperties}>
+                      <div data-transition-key="CGyUmyvyP0-scale-in-1.6-0-ease-out-false" data-node-id="CGyUmyvyP0"
+                        style={{ transition: '1.6s ease-out', transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1828971989" style={{ position: 'relative', width: '100%', height: '100%', padding: '0px', borderRadius: '0px', boxShadow: 'none', backgroundColor: 'transparent', display: 'flex', alignItems: 'center', justifyContent: 'flex-start', boxSizing: 'border-box', opacity: '1', border: '0px solid' } as React.CSSProperties}>
+                          <div contentEditable="false" style={{ height: 'auto', width: '100%', minWidth: '20px', color: 'rgb(58, 74, 58)', fontSize: '18.012px', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', fontWeight: 'normal', fontFamily: 'Quicksand', textAlign: 'left', lineHeight: 'normal', letterSpacing: '0px', textTransform: 'none', textDecoration: 'none', fontStyle: 'italic', pointerEvents: 'none', overflow: 'hidden', wordBreak: 'break-word' } as React.CSSProperties}>
+                            <br />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="U4xRs-dubD" className="jsx-1828971989 text-box-component" style={{ position: 'absolute', top: '1491.41px', left: '1.79867px', width: '462.624px', height: 'auto', zIndex: '2', cursor: 'default', transform: 'rotate(0deg)' } as React.CSSProperties}>
+                      <div data-transition-key="U4xRs-dubD-fade-in-1.6-0-ease-out-false" data-node-id="U4xRs-dubD"
+                        style={{ transition: '1.6s ease-out', transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1828971989" style={{ position: 'relative', width: '100%', height: '100%', padding: '0px', borderRadius: '0px', boxShadow: 'none', backgroundColor: 'transparent', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', opacity: '1', border: '0px solid' } as React.CSSProperties}>
+                          <div contentEditable="false" style={{ height: 'auto', width: '100%', minWidth: '20px', color: 'rgb(70, 92, 61)', fontSize: '24.648px', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', fontWeight: 'bold', fontFamily: 'PlayfairDisplay', textAlign: 'center', lineHeight: 'normal', letterSpacing: '0px', textTransform: 'uppercase', textDecoration: 'none', fontStyle: 'normal', pointerEvents: 'none', overflow: 'hidden', wordBreak: 'break-word' } as React.CSSProperties}>
+                            tham dự tiệc chung vui&nbsp;
+                            <div>cùng gia đình chúng tôi</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="ZJ2fiWLKI1" className="jsx-1828971989 text-box-component" style={{ position: 'absolute', top: '1145.58px', left: '22.8468px', width: '285.632px', height: 'auto', zIndex: '2', cursor: 'default', transform: 'rotate(0deg)' } as React.CSSProperties}>
+                      <div data-transition-key="ZJ2fiWLKI1-slide-right-1.6-0-ease-out-false" data-node-id="ZJ2fiWLKI1"
+                        style={{ transition: '1.6s ease-out', transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1828971989" style={{ position: 'relative', width: '100%', height: '100%', padding: '0px', borderRadius: '0px', boxShadow: 'none', backgroundColor: 'transparent', display: 'flex', alignItems: 'center', justifyContent: 'flex-start', boxSizing: 'border-box', opacity: '1', border: '0px solid' } as React.CSSProperties}>
+                          <div contentEditable="false" style={{ height: 'auto', width: '100%', minWidth: '20px', color: 'rgb(58, 74, 58)', fontSize: '60.672px', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', fontWeight: 'bold', fontFamily: 'Signora', textAlign: 'left', lineHeight: 'normal', letterSpacing: '0px', textTransform: 'uppercase', textDecoration: 'none', fontStyle: 'normal', pointerEvents: 'none', overflow: 'hidden', wordBreak: 'break-word' } as React.CSSProperties}>
+                            CÔNG TÚ
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="4r4f0svS16" className="jsx-1828971989 text-box-component" style={{ position: 'absolute', top: '1207.49px', left: '12.2292px', width: '411.716px', height: 'auto', zIndex: '3', cursor: 'default', transform: 'rotate(0deg)' } as React.CSSProperties}>
+                      <div data-transition-key="4r4f0svS16-fade-in-1.6-0-ease-out-false" data-node-id="4r4f0svS16"
+                        style={{ transition: '1.6s ease-out', transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1828971989" style={{ position: 'relative', width: '100%', height: '100%', padding: '0px', borderRadius: '0px', boxShadow: 'none', backgroundColor: 'transparent', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', opacity: '1', border: '0px solid' } as React.CSSProperties}>
+                          <div contentEditable="false" style={{ height: 'auto', width: '100%', minWidth: '20px', color: 'rgb(58, 74, 58)', fontSize: '60.672px', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', fontWeight: 'bold', fontFamily: 'Signora', textAlign: 'center', lineHeight: 'normal', letterSpacing: '0px', textTransform: 'uppercase', textDecoration: 'none', fontStyle: 'normal', pointerEvents: 'none', overflow: 'hidden', wordBreak: 'break-word' } as React.CSSProperties}>
+                            &amp;
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="kluwvOBss7" className="jsx-1828971989 text-box-component" style={{ position: 'absolute', top: '1263.1px', left: '184.054px', width: '261.458px', height: 'auto', zIndex: '3', cursor: 'default', transform: 'rotate(0deg)' } as React.CSSProperties}>
+                      <div data-transition-key="kluwvOBss7-slide-left-1.6-0-ease-out-false" data-node-id="kluwvOBss7"
+                        style={{ transition: '1.6s ease-out', transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1828971989" style={{ position: 'relative', width: '100%', height: '100%', padding: '0px', borderRadius: '0px', boxShadow: 'none', backgroundColor: 'transparent', display: 'flex', alignItems: 'center', justifyContent: 'flex-end', boxSizing: 'border-box', opacity: '1', border: '0px solid' } as React.CSSProperties}>
+                          <div contentEditable="false" style={{ height: 'auto', width: '100%', minWidth: '20px', color: 'rgb(58, 74, 58)', fontSize: '60.672px', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', fontWeight: 'bold', fontFamily: 'Signora', textAlign: 'right', lineHeight: 'normal', letterSpacing: '0px', textTransform: 'uppercase', textDecoration: 'none', fontStyle: 'normal', pointerEvents: 'none', overflow: 'hidden', wordBreak: 'break-word' } as React.CSSProperties}>
+                            DIỄM MY
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="6YknOcioVC" className="jsx-1944329802" style={{ position: 'absolute', top: '1114.92px', left: '240.055px', width: '222.568px', height: '115.735px', zIndex: '5', cursor: 'default', transform: 'rotate(0deg) scale(1, 1)' } as React.CSSProperties}>
+                      <div data-transition-key="6YknOcioVC-fade-in-1.6-0-ease-out-false" data-node-id="6YknOcioVC"
+                        style={{ transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1944329802" style={{ position: 'relative', width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', border: '0px solid', padding: '0px', backgroundColor: 'transparent', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', opacity: '1', boxShadow: 'none', borderRadius: '0px', animationName: 'animation-float', animationDuration: '4s', animationDelay: '0s', animationIterationCount: 'infinite', animationTimingFunction: 'ease-in-out' } as React.CSSProperties}>
+                          <div className="jsx-1944329802 photo-component" style={{ WebkitMaskBoxImageSource: 'none', WebkitMaskBoxImageSlice: '0 fill', maskImage: 'none', maskSize: '100% 100%', maskRepeat: 'no-repeat' } as React.CSSProperties}>
+                            <div className="jsx-1944329802 photo-bg-wrap" style={{ backgroundImage: 'url(\'/assets/933d8506-6eef-44f7-99dd-e713d84b166b.png\')', borderRadius: '0px' } as React.CSSProperties}></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="KJjUPoouo_" className="jsx-1828971989 text-box-component" style={{ position: 'absolute', top: '1584.09px', left: '58.778px', width: '350.05px', height: 'auto', zIndex: '2', cursor: 'default', transform: 'rotate(0deg)' } as React.CSSProperties}>
+                      <div data-transition-key="KJjUPoouo_-scale-in-1.6-0-ease-out-false" data-node-id="KJjUPoouo_"
+                        style={{ transition: '1.6s ease-out', transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1828971989" style={{ position: 'relative', width: '100%', height: '100%', padding: '0px', borderRadius: '0px', boxShadow: 'none', backgroundColor: 'transparent', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', opacity: '1', border: '0px solid' } as React.CSSProperties}>
+                          <div contentEditable="false" style={{ height: 'auto', width: '100%', minWidth: '20px', color: 'rgb(58, 74, 58)', fontSize: '41.8235px', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', fontWeight: 'bold', fontFamily: 'Signora', textAlign: 'center', lineHeight: 'normal', letterSpacing: '0px', textTransform: 'none', textDecoration: 'none', fontStyle: 'normal', pointerEvents: 'none', overflow: 'hidden', wordBreak: 'break-word' } as React.CSSProperties}>
+                            11 : 00 , THỨ BA
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="uT8CgFG2vg" className="jsx-1828971989 text-box-component" style={{ position: 'absolute', top: '1644.01px', left: '167.97px', width: '122.576px', height: 'auto', zIndex: '3', cursor: 'default', transform: 'rotate(0deg)' } as React.CSSProperties}>
+                      <div data-transition-key="uT8CgFG2vg-zoom-in-1.6-0-cubic-bezier(0.68, -0.55, 0.265, 1.55)-false"
+                        data-node-id="uT8CgFG2vg" style={{ transition: '1.6s cubic-bezier(0.68, -0.55, 0.265, 1.55)', transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1828971989" style={{ position: 'relative', width: '100%', height: '100%', padding: '0px', borderRadius: '0px', boxShadow: 'none', backgroundColor: 'transparent', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', opacity: '1', border: '0px solid' } as React.CSSProperties}>
+                          <div contentEditable="false" style={{ height: 'auto', width: '100%', minWidth: '20px', color: 'rgb(58, 74, 58)', fontSize: '73.508px', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', fontWeight: 'bold', fontFamily: 'Signora', textAlign: 'center', lineHeight: 'normal', letterSpacing: '0px', textTransform: 'none', textDecoration: 'none', fontStyle: 'normal', pointerEvents: 'none', overflow: 'hidden', wordBreak: 'break-word' } as React.CSSProperties}>
+                            22
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="fKdPqo78UQ" className="jsx-17337941 text-box-component" style={{ position: 'absolute', top: '1654.58px', left: '12.9377px', width: '167.891px', height: 'auto', zIndex: '3', cursor: 'default', transform: 'rotate(0deg)' } as React.CSSProperties}>
+                      <div data-transition-key="fKdPqo78UQ-slide-right-1.6-0-ease-out-false" data-node-id="fKdPqo78UQ"
+                        style={{ transition: '1.6s ease-out', transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-17337941" style={{ position: 'relative', width: '100%', height: '100%', padding: '0px', borderRadius: '0px', boxShadow: 'none', backgroundColor: 'transparent', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', opacity: '1', borderTop: '2px solid', borderBottom: '2px solid' } as React.CSSProperties}>
+                          <div contentEditable="false" style={{ height: 'auto', width: '100%', minWidth: '20px', color: 'rgb(58, 74, 58)', fontSize: '45.504px', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', fontWeight: 'bold', fontFamily: 'Signora', textAlign: 'center', lineHeight: '1.46', letterSpacing: '0px', textTransform: 'none', textDecoration: 'none', fontStyle: 'normal', pointerEvents: 'none', overflow: 'hidden', wordBreak: 'break-word' } as React.CSSProperties}>
+                            THÁNG 04
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="55OXnoIy7E" className="jsx-17337941 text-box-component" style={{ position: 'absolute', top: '1653.07px', left: '292.253px', width: '174.811px', height: 'auto', zIndex: '4', cursor: 'default', transform: 'rotate(0deg)' } as React.CSSProperties}>
+                      <div data-transition-key="55OXnoIy7E-slide-left-1.6-0-ease-out-false" data-node-id="55OXnoIy7E"
+                        style={{ transition: '1.6s ease-out', transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-17337941" style={{ position: 'relative', width: '100%', height: '100%', padding: '0px', borderRadius: '0px', boxShadow: 'none', backgroundColor: 'transparent', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', opacity: '1', borderTop: '2px solid', borderBottom: '2px solid' } as React.CSSProperties}>
+                          <div contentEditable="false" style={{ height: 'auto', width: '100%', minWidth: '20px', color: 'rgb(58, 74, 58)', fontSize: '45.504px', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', fontWeight: 'bold', fontFamily: 'Signora', textAlign: 'center', lineHeight: '1.46', letterSpacing: '0px', textTransform: 'none', textDecoration: 'none', fontStyle: 'normal', pointerEvents: 'none', overflow: 'hidden', wordBreak: 'break-word' } as React.CSSProperties}>
+                            NĂM 2026
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="JFycOGOdPs" className="jsx-1828971989 text-box-component" style={{ position: 'absolute', top: '1741.33px', left: '49.73px', width: '392.756px', height: 'auto', zIndex: '3', cursor: 'default', transform: 'rotate(0deg)' } as React.CSSProperties}>
+                      <div data-transition-key="JFycOGOdPs-fade-in-1.6-0-ease-out-false" data-node-id="JFycOGOdPs"
+                        style={{ transition: '1.6s ease-out', transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1828971989" style={{ position: 'relative', width: '100%', height: '100%', padding: '0px', borderRadius: '0px', boxShadow: 'none', backgroundColor: 'transparent', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', opacity: '1', border: '0px solid' } as React.CSSProperties}>
+                          <div contentEditable="false" style={{ height: 'auto', width: '100%', minWidth: '20px', color: 'rgb(51, 51, 51)', fontSize: '19.908px', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', fontWeight: 'normal', fontFamily: 'Quicksand', textAlign: 'center', lineHeight: 'normal', letterSpacing: '0px', textTransform: 'none', textDecoration: 'none', fontStyle: 'normal', pointerEvents: 'none', overflow: 'hidden', wordBreak: 'break-word' } as React.CSSProperties}>
+                            (Nhằm ngày 06 tháng 03 năm Bính Ngọ)
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="E2uQfqvYbi" className="jsx-1828971989 text-box-component" style={{ position: 'absolute', top: '1774.19px', left: '6.16479px', width: '469.924px', height: 'auto', zIndex: '4', cursor: 'default', transform: 'rotate(0deg)' } as React.CSSProperties}>
+                      <div data-transition-key="E2uQfqvYbi-bounce-in-1.6-0-ease-out-false" data-node-id="E2uQfqvYbi"
+                        style={{ transition: '1.6s ease-out', transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1828971989" style={{ position: 'relative', width: '100%', height: '100%', padding: '0px', borderRadius: '0px', boxShadow: 'none', backgroundColor: 'transparent', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', opacity: '1', border: '0px solid' } as React.CSSProperties}>
+                          <div contentEditable="false" style={{ height: 'auto', width: '100%', minWidth: '20px', color: 'rgb(58, 74, 58)', fontSize: '23.7px', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', fontWeight: 'bold', fontFamily: '\'Scarlet Bradley.regular\'', textAlign: 'center', lineHeight: '1.42', letterSpacing: '0px', textTransform: 'uppercase', textDecoration: 'none', fontStyle: 'normal', pointerEvents: 'none', overflow: 'hidden', wordBreak: 'break-word' } as React.CSSProperties}>
+                            tại:&nbsp;<span style={{ letterSpacing: '0px', backgroundColor: 'transparent' } as React.CSSProperties}>NHÀ HÀNG HIỆP ÁNH</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="TNE6oCylda" className="jsx-1828971989 text-box-component" style={{ position: 'absolute', top: '1816.37px', left: '41.6646px', width: '395.316px', height: 'auto', zIndex: '4', cursor: 'default', transform: 'rotate(0deg)' } as React.CSSProperties}>
+                      <div data-transition-key="TNE6oCylda-slide-left-1.6-0-ease-out-false" data-node-id="TNE6oCylda"
+                        style={{ transition: '1.6s ease-out', transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1828971989" style={{ position: 'relative', width: '100%', height: '100%', padding: '0px', borderRadius: '0px', boxShadow: 'none', backgroundColor: 'transparent', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', opacity: '1', border: '0px solid' } as React.CSSProperties}>
+                          <div contentEditable="false" style={{ height: 'auto', width: '100%', minWidth: '20px', color: 'rgb(58, 74, 58)', fontSize: '18.012px', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', fontWeight: 'bold', fontFamily: 'Quicksand', textAlign: 'center', lineHeight: 'normal', letterSpacing: '0px', textTransform: 'none', textDecoration: 'none', fontStyle: 'normal', pointerEvents: 'none', overflow: 'hidden', wordBreak: 'break-word' } as React.CSSProperties}>
+                            Thôn Quảng Phước, Kiến Đức, Lâm Đồng
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="eiiEiutDZS" className="jsx-1944329802" style={{ position: 'absolute', top: '2032.28px', left: '-0.3792px', width: '474px', height: '785.418px', zIndex: '0', cursor: 'default', transform: 'rotate(0deg) scale(1, 1)' } as React.CSSProperties}>
+                      <div data-transition-key="eiiEiutDZS-fade-in-1.6-0-ease-out-false" data-node-id="eiiEiutDZS"
+                        style={{ transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1944329802" style={{ position: 'relative', width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', border: '0px solid', padding: '0px', backgroundColor: 'transparent', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', opacity: '1', boxShadow: 'none', borderRadius: '0px' } as React.CSSProperties}>
+                          <div className="jsx-1944329802 photo-component" style={{ WebkitMaskBoxImageSource: 'none', WebkitMaskBoxImageSlice: '0 fill', maskImage: 'none', maskSize: '100% 100%', maskRepeat: 'no-repeat' } as React.CSSProperties}>
+                            <div className="jsx-1944329802 photo-bg-wrap" style={{ backgroundImage: 'url(\'/assets/a4575674-74a4-4283-a7cd-ff2d64f7c490.png\')', borderRadius: '0px' } as React.CSSProperties}></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="0TKnaGVyt3" className="jsx-1944329802" style={{ position: 'absolute', top: '1849.97px', left: '128.249px', width: '34.346px', height: '41.966px', zIndex: '6', cursor: 'default', transform: 'rotate(0deg) scale(1, 1)' } as React.CSSProperties}>
+                      <div data-transition-key="0TKnaGVyt3-fade-in-1.6-0-ease-out-false" data-node-id="0TKnaGVyt3"
+                        style={{ transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1944329802" style={{ position: 'relative', width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', border: '0px solid', padding: '0px', backgroundColor: 'transparent', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', opacity: '1', boxShadow: 'none', borderRadius: '0px', animationName: 'animation-pulse', animationDuration: '1s', animationDelay: '0s', animationIterationCount: 'infinite', animationTimingFunction: 'ease-in-out' } as React.CSSProperties}>
+                          <div className="jsx-1944329802 photo-component" style={{ WebkitMaskBoxImageSource: 'none', WebkitMaskBoxImageSlice: '0 fill', maskImage: 'none', maskSize: '100% 100%', maskRepeat: 'no-repeat' } as React.CSSProperties}></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="MXcj3JAluy" className="jsx-1828971989 text-box-component" style={{ position: 'absolute', top: '1846.78px', left: '109.546px', width: '253.116px', height: 'auto', zIndex: '3', cursor: 'pointer', transform: 'rotate(0deg)' } as React.CSSProperties}>
+                      <div data-transition-key="MXcj3JAluy-fade-in-1.6-0-ease-out-false" data-node-id="MXcj3JAluy"
+                        style={{ transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}></div>
+                    </div>
+                    <div data-node-id="xM7J-ENFMe" className="jsx-3557960200" style={{ position: 'absolute', top: '1011.97px', left: '225.692px', width: '22.5624px', height: '98.5446px', zIndex: '7', cursor: 'default', transform: 'rotate(0deg) scale(1, 1)' } as React.CSSProperties}>
+                      <div data-transition-key="xM7J-ENFMe-fade-in-1.6-0-ease-out-false" data-node-id="xM7J-ENFMe"
+                        style={{ transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-3557960200" style={{ position: 'relative', width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', backgroundColor: 'transparent', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', opacity: '1' } as React.CSSProperties}>
+                          <div className="jsx-3557960200 material-component">
+                            <div id="svg-xM7J-ENFMe" className="jsx-3557960200 svg-wrap" style={{ width: '100%', height: '100%', overflow: 'hidden', border: '0px solid', borderRadius: '0px', padding: '0px', boxShadow: 'none' } as React.CSSProperties}>
+                              {/* ?xml version="1.0" encoding="utf-8"? */}
+                              {/*  Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)   */}
+                              <svg preserveAspectRatio="none" width="100%" height="100%" version="1.2"
+                                baseProfile="tiny" id="图层_1" xmlns="http://www.w3.org/2000/svg"
+                                xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100"
+                                xmlSpace="preserve">
+                                <style dangerouslySetInnerHTML={{ __html: "\n                                  #svg-xM7J-ENFMe svg path {\n                                    fill: #3a4a3a;\n                                  }\n                                " }} />
+                                <path id="XMLID_12991_" fill="#999999" d="M100,100H0V0h100V100z"></path>
+                              </svg>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="fHEf5NCcxV" className="jsx-3557960200" style={{ position: 'absolute', top: '1021px', left: '230.554px', width: '11.1864px', height: '11.1864px', zIndex: '8', cursor: 'default', transform: 'rotate(0deg) scale(1, 1)' } as React.CSSProperties}>
+                      <div data-transition-key="fHEf5NCcxV-fade-in-1.6-0-ease-out-false" data-node-id="fHEf5NCcxV"
+                        style={{ transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-3557960200" style={{ position: 'relative', width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', backgroundColor: 'transparent', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', opacity: '1', animationName: 'animation-pulse', animationDuration: '1s', animationDelay: '0s', animationIterationCount: 'infinite', animationTimingFunction: 'ease-in-out' } as React.CSSProperties}>
+                          <div className="jsx-3557960200 material-component">
+                            <div id="svg-fHEf5NCcxV" className="jsx-3557960200 svg-wrap" style={{ width: '100%', height: '100%', overflow: 'hidden', border: '0px solid', borderRadius: '0px', padding: '0px', boxShadow: 'none' } as React.CSSProperties}>
+                              {/* ?xml version="1.0" encoding="utf-8"? */}
+                              {/*  Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)   */}
+                              <svg preserveAspectRatio="none" width="100%" height="100%" version="1.2"
+                                baseProfile="tiny" id="图层_1" xmlns="http://www.w3.org/2000/svg"
+                                xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100"
+                                xmlSpace="preserve">
+                                <style dangerouslySetInnerHTML={{ __html: "\n                                  #svg-fHEf5NCcxV svg path {\n                                    fill: #faf7f7;\n                                  }\n                                " }} />
+                                <path id="XMLID_13103_" fill="#999999"
+                                  d="M50,100C22.4,100,0,77.6,0,50S22.4,0,50,0s50,22.4,50,50S77.6,100,50,100z"></path>
+                              </svg>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="bjdTaSNZcd" className="jsx-3557960200" style={{ position: 'absolute', top: '1089.37px', left: '228.847px', width: '15.8316px', height: '15.8316px', zIndex: '9', cursor: 'default', transform: 'rotate(0deg) scale(1, 1)' } as React.CSSProperties}>
+                      <div data-transition-key="bjdTaSNZcd-fade-in-1.6-0-ease-out-false" data-node-id="bjdTaSNZcd"
+                        style={{ transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-3557960200" style={{ position: 'relative', width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', backgroundColor: 'transparent', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', opacity: '1' } as React.CSSProperties}>
+                          <div className="jsx-3557960200 material-component">
+                            <div className="jsx-3557960200 photo-bg-wrap" style={{ backgroundImage: 'url(\'/assets/ol8kht4cun38pjfhgnzij.png\')', border: '0px solid', borderRadius: '0px', padding: '0px', boxShadow: 'none' } as React.CSSProperties}></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="75kFsqOuyQ" className="jsx-3557960200" style={{ position: 'absolute', top: '980.251px', left: '221.989px', width: '23.6052px', height: '27.3495px', zIndex: '10', cursor: 'default', transform: 'rotate(0deg) scale(1, 1)' } as React.CSSProperties}>
+                      <div data-transition-key="75kFsqOuyQ-fade-in-1.6-0-ease-out-false" data-node-id="75kFsqOuyQ"
+                        style={{ transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-3557960200" style={{ position: 'relative', width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', backgroundColor: 'transparent', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', opacity: '1' } as React.CSSProperties}>
+                          <div className="jsx-3557960200 material-component">
+                            <div className="jsx-3557960200 photo-bg-wrap" style={{ backgroundImage: 'url(\'/assets/8fhw5vav7z8pglxvdbhbo.png\')', border: '0px solid', borderRadius: '0px', padding: '0px', boxShadow: 'none' } as React.CSSProperties}></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="A2DFC-mipE" className="jsx-1944329802" style={{ position: 'absolute', top: '2222.69px', left: '-20.7612px', width: '189.6px', height: '98.592px', zIndex: '74', cursor: 'default', transform: 'rotate(0deg) scale(-1, -1)' } as React.CSSProperties}>
+                      <div data-transition-key="A2DFC-mipE-fade-in-1.6-0-ease-out-false" data-node-id="A2DFC-mipE"
+                        style={{ transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1944329802" style={{ position: 'relative', width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', border: '0px solid', padding: '0px', backgroundColor: 'transparent', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', opacity: '1', boxShadow: 'none', borderRadius: '0px' } as React.CSSProperties}>
+                          <div className="jsx-1944329802 photo-component" style={{ WebkitMaskBoxImageSource: 'none', WebkitMaskBoxImageSlice: '0 fill', maskImage: 'none', maskSize: '100% 100%', maskRepeat: 'no-repeat' } as React.CSSProperties}>
+                            <div className="jsx-1944329802 photo-bg-wrap" style={{ backgroundImage: 'url(\'/assets/933d8506-6eef-44f7-99dd-e713d84b166b.png\')', borderRadius: '0px' } as React.CSSProperties}></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="YHgXT3G9nE" className="jsx-1828971989 text-box-component" style={{ position: 'absolute', top: '2313.12px', left: '-8.8164px', width: '303.55px', height: 'auto', zIndex: '13', cursor: 'default', transform: 'rotate(0deg)' } as React.CSSProperties}>
+                      <div data-transition-key="YHgXT3G9nE-fade-in-1.6-0-ease-out-false" data-node-id="YHgXT3G9nE"
+                        style={{ transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1828971989" style={{ position: 'relative', width: '100%', height: '100%', padding: '0px', borderRadius: '0px', boxShadow: 'none', backgroundColor: 'transparent', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', opacity: '1', border: '0px solid' } as React.CSSProperties}>
+                          <div contentEditable="false" style={{ height: 'auto', width: '100%', minWidth: '20px', color: 'rgb(70, 92, 61)', fontSize: '45.504px', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', fontWeight: 'normal', fontFamily: 'HoaTay1', textAlign: 'center', lineHeight: 'normal', letterSpacing: '0px', textTransform: 'none', textDecoration: 'none', fontStyle: 'normal', pointerEvents: 'none', overflow: 'hidden', wordBreak: 'break-word' } as React.CSSProperties}>
+                            All of me loves
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="e94YPkeIih" className="jsx-1828971989 text-box-component" style={{ position: 'absolute', top: '2342.39px', left: '174.1px', width: '306.868px', height: 'auto', zIndex: '14', cursor: 'default', transform: 'rotate(0deg)' } as React.CSSProperties}>
+                      <div data-transition-key="e94YPkeIih-fade-in-1.6-0-ease-out-false" data-node-id="e94YPkeIih"
+                        style={{ transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1828971989" style={{ position: 'relative', width: '100%', height: '100%', padding: '0px', borderRadius: '0px', boxShadow: 'none', backgroundColor: 'transparent', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', opacity: '1', border: '0px solid' } as React.CSSProperties}>
+                          <div contentEditable="false" style={{ height: 'auto', width: '100%', minWidth: '20px', color: 'rgb(70, 92, 61)', fontSize: '45.504px', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', fontWeight: 'normal', fontFamily: 'HoaTay1', textAlign: 'center', lineHeight: 'normal', letterSpacing: '0px', textTransform: 'none', textDecoration: 'none', fontStyle: 'normal', pointerEvents: 'none', overflow: 'hidden', wordBreak: 'break-word' } as React.CSSProperties}>
+                            All of you
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="qjb33mWz-j" className="jsx-1944329802" style={{ position: 'absolute', top: '2804.97px', left: '-0.3792px', width: '474px', height: '1121.01px', zIndex: '0', cursor: 'default', transform: 'rotate(0deg) scale(1, 1)' } as React.CSSProperties}>
+                      <div data-transition-key="qjb33mWz-j-fade-in-1.6-0-ease-out-false" data-node-id="qjb33mWz-j"
+                        style={{ transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1944329802" style={{ position: 'relative', width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', border: '0px solid', padding: '0px', backgroundColor: 'transparent', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', opacity: '1', boxShadow: 'none', borderRadius: '0px' } as React.CSSProperties}>
+                          <div className="jsx-1944329802 photo-component" style={{ WebkitMaskBoxImageSource: 'none', WebkitMaskBoxImageSlice: '0 fill', maskImage: 'none', maskSize: '100% 100%', maskRepeat: 'no-repeat' } as React.CSSProperties}>
+                            <div className="jsx-1944329802 photo-bg-wrap" style={{ backgroundImage: 'url(\'/assets/a4575674-74a4-4283-a7cd-ff2d64f7c490.png\')', borderRadius: '0px' } as React.CSSProperties}></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="rv-OlncATk" className="jsx-3557960200" style={{ position: 'absolute', top: '2850.14px', left: '56.2979px', width: '228.343px', height: '264.529px', zIndex: '24', cursor: 'default', transform: 'rotate(348.193deg) scale(1, 1)' } as React.CSSProperties}>
+                      <div data-transition-key="rv-OlncATk-fade-in-1.6-0-ease-out-false" data-node-id="rv-OlncATk"
+                        style={{ transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-3557960200" style={{ position: 'relative', width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', backgroundColor: 'transparent', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', opacity: '1' } as React.CSSProperties}>
+                          <div className="jsx-3557960200 material-component">
+                            <div id="svg-rv-OlncATk" className="jsx-3557960200 svg-wrap" style={{ width: '100%', height: '100%', overflow: 'hidden', border: '0px solid', borderRadius: '0px', padding: '0px', boxShadow: 'none' } as React.CSSProperties}>
+                              {/* ?xml version="1.0" encoding="utf-8"? */}
+                              {/*  Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)   */}
+                              <svg preserveAspectRatio="none" width="100%" height="100%" version="1.2"
+                                baseProfile="tiny" id="图层_1" xmlns="http://www.w3.org/2000/svg"
+                                xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100"
+                                xmlSpace="preserve">
+                                <style dangerouslySetInnerHTML={{ __html: "\n                                  #svg-rv-OlncATk svg path {\n                                    fill: #faf7f7;\n                                  }\n                                " }} />
+                                <path id="XMLID_12991_" fill="#999999" d="M100,100H0V0h100V100z"></path>
+                              </svg>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="dbbbj-qj8W" className="jsx-1944329802" style={{ position: 'absolute', top: '2859.68px', left: '75.7927px', width: '187.656px', height: '247.394px', zIndex: '25', cursor: 'default', transform: 'rotate(348.877deg) scale(1, 1)' } as React.CSSProperties}>
+                      <div data-transition-key="dbbbj-qj8W-fade-in-1.6-0-ease-out-false" data-node-id="dbbbj-qj8W"
+                        style={{ transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1944329802" style={{ position: 'relative', width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', border: '0px solid', padding: '0px', backgroundColor: 'transparent', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', opacity: '1', boxShadow: 'none', borderRadius: '0px', animationName: 'animation-wiggle', animationDuration: '2s', animationDelay: '0s', animationIterationCount: 'infinite', animationTimingFunction: 'ease-in-out' } as React.CSSProperties}>
+                          <div className="jsx-1944329802 photo-component" style={{ WebkitMaskBoxImageSource: 'none', WebkitMaskBoxImageSlice: '0 fill', maskImage: 'none', maskSize: '100% 100%', maskRepeat: 'no-repeat' } as React.CSSProperties}>
+                            <div className="jsx-1944329802 photo-bg-wrap" style={{ backgroundImage: 'url(\'/assets/51943126-6be1-400e-b79f-186031834c92.JPG\')', borderRadius: '0px' } as React.CSSProperties}></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="rT8wJJW7Jj" className="jsx-3557960200" style={{ position: 'absolute', top: '3087.33px', left: '208.413px', width: '220.486px', height: '280.612px', zIndex: '16', cursor: 'default', transform: 'rotate(18.6621deg) scale(1, 1)' } as React.CSSProperties}>
+                      <div data-transition-key="rT8wJJW7Jj-fade-in-1.6-0-ease-out-false" data-node-id="rT8wJJW7Jj"
+                        style={{ transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-3557960200" style={{ position: 'relative', width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', backgroundColor: 'transparent', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', opacity: '1' } as React.CSSProperties}>
+                          <div className="jsx-3557960200 material-component">
+                            <div id="svg-rT8wJJW7Jj" className="jsx-3557960200 svg-wrap" style={{ width: '100%', height: '100%', overflow: 'hidden', border: '0px solid', borderRadius: '0px', padding: '0px', boxShadow: 'none' } as React.CSSProperties}>
+                              {/* ?xml version="1.0" encoding="utf-8"? */}
+                              {/*  Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)   */}
+                              <svg preserveAspectRatio="none" width="100%" height="100%" version="1.2"
+                                baseProfile="tiny" id="图层_1" xmlns="http://www.w3.org/2000/svg"
+                                xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100"
+                                xmlSpace="preserve">
+                                <style dangerouslySetInnerHTML={{ __html: "\n                                  #svg-rT8wJJW7Jj svg path {\n                                    fill: #faf7f7;\n                                  }\n                                " }} />
+                                <path id="XMLID_12991_" fill="#999999" d="M100,100H0V0h100V100z"></path>
+                              </svg>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="saXhlEclel" className="jsx-1944329802" style={{ position: 'absolute', top: '3092.78px', left: '216.861px', width: '199.142px', height: '256.962px', zIndex: '18', cursor: 'default', transform: 'rotate(18.7747deg) scale(1, 1)' } as React.CSSProperties}>
+                      <div data-transition-key="saXhlEclel-fade-in-1.6-0-ease-out-false" data-node-id="saXhlEclel"
+                        style={{ transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1944329802" style={{ position: 'relative', width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', border: '0px solid', padding: '0px', backgroundColor: 'transparent', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', opacity: '1', boxShadow: 'none', borderRadius: '0px', animationName: 'animation-wiggle', animationDuration: '2s', animationDelay: '0s', animationIterationCount: 'infinite', animationTimingFunction: 'ease-in-out' } as React.CSSProperties}>
+                          <div className="jsx-1944329802 photo-component" style={{ WebkitMaskBoxImageSource: 'none', WebkitMaskBoxImageSlice: '0 fill', maskImage: 'none', maskSize: '100% 100%', maskRepeat: 'no-repeat' } as React.CSSProperties}>
+                            <div className="jsx-1944329802 photo-bg-wrap" style={{ backgroundImage: 'url(\'/assets/75fd30d9-e97c-4791-b749-a929b4d9acff__crop_137_203_974_1130.JPG\')', borderRadius: '0px' } as React.CSSProperties}></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="7T-LQFz7Vd" className="jsx-1828971989 text-box-component" style={{ position: 'absolute', top: '2837.28px', left: '282.362px', width: '172.252px', height: 'auto', zIndex: '19', cursor: 'default', transform: 'rotate(0deg)' } as React.CSSProperties}>
+                      <div data-transition-key="7T-LQFz7Vd-fade-in-1.6-0-ease-out-false" data-node-id="7T-LQFz7Vd"
+                        style={{ transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1828971989" style={{ position: 'relative', width: '100%', height: '100%', padding: '0px', borderRadius: '0px', boxShadow: 'none', backgroundColor: 'transparent', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', opacity: '1', border: '0px solid' } as React.CSSProperties}>
+                          <div contentEditable="false" style={{ height: 'auto', width: '100%', minWidth: '20px', color: 'rgb(75, 83, 32)', fontSize: '45.504px', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', fontWeight: '500', fontFamily: '\'Sunshine Script\'', textAlign: 'center', lineHeight: '2', letterSpacing: '0px', textTransform: 'none', textDecoration: 'none', fontStyle: 'normal', pointerEvents: 'none', overflow: 'hidden', wordBreak: 'break-word' } as React.CSSProperties}>
+                            Chú rể
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="GAarz1mzC6" className="jsx-1828971989 text-box-component" style={{ position: 'absolute', top: '2912.91px', left: '280.561px', width: '172.252px', height: 'auto', zIndex: '20', cursor: 'default', transform: 'rotate(0deg)' } as React.CSSProperties}>
+                      <div data-transition-key="GAarz1mzC6-rotate-in-1.6-0-ease-out-false" data-node-id="GAarz1mzC6"
+                        style={{ transition: '1.6s ease-out', transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1828971989" style={{ position: 'relative', width: '100%', height: '100%', padding: '0px', borderRadius: '0px', boxShadow: 'none', backgroundColor: 'transparent', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', opacity: '1', border: '0px solid' } as React.CSSProperties}>
+                          <div contentEditable="false" style={{ height: 'auto', width: '100%', minWidth: '20px', color: 'rgb(75, 83, 32)', fontSize: '45.504px', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', fontWeight: '500', fontFamily: 'BucThu', textAlign: 'center', lineHeight: 'normal', letterSpacing: '0px', textTransform: 'none', textDecoration: 'none', fontStyle: 'normal', pointerEvents: 'none', overflow: 'hidden', wordBreak: 'break-word' } as React.CSSProperties}>
+                            Công Tú
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="kIBpjpl7Vj" className="jsx-1828971989 text-box-component" style={{ position: 'absolute', top: '3162.05px', left: '29.862px', width: '172.252px', height: 'auto', zIndex: '20', cursor: 'default', transform: 'rotate(0deg)' } as React.CSSProperties}>
+                      <div data-transition-key="kIBpjpl7Vj-fade-in-1.6-0-ease-out-false" data-node-id="kIBpjpl7Vj"
+                        style={{ transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1828971989" style={{ position: 'relative', width: '100%', height: '100%', padding: '0px', borderRadius: '0px', boxShadow: 'none', backgroundColor: 'transparent', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', opacity: '1', border: '0px solid' } as React.CSSProperties}>
+                          <div contentEditable="false" style={{ height: 'auto', width: '100%', minWidth: '20px', color: 'rgb(75, 83, 32)', fontSize: '45.504px', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', fontWeight: '500', fontFamily: '\'Sunshine Script\'', textAlign: 'center', lineHeight: '2', letterSpacing: '0px', textTransform: 'none', textDecoration: 'none', fontStyle: 'normal', pointerEvents: 'none', overflow: 'hidden', wordBreak: 'break-word' } as React.CSSProperties}>
+                            Cô dâu
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="Mv1w2ApCo_" className="jsx-1828971989 text-box-component" style={{ position: 'absolute', top: '3236px', left: '14.931px', width: '172.252px', height: 'auto', zIndex: '21', cursor: 'default', transform: 'rotate(0deg)' } as React.CSSProperties}>
+                      <div data-transition-key="Mv1w2ApCo_-rotate-in-1.6-0-ease-out-false" data-node-id="Mv1w2ApCo_"
+                        style={{ transition: '1.6s ease-out', transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1828971989" style={{ position: 'relative', width: '100%', height: '100%', padding: '0px', borderRadius: '0px', boxShadow: 'none', backgroundColor: 'transparent', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', opacity: '1', border: '0px solid' } as React.CSSProperties}>
+                          <div contentEditable="false" style={{ height: 'auto', width: '100%', minWidth: '20px', color: 'rgb(75, 83, 32)', fontSize: '45.504px', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', fontWeight: '500', fontFamily: 'BucThu', textAlign: 'center', lineHeight: 'normal', letterSpacing: '0px', textTransform: 'none', textDecoration: 'none', fontStyle: 'normal', pointerEvents: 'none', overflow: 'hidden', wordBreak: 'break-word' } as React.CSSProperties}>
+                            Diễm My
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="1ovwLQ3d9d" className="jsx-1944329802" style={{ position: 'absolute', top: '3270.14px', left: '296.6px', width: '165.426px', height: '269.867px', zIndex: '36', cursor: 'default', transform: 'rotate(0deg) scale(1, 1)' } as React.CSSProperties}>
+                      <div data-transition-key="1ovwLQ3d9d-fade-in-1.6-0-ease-out-false" data-node-id="1ovwLQ3d9d"
+                        style={{ transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1944329802" style={{ position: 'relative', width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', border: '0px solid', padding: '0px', backgroundColor: 'transparent', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', opacity: '1', boxShadow: 'none', borderRadius: '0px' } as React.CSSProperties}>
+                          <div className="jsx-1944329802 photo-component" style={{ WebkitMaskBoxImageSource: 'none', WebkitMaskBoxImageSlice: '0 fill', maskImage: 'none', maskSize: '100% 100%', maskRepeat: 'no-repeat' } as React.CSSProperties}>
+                            <div className="jsx-1944329802 photo-bg-wrap" style={{ backgroundImage: 'url(\'/assets/bd7bf8f4-643f-47c8-995f-3bd8ce3235d1__crop_10_32_236_331.png\')', borderRadius: '0px' } as React.CSSProperties}></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="2VIOF10uuz" className="jsx-1944329802" style={{ position: 'absolute', top: '2804.18px', left: '-25.815px', width: '176.044px', height: '287.188px', zIndex: '23', cursor: 'default', transform: 'rotate(0deg) scale(1, 1)' } as React.CSSProperties}>
+                      <div data-transition-key="2VIOF10uuz-fade-in-1.6-0-ease-out-false" data-node-id="2VIOF10uuz"
+                        style={{ transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1944329802" style={{ position: 'relative', width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', border: '0px solid', padding: '0px', backgroundColor: 'transparent', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', opacity: '1', boxShadow: 'none', borderRadius: '0px' } as React.CSSProperties}>
+                          <div className="jsx-1944329802 photo-component" style={{ WebkitMaskBoxImageSource: 'none', WebkitMaskBoxImageSlice: '0 fill', maskImage: 'none', maskSize: '100% 100%', maskRepeat: 'no-repeat' } as React.CSSProperties}>
+                            <div className="jsx-1944329802 photo-bg-wrap" style={{ backgroundImage: 'url(\'/assets/bd7bf8f4-643f-47c8-995f-3bd8ce3235d1__crop_10_32_236_331.png\')', borderRadius: '0px' } as React.CSSProperties}></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="xzaj6Pk0Mq" className="jsx-1828971989 text-box-component" style={{ position: 'absolute', top: '3458.38px', left: '34.4124px', width: '427.643px', height: 'auto', zIndex: '34', cursor: 'default', transform: 'rotate(0deg)' } as React.CSSProperties}>
+                      <div data-transition-key="xzaj6Pk0Mq-fade-in-1.6-0-ease-out-false" data-node-id="xzaj6Pk0Mq"
+                        style={{ transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1828971989" style={{ position: 'relative', width: '100%', height: '100%', padding: '0px', borderRadius: '0px', boxShadow: 'none', backgroundColor: 'transparent', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', opacity: '1', border: '0px solid' } as React.CSSProperties}>
+                          <div contentEditable="false" style={{ height: 'auto', width: '100%', minWidth: '20px', color: 'rgb(75, 83, 32)', fontSize: '73.944px', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', fontWeight: 'normal', fontFamily: 'Aquarelle', textAlign: 'center', lineHeight: 'normal', letterSpacing: '0px', textTransform: 'none', textDecoration: 'none', fontStyle: 'normal', pointerEvents: 'none', overflow: 'hidden', wordBreak: 'break-word' } as React.CSSProperties}>
+                            Our story
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="whjFoyxt5E" className="jsx-1944329802" style={{ position: 'absolute', top: '3925.69px', left: '-0.474px', width: '474.758px', height: '670.829px', zIndex: '0', cursor: 'default', transform: 'rotate(0deg) scale(1, 1)' } as React.CSSProperties}>
+                      <div data-transition-key="whjFoyxt5E-fade-in-1.6-0-ease-out-false" data-node-id="whjFoyxt5E"
+                        style={{ transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1944329802" style={{ position: 'relative', width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', border: '0px solid', padding: '0px', backgroundColor: 'transparent', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', opacity: '1', boxShadow: 'none', borderRadius: '0px' } as React.CSSProperties}>
+                          <div className="jsx-1944329802 photo-component" style={{ WebkitMaskBoxImageSource: 'none', WebkitMaskBoxImageSlice: '0 fill', maskImage: 'none', maskSize: '100% 100%', maskRepeat: 'no-repeat' } as React.CSSProperties}>
+                            <div className="jsx-1944329802 photo-bg-wrap" style={{ backgroundImage: 'url(\'/assets/a4575674-74a4-4283-a7cd-ff2d64f7c490.png\')', borderRadius: '0px' } as React.CSSProperties}></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="Wm-fn1e3sj" className="jsx-1828971989 text-box-component" style={{ position: 'absolute', top: '9.48px', left: '9.48px', width: '0px', height: 'auto', zIndex: '0', cursor: 'default', transform: 'rotate(0deg)' } as React.CSSProperties}>
+                      <div data-transition-key="Wm-fn1e3sj-fade-in-1.6-0-ease-out-false" data-node-id="Wm-fn1e3sj"
+                        style={{ transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1828971989" style={{ position: 'relative', width: '100%', height: '100%', padding: '0px', borderRadius: '0px', boxShadow: 'none', backgroundColor: 'transparent', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', opacity: '0', border: '0px solid' } as React.CSSProperties}>
+                          <div contentEditable="false" style={{ height: 'auto', width: '100%', minWidth: '20px', color: 'rgb(0, 0, 0)', fontSize: '0px', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', fontWeight: '500', fontFamily: 'Arial', textAlign: 'center', lineHeight: 'normal', letterSpacing: '0px', textTransform: 'none', textDecoration: 'none', fontStyle: 'normal', pointerEvents: 'none', overflow: 'hidden', wordBreak: 'break-word' } as React.CSSProperties}>
+                            designed by cinelove.me
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="in3mT6yPnO" className="jsx-1828971989 text-box-component" style={{ position: 'absolute', top: '3585.86px', left: '25.7458px', width: '427.074px', height: 'auto', zIndex: '35', cursor: 'default', transform: 'rotate(0deg)' } as React.CSSProperties}>
+                      <div data-transition-key="in3mT6yPnO-slide-up-1.6-0-ease-out-false" data-node-id="in3mT6yPnO"
+                        style={{ transition: '1.6s ease-out', transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1828971989" style={{ position: 'relative', width: '100%', height: '100%', padding: '0px', borderRadius: '0px', boxShadow: 'none', backgroundColor: 'transparent', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', opacity: '1', border: '0px solid' } as React.CSSProperties}>
+                          <div contentEditable="false" style={{ height: 'auto', width: '100%', minWidth: '20px', color: 'rgb(75, 83, 32)', fontSize: '18.012px', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', fontWeight: '500', fontFamily: 'Quicksand', textAlign: 'center', lineHeight: '1.82', letterSpacing: '0px', textTransform: 'none', textDecoration: 'none', fontStyle: 'normal', pointerEvents: 'none', overflow: 'hidden', wordBreak: 'break-word' } as React.CSSProperties}>
+                            Mọi thứ bắt đầu từ một cuộc gặp giản đơn, nhưng đã
+                            thay đổi cả cuộc đời chúng tôi.&nbsp;
+                            <div>
+                              Qua những khoảnh khắc cười đùa, những buổi hẹn hò
+                              ấm áp bên nhau, chúng tôi đã cùng nhau lớn lên,
+                              học hỏi và yêu thương.&nbsp;
+                            </div>
+                            <div>
+                              Hôm nay, chúng tôi hân hoan chia sẻ hành trình này
+                              với những người thân yêu, và mong chờ được cùng
+                              các bạn chung vui với tình yêu của chúng tôi.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="2SU-WkEcVh" className="jsx-1944329802" style={{ position: 'absolute', top: '3868.66px', left: '0.8532px', width: '479.972px', height: '712.849px', zIndex: '27', cursor: 'default', transform: 'rotate(0deg) scale(1, 1)' } as React.CSSProperties}>
+                      <div data-transition-key="2SU-WkEcVh-fade-in-1.6-0-ease-out-false" data-node-id="2SU-WkEcVh"
+                        style={{ transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1944329802" style={{ position: 'relative', width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', border: '0px solid', padding: '0px', backgroundColor: 'transparent', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', opacity: '0.98', boxShadow: 'none', borderRadius: '0px' } as React.CSSProperties}>
+                          <div className="jsx-1944329802 photo-component" style={{ WebkitMaskBoxImageSource: 'none', WebkitMaskBoxImageSlice: '0 fill', maskImage: 'none', maskSize: '100% 100%', maskRepeat: 'no-repeat' } as React.CSSProperties}>
+                            <div className="jsx-1944329802 photo-bg-wrap" style={{ backgroundImage: 'url(\'/assets/0f19e6e7-41f5-4102-adf9-71da4ffe7923.JPG\')', borderRadius: '0px' } as React.CSSProperties}></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="LfuSNnRAUM" style={{ position: 'absolute', top: '3924.02px', left: '14.0879px', width: '272.36px', height: '230.568px', zIndex: '37', cursor: 'default', transform: 'rotate(0deg)' } as React.CSSProperties}>
+                      <div data-transition-key="LfuSNnRAUM-slide-up-1.6-0-ease-out-false" data-node-id="LfuSNnRAUM"
+                        style={{ transition: '1.6s ease-out', transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div style={{ position: 'relative', width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', border: '0px solid', padding: '0px', backgroundColor: 'transparent', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', opacity: '1', borderRadius: '0px', boxShadow: 'none' } as React.CSSProperties}>
+                          <div className="calendar componentBOX" style={{ opacity: '1', zIndex: '154', borderRadius: '0px', width: '100%', height: '100%', color: 'rgb(250, 247, 247)', fontSize: '16.116px', fontFamily: 'Arial' } as React.CSSProperties}>
+                            <div className="template-three">
+                              <div className="empty">
+                                <div></div>
+                              </div>
+                              <div className="empty">
+                                <div></div>
+                              </div>
+                              <div className="empty">
+                                <div></div>
+                              </div>
+                              <div>
+                                <div>1</div>
+                              </div>
+                              <div>
+                                <div>2</div>
+                              </div>
+                              <div>
+                                <div>3</div>
+                              </div>
+                              <div>
+                                <div>4</div>
+                              </div>
+                              <div>
+                                <div>5</div>
+                              </div>
+                              <div>
+                                <div>6</div>
+                              </div>
+                              <div>
+                                <div>7</div>
+                              </div>
+                              <div>
+                                <div>8</div>
+                              </div>
+                              <div>
+                                <div>9</div>
+                              </div>
+                              <div>
+                                <div>10</div>
+                              </div>
+                              <div>
+                                <div>11</div>
+                              </div>
+                              <div>
+                                <div>12</div>
+                              </div>
+                              <div>
+                                <div>13</div>
+                              </div>
+                              <div>
+                                <div>14</div>
+                              </div>
+                              <div>
+                                <div>15</div>
+                              </div>
+                              <div>
+                                <div>16</div>
+                              </div>
+                              <div>
+                                <div>17</div>
+                              </div>
+                              <div>
+                                <div>18</div>
+                              </div>
+                              <div>
+                                <div>19</div>
+                              </div>
+                              <div>
+                                <div>20</div>
+                              </div>
+                              <div>
+                                <div>21</div>
+                              </div>
+                              <div>
+                                <img className="heart-date" alt="heart" src="/assets/calen_heart_1.png" />
+                                <div>22</div>
+                              </div>
+                              <div>
+                                <div>23</div>
+                              </div>
+                              <div>
+                                <div>24</div>
+                              </div>
+                              <div>
+                                <div>25</div>
+                              </div>
+                              <div>
+                                <div>26</div>
+                              </div>
+                              <div>
+                                <div>27</div>
+                              </div>
+                              <div>
+                                <div>28</div>
+                              </div>
+                              <div>
+                                <div>29</div>
+                              </div>
+                              <div>
+                                <div>30</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="WK9uKUZ1As" className="jsx-1828971989 text-box-component" style={{ position: 'absolute', top: '3875.52px', left: '25.2168px', width: '237.474px', height: 'auto', zIndex: '35', cursor: 'default', transform: 'rotate(0deg)' } as React.CSSProperties}>
+                      <div data-transition-key="WK9uKUZ1As-fade-in-1.6-0-ease-out-false" data-node-id="WK9uKUZ1As"
+                        style={{ transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1828971989" style={{ position: 'relative', width: '100%', height: '100%', padding: '0px', borderRadius: '0px', boxShadow: 'none', backgroundColor: 'transparent', display: 'flex', alignItems: 'center', justifyContent: 'flex-start', boxSizing: 'border-box', opacity: '1', border: '0px solid' } as React.CSSProperties}>
+                          <div contentEditable="false" style={{ height: 'auto', width: '100%', minWidth: '20px', color: 'rgb(250, 247, 247)', fontSize: '33.18px', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', fontWeight: '500', fontFamily: 'Signora', textAlign: 'left', lineHeight: '2.2', letterSpacing: '0px', textTransform: 'none', textDecoration: 'none', fontStyle: 'normal', pointerEvents: 'none', overflow: 'hidden', wordBreak: 'break-word' } as React.CSSProperties}>
+                            THÁNG 04/2026
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="hFNd3hNDnu" className="jsx-1944329802" style={{ position: 'absolute', top: '4595.7px', left: '0.0947999px', width: '474px', height: '828.078px', zIndex: '0', cursor: 'default', transform: 'rotate(0deg) scale(1, 1)' } as React.CSSProperties}>
+                      <div data-transition-key="hFNd3hNDnu-fade-in-1.6-0-ease-out-false" data-node-id="hFNd3hNDnu"
+                        style={{ transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1944329802" style={{ position: 'relative', width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', border: '0px solid', padding: '0px', backgroundColor: 'transparent', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', opacity: '1', boxShadow: 'none', borderRadius: '0px' } as React.CSSProperties}>
+                          <div className="jsx-1944329802 photo-component" style={{ WebkitMaskBoxImageSource: 'none', WebkitMaskBoxImageSlice: '0 fill', maskImage: 'none', maskSize: '100% 100%', maskRepeat: 'no-repeat' } as React.CSSProperties}>
+                            <div className="jsx-1944329802 photo-bg-wrap" style={{ backgroundImage: 'url(\'/assets/a4575674-74a4-4283-a7cd-ff2d64f7c490.png\')', borderRadius: '0px' } as React.CSSProperties}></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="8--71XY5lF" className="jsx-1944329802" style={{ position: 'absolute', top: '5018.5px', left: '8.82019px', width: '223.728px', height: '227.162px', zIndex: '47', cursor: 'default', transform: 'rotate(0deg) scale(1, 1)' } as React.CSSProperties}>
+                      <div data-transition-key="8--71XY5lF-scale-in-1.6-0-ease-out-false" data-node-id="8--71XY5lF"
+                        style={{ transition: '1.6s ease-out', transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1944329802" style={{ position: 'relative', width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', border: '0px solid', padding: '0px', backgroundColor: 'transparent', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', opacity: '1', boxShadow: 'none', borderRadius: '0px' } as React.CSSProperties}>
+                          <div className="jsx-1944329802 photo-component" style={{ WebkitMaskBoxImageSource: 'none', WebkitMaskBoxImageSlice: '0 fill', maskImage: 'none', maskSize: '100% 100%', maskRepeat: 'no-repeat' } as React.CSSProperties}>
+                            <div className="jsx-1944329802 photo-bg-wrap" style={{ backgroundImage: 'url(\'/assets/1705d300-971c-499e-a306-bbec6d215fb5__crop_11_152_1203_1424.JPG\')', borderRadius: '0px' } as React.CSSProperties}></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="CZ0XtwxZ8U" className="jsx-3557960200" style={{ position: 'absolute', top: '5008.92px', left: '0.8532px', width: '474.19px', height: '247.042px', zIndex: '46', cursor: 'default', transform: 'rotate(0deg) scale(1, 1)' } as React.CSSProperties}>
+                      <div data-transition-key="CZ0XtwxZ8U-fade-in-1.6-0-ease-out-false" data-node-id="CZ0XtwxZ8U"
+                        style={{ transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-3557960200" style={{ position: 'relative', width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', backgroundColor: 'transparent', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', opacity: '1' } as React.CSSProperties}>
+                          <div className="jsx-3557960200 material-component">
+                            <div id="svg-CZ0XtwxZ8U" className="jsx-3557960200 svg-wrap" style={{ width: '100%', height: '100%', overflow: 'hidden', border: '0px solid', borderRadius: '0px', padding: '0px', boxShadow: 'none' } as React.CSSProperties}>
+                              {/*  Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)   */}
+                              <svg preserveAspectRatio="none" width="100%" height="100%" version="1.2"
+                                baseProfile="tiny" id="图层_1" xmlns="http://www.w3.org/2000/svg"
+                                xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100"
+                                xmlSpace="preserve">
+                                <style dangerouslySetInnerHTML={{ __html: "\n                                  #svg-CZ0XtwxZ8U svg path {\n                                    fill: #5a5f3b;\n                                  }\n                                " }} />
+                                <path id="XMLID_12991_" fill="#999999" d="M100,100H0V0h100V100z"></path>
+                              </svg>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="dJlbBuRtY_" className="jsx-1828971989 text-box-component" style={{ position: 'absolute', top: '5064.31px', left: '255.774px', width: '212.542px', height: 'auto', zIndex: '48', cursor: 'default', transform: 'rotate(0deg)' } as React.CSSProperties}>
+                      <div data-transition-key="dJlbBuRtY_-fade-in-1.6-0-ease-out-false" data-node-id="dJlbBuRtY_"
+                        style={{ transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1828971989" style={{ position: 'relative', width: '100%', height: '100%', padding: '0px', borderRadius: '0px', boxShadow: 'none', backgroundColor: 'transparent', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', opacity: '1', border: '0px solid' } as React.CSSProperties}>
+                          <div contentEditable="false" style={{ height: 'auto', width: '100%', minWidth: '20px', color: 'rgb(250, 247, 247)', fontSize: '18.96px', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', fontWeight: '500', fontFamily: '\'The Artisan\'', textAlign: 'center', lineHeight: 'normal', letterSpacing: '0px', textTransform: 'none', textDecoration: 'none', fontStyle: 'normal', pointerEvents: 'none', overflow: 'hidden', wordBreak: 'break-word' } as React.CSSProperties}>
+                            Being with you turns ordinary moments into timeless
+                            memories.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="2h19flJa_W" className="jsx-1944329802" style={{ position: 'absolute', top: '4655.38px', left: '186.013px', width: '108.184px', height: '189.6px', zIndex: '49', cursor: 'default', transform: 'rotate(0deg) scale(1, 1)' } as React.CSSProperties}>
+                      <div data-transition-key="2h19flJa_W-fade-in-1.6-0-ease-out-false" data-node-id="2h19flJa_W"
+                        style={{ transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1944329802" style={{ position: 'relative', width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', border: '0px solid', padding: '0px', backgroundColor: 'transparent', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', opacity: '1', boxShadow: 'none', borderRadius: '0px' } as React.CSSProperties}>
+                          <div className="jsx-1944329802 photo-component" style={{ WebkitMaskBoxImageSource: 'none', WebkitMaskBoxImageSlice: '0 fill', maskImage: 'none', maskSize: '100% 100%', maskRepeat: 'no-repeat' } as React.CSSProperties}>
+                            <div className="jsx-1944329802 photo-bg-wrap" style={{ backgroundImage: 'url(\'/assets/bd7bf8f4-643f-47c8-995f-3bd8ce3235d1__crop_36_20_194_340.png\')', borderRadius: '0px' } as React.CSSProperties}></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="3vnzV4GeBs" className="jsx-1944329802" style={{ position: 'absolute', top: '3011.98px', left: '195.762px', width: '189.6px', height: '141.998px', zIndex: '50', cursor: 'default', transform: 'rotate(0deg) scale(1, 1)' } as React.CSSProperties}>
+                      <div data-transition-key="3vnzV4GeBs-fade-in-1.6-0-ease-out-false" data-node-id="3vnzV4GeBs"
+                        style={{ transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1944329802" style={{ position: 'relative', width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', border: '0px solid', padding: '0px', backgroundColor: 'transparent', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', opacity: '1', boxShadow: 'none', borderRadius: '0px' } as React.CSSProperties}>
+                          <div className="jsx-1944329802 photo-component" style={{ WebkitMaskBoxImageSource: 'none', WebkitMaskBoxImageSlice: '0 fill', maskImage: 'none', maskSize: '100% 100%', maskRepeat: 'no-repeat' } as React.CSSProperties}>
+                            <div className="jsx-1944329802 photo-bg-wrap" style={{ backgroundImage: 'url(\'/assets/bd7bf8f4-643f-47c8-995f-3bd8ce3235d1__crop_151_347_235_176.png\')', borderRadius: '0px' } as React.CSSProperties}></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="mPhGx1ZUbY" className="jsx-1944329802" style={{ position: 'absolute', top: '5226.01px', left: '0px', width: '474px', height: '828.078px', zIndex: '0', cursor: 'default', transform: 'rotate(0deg) scale(1, 1)' } as React.CSSProperties}>
+                      <div data-transition-key="mPhGx1ZUbY-fade-in-1.6-0-ease-out-false" data-node-id="mPhGx1ZUbY"
+                        style={{ transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1944329802" style={{ position: 'relative', width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', border: '0px solid', padding: '0px', backgroundColor: 'transparent', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', opacity: '1', boxShadow: 'none', borderRadius: '0px' } as React.CSSProperties}>
+                          <div className="jsx-1944329802 photo-component" style={{ WebkitMaskBoxImageSource: 'none', WebkitMaskBoxImageSlice: '0 fill', maskImage: 'none', maskSize: '100% 100%', maskRepeat: 'no-repeat' } as React.CSSProperties}>
+                            <div className="jsx-1944329802 photo-bg-wrap" style={{ backgroundImage: 'url(\'/assets/a4575674-74a4-4283-a7cd-ff2d64f7c490.png\')', borderRadius: '0px' } as React.CSSProperties}></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="D6VgkShZ-f" className="jsx-1828971989 text-box-component" style={{ position: 'absolute', top: '5341.64px', left: '14.931px', width: '427.643px', height: 'auto', zIndex: '36', cursor: 'default', transform: 'rotate(0deg)' } as React.CSSProperties}>
+                      <div data-transition-key="D6VgkShZ-f-fade-in-1.6-0-ease-out-false" data-node-id="D6VgkShZ-f"
+                        style={{ transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1828971989" style={{ position: 'relative', width: '100%', height: '100%', padding: '0px', borderRadius: '0px', boxShadow: 'none', backgroundColor: 'transparent', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', opacity: '1', border: '0px solid' } as React.CSSProperties}>
+                          <div contentEditable="false" style={{ height: 'auto', width: '100%', minWidth: '20px', color: 'rgb(75, 83, 32)', fontSize: '59.724px', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', fontWeight: 'normal', fontFamily: 'Mallong', textAlign: 'center', lineHeight: 'normal', letterSpacing: '0px', textTransform: 'none', textDecoration: 'none', fontStyle: 'normal', pointerEvents: 'none', overflow: 'hidden', wordBreak: 'break-word' } as React.CSSProperties}>
+                            Countdown
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="_tZfxuSKIL" style={{ position: 'absolute', top: '5430.75px', left: '65.886px', width: '344.977px', height: '66.5246px', zIndex: '51', cursor: 'default', transform: 'rotate(0deg)' } as React.CSSProperties}>
+                      <div data-transition-key="_tZfxuSKIL-fade-in-1.6-0-ease-out-false" data-node-id="_tZfxuSKIL"
+                        style={{ transition: '1.6s ease-out', transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div style={{ position: 'relative', width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', border: '0px solid', padding: '0px', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', opacity: '1', backgroundColor: 'transparent', borderRadius: '0px', boxShadow: 'none' } as React.CSSProperties}>
+                          <div className="jsx-3272123691 countdown componentBOX" style={{ color: 'rgb(255, 255, 255)', backgroundColor: 'rgb(70, 92, 61)', width: '100%', height: '100%', fontSize: '13.272px', fontFamily: 'Arial', '--spacing': '20px' } as React.CSSProperties}>
+                            <div className="jsx-3272123691" style={{ backgroundColor: 'rgb(70, 92, 61)' } as React.CSSProperties}>
+                              <div className="jsx-3272123691">0</div>
+                              <div className="jsx-3272123691">ngày</div>
+                            </div>
+                            <div className="jsx-3272123691" style={{ backgroundColor: 'rgb(70, 92, 61)' } as React.CSSProperties}>
+                              <div className="jsx-3272123691">0</div>
+                              <div className="jsx-3272123691">giờ</div>
+                            </div>
+                            <div className="jsx-3272123691" style={{ backgroundColor: 'rgb(70, 92, 61)' } as React.CSSProperties}>
+                              <div className="jsx-3272123691">0</div>
+                              <div className="jsx-3272123691">phút</div>
+                            </div>
+                            <div className="jsx-3272123691" style={{ backgroundColor: 'rgb(70, 92, 61)' } as React.CSSProperties}>
+                              <div className="jsx-3272123691">0</div>
+                              <div className="jsx-3272123691">giây</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="DDVILmgNhE" className="jsx-1944329802" style={{ position: 'absolute', top: '5793.91px', left: '-2.2752px', width: '476.086px', height: '1032.96px', zIndex: '0', cursor: 'default', transform: 'rotate(0deg) scale(1, 1)' } as React.CSSProperties}>
+                      <div data-transition-key="DDVILmgNhE-fade-in-1.6-0-ease-out-false" data-node-id="DDVILmgNhE"
+                        style={{ transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1944329802" style={{ position: 'relative', width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', border: '0px solid', padding: '0px', backgroundColor: 'transparent', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', opacity: '1', boxShadow: 'none', borderRadius: '0px' } as React.CSSProperties}>
+                          <div className="jsx-1944329802 photo-component" style={{ WebkitMaskBoxImageSource: 'none', WebkitMaskBoxImageSlice: '0 fill', maskImage: 'none', maskSize: '100% 100%', maskRepeat: 'no-repeat' } as React.CSSProperties}>
+                            <div className="jsx-1944329802 photo-bg-wrap" style={{ backgroundImage: 'url(\'/assets/a4575674-74a4-4283-a7cd-ff2d64f7c490.png\')', borderRadius: '0px' } as React.CSSProperties}></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="DyTaHXppxf" className="jsx-1828971989 text-box-component" style={{ position: 'absolute', top: '5605.28px', left: '25.7856px', width: '317.675px', height: 'auto', zIndex: '53', cursor: 'default', transform: 'rotate(0deg)' } as React.CSSProperties}>
+                      <div data-transition-key="DyTaHXppxf-fade-in-1.6-0-ease-out-false" data-node-id="DyTaHXppxf"
+                        style={{ transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1828971989" style={{ position: 'relative', width: '100%', height: '100%', padding: '0px', borderRadius: '0px', boxShadow: 'none', backgroundColor: 'transparent', display: 'flex', alignItems: 'center', justifyContent: 'flex-start', boxSizing: 'border-box', opacity: '1', border: '0px solid' } as React.CSSProperties}>
+                          <div contentEditable="false" style={{ height: 'auto', width: '100%', minWidth: '20px', color: 'rgb(75, 83, 32)', fontSize: '61.62px', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', fontWeight: 'normal', fontFamily: 'PlayfairDisplay', textAlign: 'left', lineHeight: 'normal', letterSpacing: '0px', textTransform: 'none', textDecoration: 'none', fontStyle: 'normal', pointerEvents: 'none', overflow: 'hidden', wordBreak: 'break-word' } as React.CSSProperties}>
+                            ALBUM
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="IRfXJHcbHx" className="jsx-1828971989 text-box-component" style={{ position: 'absolute', top: '5691.91px', left: '240.65px', width: '235.388px', height: 'auto', zIndex: '54', cursor: 'default', transform: 'rotate(0deg)' } as React.CSSProperties}>
+                      <div data-transition-key="IRfXJHcbHx-fade-in-1.6-0-ease-out-false" data-node-id="IRfXJHcbHx"
+                        style={{ transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1828971989" style={{ position: 'relative', width: '100%', height: '100%', padding: '0px', borderRadius: '0px', boxShadow: 'none', backgroundColor: 'transparent', display: 'flex', alignItems: 'center', justifyContent: 'flex-start', boxSizing: 'border-box', opacity: '1', border: '0px solid' } as React.CSSProperties}>
+                          <div contentEditable="false" style={{ height: 'auto', width: '100%', minWidth: '20px', color: 'rgb(75, 83, 32)', fontSize: '61.62px', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', fontWeight: 'normal', fontFamily: 'PlayfairDisplay', textAlign: 'left', lineHeight: 'normal', letterSpacing: '0px', textTransform: 'none', textDecoration: 'none', fontStyle: 'normal', pointerEvents: 'none', overflow: 'hidden', wordBreak: 'break-word' } as React.CSSProperties}>
+                            LOVE
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="ioWyFungy8" className="jsx-1828971989 text-box-component" style={{ position: 'absolute', top: '5680.54px', left: '108.688px', width: '116.983px', height: 'auto', zIndex: '37', cursor: 'default', transform: 'rotate(0deg)' } as React.CSSProperties}>
+                      <div data-transition-key="ioWyFungy8-fade-in-1.6-0-ease-out-false" data-node-id="ioWyFungy8"
+                        style={{ transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1828971989" style={{ position: 'relative', width: '100%', height: '100%', padding: '0px', borderRadius: '0px', boxShadow: 'none', backgroundColor: 'transparent', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', opacity: '1', border: '0px solid' } as React.CSSProperties}>
+                          <div contentEditable="false" style={{ height: 'auto', width: '100%', minWidth: '20px', color: 'rgb(75, 83, 32)', fontSize: '59.724px', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', fontWeight: 'normal', fontFamily: 'Aquarelle', textAlign: 'center', lineHeight: 'normal', letterSpacing: '0px', textTransform: 'none', textDecoration: 'none', fontStyle: 'normal', pointerEvents: 'none', overflow: 'hidden', wordBreak: 'break-word' } as React.CSSProperties}>
+                            of
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="AqDjGXOA8c" className="jsx-1944329802" style={{ position: 'absolute', top: '6682.67px', left: '10.1436px', width: '218.893px', height: '359.699px', zIndex: '54', cursor: 'default', transform: 'rotate(0deg) scale(1, 1)' } as React.CSSProperties}>
+                      <div data-transition-key="AqDjGXOA8c-slide-right-1.6-0-ease-out-false" data-node-id="AqDjGXOA8c"
+                        style={{ transition: '1.6s ease-out', transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1944329802" style={{ position: 'relative', width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', border: '0px solid', padding: '0px', backgroundColor: 'transparent', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', opacity: '1', boxShadow: 'none', borderRadius: '0px' } as React.CSSProperties}>
+                          <div className="jsx-1944329802 photo-component" style={{ WebkitMaskBoxImageSource: 'none', WebkitMaskBoxImageSlice: '0 fill', maskImage: 'none', maskSize: '100% 100%', maskRepeat: 'no-repeat' } as React.CSSProperties}>
+                            <div className="jsx-1944329802 photo-bg-wrap" style={{ backgroundImage: 'url(\'/assets/e14656ba-9141-4c93-b5cc-5c57e946ec78.JPG\')', borderRadius: '0px' } as React.CSSProperties}></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="7N4JIILxdc" className="jsx-1944329802" style={{ position: 'absolute', top: '6108.16px', left: '237.981px', width: '225.434px', height: '294.661px', zIndex: '56', cursor: 'default', transform: 'rotate(0deg) scale(1, 1)' } as React.CSSProperties}>
+                      <div data-transition-key="7N4JIILxdc-slide-down-1.6-0-ease-out-false" data-node-id="7N4JIILxdc"
+                        style={{ transition: '1.6s ease-out', transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1944329802" style={{ position: 'relative', width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', border: '0px solid', padding: '0px', backgroundColor: 'transparent', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', opacity: '1', boxShadow: 'none', borderRadius: '0px' } as React.CSSProperties}>
+                          <div className="jsx-1944329802 photo-component" style={{ WebkitMaskBoxImageSource: 'none', WebkitMaskBoxImageSlice: '0 fill', maskImage: 'none', maskSize: '100% 100%', maskRepeat: 'no-repeat' } as React.CSSProperties}>
+                            <div className="jsx-1944329802 photo-bg-wrap" style={{ backgroundImage: 'url(\'/assets/543be7cb-691c-47be-a1dc-6a676058f62f__crop_121_478_972_1164.JPG\')', borderRadius: '0px' } as React.CSSProperties}></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="A6pfP9GuDP" className="jsx-1944329802" style={{ position: 'absolute', top: '6341.97px', left: '9.80279px', width: '218.704px', height: '328.055px', zIndex: '57', cursor: 'default', transform: 'rotate(0deg) scale(1, 1)' } as React.CSSProperties}>
+                      <div data-transition-key="A6pfP9GuDP-slide-up-1.6-0-ease-out-false" data-node-id="A6pfP9GuDP"
+                        style={{ transition: '1.6s ease-out', transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1944329802" style={{ position: 'relative', width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', border: '0px solid', padding: '0px', backgroundColor: 'transparent', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', opacity: '1', boxShadow: 'none', borderRadius: '0px' } as React.CSSProperties}>
+                          <div className="jsx-1944329802 photo-component" style={{ WebkitMaskBoxImageSource: 'none', WebkitMaskBoxImageSlice: '0 fill', maskImage: 'none', maskSize: '100% 100%', maskRepeat: 'no-repeat' } as React.CSSProperties}>
+                            <div className="jsx-1944329802 photo-bg-wrap" style={{ backgroundImage: 'url(\'/assets/7133e8b6-0858-4b46-8d33-37794ff9eadf.JPG\')', borderRadius: '0px' } as React.CSSProperties}></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="8gsI0WZ8aK" className="jsx-1944329802" style={{ position: 'absolute', top: '6411.16px', left: '238.327px', width: '224.297px', height: '337.375px', zIndex: '58', cursor: 'default', transform: 'rotate(0deg) scale(1, 1)' } as React.CSSProperties}>
+                      <div data-transition-key="8gsI0WZ8aK-slide-up-1.6-0-ease-out-false" data-node-id="8gsI0WZ8aK"
+                        style={{ transition: '1.6s ease-out', transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1944329802" style={{ position: 'relative', width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', border: '0px solid', padding: '0px', backgroundColor: 'transparent', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', opacity: '1', boxShadow: 'none', borderRadius: '0px' } as React.CSSProperties}>
+                          <div className="jsx-1944329802 photo-component" style={{ WebkitMaskBoxImageSource: 'none', WebkitMaskBoxImageSlice: '0 fill', maskImage: 'none', maskSize: '100% 100%', maskRepeat: 'no-repeat' } as React.CSSProperties}>
+                            <div className="jsx-1944329802 photo-bg-wrap" style={{ backgroundImage: 'url(\'/assets/541fcd81-b9fe-43aa-a2f1-887b7157f1e7__crop_115_259_985_1473.JPG\')', borderRadius: '0px' } as React.CSSProperties}></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="NVLtBynAox" className="jsx-1944329802" style={{ position: 'absolute', top: '6752.95px', left: '0.8532px', width: '475.327px', height: '645.244px', zIndex: '0', cursor: 'default', transform: 'rotate(0deg) scale(1, 1)' } as React.CSSProperties}>
+                      <div data-transition-key="NVLtBynAox-fade-in-1.6-0-ease-out-false" data-node-id="NVLtBynAox"
+                        style={{ transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1944329802" style={{ position: 'relative', width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', border: '0px solid', padding: '0px', backgroundColor: 'transparent', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', opacity: '1', boxShadow: 'none', borderRadius: '0px' } as React.CSSProperties}>
+                          <div className="jsx-1944329802 photo-component" style={{ WebkitMaskBoxImageSource: 'none', WebkitMaskBoxImageSlice: '0 fill', maskImage: 'none', maskSize: '100% 100%', maskRepeat: 'no-repeat' } as React.CSSProperties}>
+                            <div className="jsx-1944329802 photo-bg-wrap" style={{ backgroundImage: 'url(\'/assets/a4575674-74a4-4283-a7cd-ff2d64f7c490.png\')', borderRadius: '0px' } as React.CSSProperties}></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="fS50XkKgDV" className="jsx-1944329802" style={{ position: 'absolute', top: '5795.65px', left: '9.243px', width: '453.618px', height: '299.766px', zIndex: '59', cursor: 'default', transform: 'rotate(0deg) scale(1, 1)' } as React.CSSProperties}>
+                      <div data-transition-key="fS50XkKgDV-flip-in-1.6-0-ease-out-false" data-node-id="fS50XkKgDV"
+                        style={{ transition: '1.6s ease-out', transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1944329802" style={{ position: 'relative', width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', border: '0px solid', padding: '0px', backgroundColor: 'transparent', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', opacity: '1', boxShadow: 'none', borderRadius: '0px' } as React.CSSProperties}>
+                          <div className="jsx-1944329802 photo-component" style={{ WebkitMaskBoxImageSource: 'none', WebkitMaskBoxImageSlice: '0 fill', maskImage: 'none', maskSize: '100% 100%', maskRepeat: 'no-repeat' } as React.CSSProperties}>
+                            <div className="jsx-1944329802 photo-bg-wrap" style={{ backgroundImage: 'url(\'/assets/0aa6b51e-675e-4b91-9851-e927596a8739.JPG\')', borderRadius: '0px' } as React.CSSProperties}></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="w9uZPZWx85" className="jsx-1944329802" style={{ position: 'absolute', top: '6107.83px', left: '9.15959px', width: '218.169px', height: '218.567px', zIndex: '61', cursor: 'default', transform: 'rotate(359.988deg) scale(1, 1)' } as React.CSSProperties}>
+                      <div data-transition-key="w9uZPZWx85-slide-down-1.6-0-ease-out-false" data-node-id="w9uZPZWx85"
+                        style={{ transition: '1.6s ease-out', transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1944329802" style={{ position: 'relative', width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', border: '0px solid', padding: '0px', backgroundColor: 'transparent', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', opacity: '1', boxShadow: 'none', borderRadius: '0px' } as React.CSSProperties}>
+                          <div className="jsx-1944329802 photo-component" style={{ WebkitMaskBoxImageSource: 'none', WebkitMaskBoxImageSlice: '0 fill', maskImage: 'none', maskSize: '100% 100%', maskRepeat: 'no-repeat' } as React.CSSProperties}>
+                            <div className="jsx-1944329802 photo-bg-wrap" style={{ backgroundImage: 'url(\'/assets/809e161c-235f-4ca9-81b6-16e708e3ed64.JPG\')', borderRadius: '0px' } as React.CSSProperties}></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="6YpQnb-vcN" className="jsx-1944329802" style={{ position: 'absolute', top: '6760.68px', left: '240.623px', width: '221.453px', height: '284.982px', zIndex: '62', cursor: 'default', transform: 'rotate(0deg) scale(1, 1)' } as React.CSSProperties}>
+                      <div data-transition-key="6YpQnb-vcN-slide-left-1.6-0-ease-out-false" data-node-id="6YpQnb-vcN"
+                        style={{ transition: '1.6s ease-out', transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1944329802" style={{ position: 'relative', width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', border: '0px solid', padding: '0px', backgroundColor: 'transparent', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', opacity: '1', boxShadow: 'none', borderRadius: '0px' } as React.CSSProperties}>
+                          <div className="jsx-1944329802 photo-component" style={{ WebkitMaskBoxImageSource: 'none', WebkitMaskBoxImageSlice: '0 fill', maskImage: 'none', maskSize: '100% 100%', maskRepeat: 'no-repeat' } as React.CSSProperties}>
+                            <div className="jsx-1944329802 photo-bg-wrap" style={{ backgroundImage: 'url(\'/assets/8a3d508b-feee-46bf-8937-0e59327896bb__crop_146_550_972_1179.JPG\')', borderRadius: '0px' } as React.CSSProperties}></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="Q02Q_d6F22" className="jsx-1944329802" style={{ position: 'absolute', top: '7356.29px', left: '-0.3792px', width: '473.621px', height: '844.479px', zIndex: '0', cursor: 'default', transform: 'rotate(0deg) scale(1, 1)' } as React.CSSProperties}>
+                      <div data-transition-key="Q02Q_d6F22-fade-in-1.6-0-ease-out-false" data-node-id="Q02Q_d6F22"
+                        style={{ transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1944329802" style={{ position: 'relative', width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', border: '0px solid', padding: '0px', backgroundColor: 'transparent', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', opacity: '1', boxShadow: 'none', borderRadius: '0px' } as React.CSSProperties}>
+                          <div className="jsx-1944329802 photo-component" style={{ WebkitMaskBoxImageSource: 'none', WebkitMaskBoxImageSlice: '0 fill', maskImage: 'none', maskSize: '100% 100%', maskRepeat: 'no-repeat' } as React.CSSProperties}>
+                            <div className="jsx-1944329802 photo-bg-wrap" style={{ backgroundImage: 'url(\'/assets/a4575674-74a4-4283-a7cd-ff2d64f7c490.png\')', borderRadius: '0px' } as React.CSSProperties}></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="fCO5n-3ya9" className="jsx-1828971989 text-box-component" style={{ position: 'absolute', top: '7094.05px', left: '9.78715px', width: '455.032px', height: 'auto', zIndex: '64', cursor: 'default', transform: 'rotate(0deg)' } as React.CSSProperties}>
+                      <div data-transition-key="fCO5n-3ya9-fade-in-1.6-0-ease-out-false" data-node-id="fCO5n-3ya9"
+                        style={{ transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1828971989" style={{ position: 'relative', width: '100%', height: '100%', padding: '0px', borderRadius: '0px', boxShadow: 'none', backgroundColor: 'transparent', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', opacity: '1', border: '0px solid' } as React.CSSProperties}>
+                          <div contentEditable="false" style={{ height: 'auto', width: '100%', minWidth: '20px', color: 'rgb(75, 83, 32)', fontSize: '18.96px', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', fontWeight: '500', fontFamily: 'Quicksand', textAlign: 'center', lineHeight: 'normal', letterSpacing: '0px', textTransform: 'none', textDecoration: 'none', fontStyle: 'normal', pointerEvents: 'none', overflow: 'hidden', wordBreak: 'break-word' } as React.CSSProperties}>
+                            Hãy xác nhận sự có mặt của bạn để chúng mình chuẩn
+                            bị đón tiếp một cách chu đáo nhất.&nbsp;
+                            <div>Trân trọng!</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="YbqrFIm5Y_" className="jsx-1768321534 rsvp-form-container" style={{ width: '334.36px', height: '417.12px', minWidth: '200px', position: 'absolute', top: '7195.39px', left: '69.6306px', transform: 'rotate(0deg)', cursor: 'default', zIndex: '65' } as React.CSSProperties}>
+                      <div data-transition-key="YbqrFIm5Y_-fade-in-1.6-0-ease-out-false" data-node-id="YbqrFIm5Y_"
+                        style={{ transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1768321534" style={{ width: '100%', height: '100%', minWidth: '200px', position: 'relative', borderRadius: '5px', opacity: '1' } as React.CSSProperties}>
+                          <div className="rsvp-form" style={{ backgroundColor: 'rgb(250, 247, 247)', color: 'rgb(75, 83, 32)', boxShadow: 'rgba(0, 0, 0, 0.1) 0px 2px 10px 0px', borderRadius: '5px', padding: '16px', minHeight: '100%', width: '100%', fontSize: '14.22px', fontFamily: 'Arial', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', position: 'relative', overflow: 'visible', border: '1px solid rgb(224, 224, 224)' } as React.CSSProperties}>
+                            <h3 style={{ marginBottom: '16px', color: 'rgb(75, 83, 32)', fontWeight: 'bold', fontSize: '18.22px', textAlign: 'center' } as React.CSSProperties}>
+                              Xác nhận tham dự
+                            </h3>
+                            <form style={{ display: 'flex', flexDirection: 'column', gap: '16px' } as React.CSSProperties}>
+                              <div>
+                                <label htmlFor="rsvp-name" style={{ display: 'block', marginBottom: '6px', fontSize: '14.22px' } as React.CSSProperties}>Họ và tên</label><input placeholder="Nhập tên của bạn" type="text" value=""
+                                  name="rsvp-name" style={{ width: '100%', padding: '4px 8px', borderRadius: '4px', border: '1px solid rgb(224, 224, 224)', fontSize: '14.22px', backgroundColor: 'white', color: 'rgb(51, 51, 51)' } as React.CSSProperties} />
+                              </div>
+                              <div>
+                                <label htmlFor="rsvp-attendance" style={{ display: 'block', marginBottom: '6px', fontSize: '14.22px' } as React.CSSProperties}>Bạn sẽ tham dự chứ?</label>
+                                <div className="ant-radio-group ant-radio-group-outline css-var-«R36» ant-radio-css-var"
+                                  style={{ width: '100%' } as React.CSSProperties}>
+                                  <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' } as React.CSSProperties}>
+                                    <label
+                                      className="ant-radio-wrapper ant-radio-wrapper-checked css-var-«R36» ant-radio-css-var"
+                                      style={{ fontSize: '14.22px', fontFamily: 'Arial', whiteSpace: 'break-spaces', color: 'rgb(75, 83, 32)' } as React.CSSProperties}><span className="ant-radio ant-wave-target ant-radio-checked"><input
+                                          className="ant-radio-input" type="radio" value="yes" defaultChecked
+                                          name="rsvp-attendance" /><span className="ant-radio-inner"></span></span><span
+                                        className="ant-radio-label">Có, tôi sẽ tham dự</span></label><label
+                                      className="ant-radio-wrapper css-var-«R36» ant-radio-css-var" style={{ fontSize: '14.22px', fontFamily: 'Arial', whiteSpace: 'break-spaces', color: 'rgb(75, 83, 32)' } as React.CSSProperties}><span className="ant-radio ant-wave-target"><input className="ant-radio-input"
+                                          type="radio" value="no" name="rsvp-attendance" /><span
+                                          className="ant-radio-inner"></span></span><span className="ant-radio-label">Tôi bận, rất tiếc không thể tham dự</span></label>
+                                  </div>
+                                </div>
+                              </div>
+                              <div>
+                                <label htmlFor="rsvp-attendee-count" style={{ display: 'block', marginBottom: '6px', fontSize: '14.22px' } as React.CSSProperties}>Số lượng người tham dự</label><select id="rsvp-attendee-count" style={{ width: '100%', padding: '4px 8px', borderRadius: '4px', border: '1px solid rgb(224, 224, 224)', fontSize: '14.22px', backgroundColor: 'white', color: 'rgb(51, 51, 51)', cursor: 'pointer' } as React.CSSProperties}>
+                                  <option value="1">1 người</option>
+                                  <option value="2">2 người</option>
+                                  <option value="3">3 người</option>
+                                  <option value="4">4 người</option>
+                                  <option value="5">5 người</option>
+                                  <option value="6">6 người</option>
+                                  <option value="7">7 người</option>
+                                  <option value="8">8 người</option>
+                                  <option value="9">9 người</option>
+                                  <option value="10">10 người</option>
+                                </select>
+                              </div>
+                              <button type="submit" style={{ backgroundColor: 'rgb(58, 74, 58)', color: 'rgb(255, 255, 255)', padding: '6px 12px', borderRadius: '4px', border: 'none', fontSize: '14.22px', cursor: 'pointer', marginTop: '8px', opacity: '1' } as React.CSSProperties}>
+                                Gửi xác nhận
+                              </button>
+                            </form>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="aXB8Dzf_La" className="jsx-1944329802" style={{ position: 'absolute', top: '7717.95px', left: '-2.2752px', width: '476.56px', height: '927.249px', zIndex: '0', cursor: 'default', transform: 'rotate(0deg) scale(1, 1)' } as React.CSSProperties}>
+                      <div data-transition-key="aXB8Dzf_La-fade-in-1.6-0-ease-out-false" data-node-id="aXB8Dzf_La"
+                        style={{ transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1944329802" style={{ position: 'relative', width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', border: '0px solid', padding: '0px', backgroundColor: 'transparent', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', opacity: '1', boxShadow: 'none', borderRadius: '0px' } as React.CSSProperties}>
+                          <div className="jsx-1944329802 photo-component" style={{ WebkitMaskBoxImageSource: 'none', WebkitMaskBoxImageSlice: '0 fill', maskImage: 'none', maskSize: '100% 100%', maskRepeat: 'no-repeat' } as React.CSSProperties}>
+                            <div className="jsx-1944329802 photo-bg-wrap" style={{ backgroundImage: 'url(\'/assets/a4575674-74a4-4283-a7cd-ff2d64f7c490.png\')', borderRadius: '0px' } as React.CSSProperties}></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="kHcF84cKsQ" className="jsx-1944329802" style={{ position: 'absolute', top: '7980.39px', left: '9.8118px', width: '475.422px', height: '316.156px', zIndex: '67', cursor: 'default', transform: 'rotate(0deg) scale(1, 1)' } as React.CSSProperties}>
+                      <div data-transition-key="kHcF84cKsQ-fade-in-1.6-0-ease-out-false" data-node-id="kHcF84cKsQ"
+                        style={{ transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1944329802" style={{ position: 'relative', width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', border: '0px solid', padding: '0px', backgroundColor: 'transparent', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', opacity: '0.51', boxShadow: 'none', borderRadius: '0px' } as React.CSSProperties}>
+                          <div className="jsx-1944329802 photo-component" style={{ WebkitMaskBoxImageSource: 'none', WebkitMaskBoxImageSlice: '0 fill', maskImage: 'none', maskSize: '100% 100%', maskRepeat: 'no-repeat' } as React.CSSProperties}>
+                            <div className="jsx-1944329802 photo-bg-wrap" style={{ backgroundImage: 'url(\'/assets/9f912211-d8a2-4e2c-b88d-5ee83f256a31.JPG\')', borderRadius: '0px' } as React.CSSProperties}></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="EQG35y12Ft" className="jsx-1828971989 text-box-component" style={{ position: 'absolute', top: '7989.33px', left: '13.1052px', width: '455.032px', height: 'auto', zIndex: '68', cursor: 'default', transform: 'rotate(0deg)' } as React.CSSProperties}>
+                      <div data-transition-key="EQG35y12Ft-fade-in-1.6-0-ease-out-false" data-node-id="EQG35y12Ft"
+                        style={{ transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1828971989" style={{ position: 'relative', width: '100%', height: '100%', padding: '0px', borderRadius: '0px', boxShadow: 'none', backgroundColor: 'transparent', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', opacity: '1', border: '0px solid' } as React.CSSProperties}>
+                          <div contentEditable="false" style={{ height: 'auto', width: '100%', minWidth: '20px', color: 'rgb(51, 51, 51)', fontSize: '17.064px', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', fontWeight: 'bold', fontFamily: 'Quicksand', textAlign: 'center', lineHeight: '1.81', letterSpacing: '0px', textTransform: 'none', textDecoration: 'none', fontStyle: 'normal', pointerEvents: 'none', overflow: 'hidden', wordBreak: 'break-word' } as React.CSSProperties}>
+                            Cảm ơn bạn đã dành tình cảm cho chúng mình! Sự hiện
+                            diện của bạn chính là món quà ý nghĩa nhất, và chúng
+                            mình vô cùng trân quý khi được cùng bạn chia sẻ niềm
+                            hạnh phúc trong ngày trọng đại này.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="XRo1TV77S8" className="jsx-1828971989 text-box-component" style={{ position: 'absolute', top: '8281.88px', left: '29.862px', width: '427.643px', height: 'auto', zIndex: '69', cursor: 'default', transform: 'rotate(0deg)' } as React.CSSProperties}>
+                      <div data-transition-key="XRo1TV77S8-fade-in-1.6-0-ease-out-false" data-node-id="XRo1TV77S8"
+                        style={{ transition: '1.6s ease-out', transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1828971989" style={{ position: 'relative', width: '100%', height: '100%', padding: '0px', borderRadius: '0px', boxShadow: 'none', backgroundColor: 'transparent', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', opacity: '1', border: '0px solid' } as React.CSSProperties}>
+                          <div contentEditable="false" style={{ height: 'auto', width: '100%', minWidth: '20px', color: 'rgb(75, 83, 32)', fontSize: '59.724px', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', fontWeight: 'normal', fontFamily: 'Aquarelle', textAlign: 'center', lineHeight: 'normal', letterSpacing: '0px', textTransform: 'none', textDecoration: 'none', fontStyle: 'normal', pointerEvents: 'none', overflow: 'hidden', wordBreak: 'break-word' } as React.CSSProperties}>
+                            Thankyou !
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="fMCw0ueWKh" className="jsx-1944329802" style={{ position: 'absolute', top: '7775.8px', left: '150.75px', width: '189.6px', height: '98.592px', zIndex: '70', cursor: 'default', transform: 'rotate(0deg) scale(1, 1)' } as React.CSSProperties}>
+                      <div data-transition-key="fMCw0ueWKh-fade-in-1.6-0-ease-out-false" data-node-id="fMCw0ueWKh"
+                        style={{ transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1944329802" style={{ position: 'relative', width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', border: '0px solid', padding: '0px', backgroundColor: 'transparent', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', opacity: '1', boxShadow: 'none', borderRadius: '0px' } as React.CSSProperties}>
+                          <div className="jsx-1944329802 photo-component" style={{ WebkitMaskBoxImageSource: 'none', WebkitMaskBoxImageSlice: '0 fill', maskImage: 'none', maskSize: '100% 100%', maskRepeat: 'no-repeat' } as React.CSSProperties}>
+                            <div className="jsx-1944329802 photo-bg-wrap" style={{ backgroundImage: 'url(\'/assets/933d8506-6eef-44f7-99dd-e713d84b166b.png\')', borderRadius: '0px' } as React.CSSProperties}></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="0vNn1uvrUD" className="jsx-1944329802" style={{ position: 'absolute', top: '8316.48px', left: '42.9444px', width: '58.1124px', height: '46.6291px', zIndex: '71', cursor: 'default', transform: 'rotate(0deg) scale(1, 1)' } as React.CSSProperties}>
+                      <div data-transition-key="0vNn1uvrUD-fade-in-1.6-0-ease-out-false" data-node-id="0vNn1uvrUD"
+                        style={{ transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1944329802" style={{ position: 'relative', width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', border: '0px solid', padding: '0px', backgroundColor: 'transparent', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', opacity: '1', boxShadow: 'none', borderRadius: '0px' } as React.CSSProperties}>
+                          <div className="jsx-1944329802 photo-component" style={{ WebkitMaskBoxImageSource: 'none', WebkitMaskBoxImageSlice: '0 fill', maskImage: 'none', maskSize: '100% 100%', maskRepeat: 'no-repeat' } as React.CSSProperties}>
+                            <div className="jsx-1944329802 photo-bg-wrap" style={{ backgroundImage: 'url(\'/assets/bd7bf8f4-643f-47c8-995f-3bd8ce3235d1__crop_200_337_167_134.png\')', borderRadius: '0px' } as React.CSSProperties}></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="-K4a6_fRSx" className="jsx-1944329802" style={{ position: 'absolute', top: '600.776px', left: '0.474px', width: '473.242px', height: '314.705px', zIndex: '75', cursor: 'default', transform: 'rotate(0deg) scale(1, 1)' } as React.CSSProperties}>
+                      <div data-transition-key="-K4a6_fRSx-fade-in-1.6-0-ease-out-false" data-node-id="-K4a6_fRSx"
+                        style={{ transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1944329802" style={{ position: 'relative', width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', border: '0px solid', padding: '0px', backgroundColor: 'transparent', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', opacity: '1', boxShadow: 'none', borderRadius: '0px' } as React.CSSProperties}>
+                          <div className="jsx-1944329802 photo-component" style={{ WebkitMaskBoxImageSource: 'none', WebkitMaskBoxImageSlice: '0 fill', maskImage: 'none', maskSize: '100% 100%', maskRepeat: 'no-repeat' } as React.CSSProperties}>
+                            <div className="jsx-1944329802 photo-bg-wrap" style={{ backgroundImage: 'url(\'/assets/e4dfcda2-ea57-46b0-8197-378bce1a0aa7.JPG\')', borderRadius: '0px' } as React.CSSProperties}></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="cr7lopk2bC" className="jsx-1828971989 text-box-component" style={{ position: 'absolute', top: '520.755px', left: '11.0044px', width: '455.032px', height: 'auto', zIndex: '72', cursor: 'default', transform: 'rotate(0deg)' } as React.CSSProperties}>
+                      <div data-transition-key="cr7lopk2bC-fade-in-1.6-0.9-ease-out-false" data-node-id="cr7lopk2bC"
+                        style={{ transition: '1.6s ease-out 0.9s', transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1828971989" style={{ position: 'relative', width: '100%', height: '100%', padding: '0px', borderRadius: '0px', boxShadow: 'none', backgroundColor: 'transparent', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', opacity: '1', border: '0px solid' } as React.CSSProperties}>
+                          <div contentEditable="false" style={{ height: 'auto', width: '100%', minWidth: '20px', color: 'rgb(75, 83, 32)', fontSize: '24.648px', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', fontWeight: 'bold', fontFamily: 'Signora', textAlign: 'center', lineHeight: 'normal', letterSpacing: '0px', textTransform: 'none', textDecoration: 'none', fontStyle: 'italic', pointerEvents: 'none', overflow: 'hidden', wordBreak: 'break-word' } as React.CSSProperties}>
+                            Chạm để mở thiệp
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="_mOWXpefbu" className="jsx-1828971989 text-box-component" style={{ position: 'absolute', top: '1340.61px', left: '41.1432px', width: '384.035px', height: 'auto', zIndex: '3', cursor: 'default', transform: 'rotate(0deg)' } as React.CSSProperties}>
+                      <div data-transition-key="_mOWXpefbu-scale-in-1.6-0-ease-out-false" data-node-id="_mOWXpefbu"
+                        style={{ transition: '1.6s ease-out', transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1828971989" style={{ position: 'relative', width: '100%', height: '100%', padding: '0px', borderRadius: '0px', boxShadow: 'none', backgroundColor: 'transparent', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', opacity: '1', border: '0px solid' } as React.CSSProperties}>
+                          <div contentEditable="false" style={{ height: 'auto', width: '100%', minWidth: '20px', color: 'rgb(58, 74, 58)', fontSize: '28.44px', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', fontWeight: 'bold', fontFamily: '\'Times New Roman\'', textAlign: 'center', lineHeight: 'normal', letterSpacing: '0px', textTransform: 'uppercase', textDecoration: 'none', fontStyle: 'italic', pointerEvents: 'none', overflow: 'hidden', wordBreak: 'break-word' } as React.CSSProperties}>
+                            trân trọng kính mời
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="IH9qSURVqf" className="jsx-1944329802" style={{ position: 'absolute', top: '2403.17px', left: '-0.442716px', width: '476.939px', height: '402.529px', zIndex: '76', cursor: 'default', transform: 'rotate(0deg) scale(1, 1)' } as React.CSSProperties}>
+                      <div data-transition-key="IH9qSURVqf-fade-in-1.6-0-ease-out-false" data-node-id="IH9qSURVqf"
+                        style={{ transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1944329802" style={{ position: 'relative', width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', border: '0px solid', padding: '0px', backgroundColor: 'transparent', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', opacity: '1', boxShadow: 'none', borderRadius: '0px' } as React.CSSProperties}>
+                          <div className="jsx-1944329802 photo-component" style={{ WebkitMaskBoxImageSource: 'none', WebkitMaskBoxImageSlice: '0 fill', maskImage: 'none', maskSize: '100% 100%', maskRepeat: 'no-repeat' } as React.CSSProperties}>
+                            <div className="jsx-1944329802 photo-bg-wrap" style={{ backgroundImage: 'url(\'/assets/e1ece1e6-b3ec-40f4-8a83-0f7835a7a573__crop_11_365_1197_1459.JPG\')', borderRadius: '0px' } as React.CSSProperties}></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="xrEuF0dv11" className="jsx-1828971989 text-box-component" style={{ position: 'absolute', top: '69.3267px', left: '5.0244px', width: '455.04px', height: 'auto', zIndex: '77', cursor: 'default', transform: 'rotate(0deg)' } as React.CSSProperties}>
+                      <div data-transition-key="xrEuF0dv11-fade-in-1.6-0-ease-out-false" data-node-id="xrEuF0dv11"
+                        style={{ transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1828971989" style={{ position: 'relative', width: '100%', height: '100%', padding: '0px', borderRadius: '0px', boxShadow: 'none', backgroundColor: 'transparent', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', opacity: '1', border: '0px solid' } as React.CSSProperties}>
+                          <div contentEditable="false" style={{ height: 'auto', width: '100%', minWidth: '20px', color: 'rgb(58, 74, 58)', fontSize: '39.816px', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', fontWeight: 'bold', fontFamily: 'Aquarelle', textAlign: 'center', lineHeight: 'normal', letterSpacing: '0px', textTransform: 'none', textDecoration: 'none', fontStyle: 'normal', pointerEvents: 'none', overflow: 'hidden', wordBreak: 'break-word' } as React.CSSProperties}>
+                            22-04-2026
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="eO7C7Ej4zu" className="jsx-790743728 text-box-component" style={{ position: 'absolute', top: '1377.28px', left: '34.8659px', width: '428.875px', height: 'auto', zIndex: '78', cursor: 'default', transform: 'rotate(0deg)' } as React.CSSProperties}>
+                      <div data-transition-key="eO7C7Ej4zu-fade-in-1.6-0-ease-out-false" data-node-id="eO7C7Ej4zu"
+                        style={{ transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-790743728" style={{ position: 'relative', width: '100%', height: '100%', padding: '0px', borderRadius: '0px', boxShadow: 'none', backgroundColor: 'transparent', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', opacity: '1', border: '0px solid' } as React.CSSProperties}>
+                          <div className="jsx-790743728" style={{ height: 'auto', width: '100%', minWidth: '20px', color: 'rgb(57, 117, 34)', fontSize: '39.2888px', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', fontWeight: '500', fontFamily: 'Lobster', textAlign: 'center', lineHeight: 'normal', letterSpacing: '0px', textTransform: 'none', textDecoration: 'none', fontStyle: 'normal', pointerEvents: 'none', overflow: 'hidden', wordBreak: 'break-word', whiteSpace: 'pre-line' } as React.CSSProperties}></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="6pir2W9qI2" className="jsx-3557960200" style={{ position: 'absolute', top: '5530.6px', left: '271.977px', width: '139.04px', height: '166.304px', zIndex: '81', cursor: 'default', transform: 'rotate(0deg) scale(1, 1)' } as React.CSSProperties}>
+                      <div data-transition-key="6pir2W9qI2-fade-in-1.6-0-ease-out-false" data-node-id="6pir2W9qI2"
+                        style={{ transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-3557960200" style={{ position: 'relative', width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', backgroundColor: 'transparent', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', opacity: '1' } as React.CSSProperties}>
+                          <div className="jsx-3557960200 material-component">
+                            <div className="jsx-3557960200 photo-bg-wrap" style={{ backgroundImage: 'url(\'/assets/jvpy4g8v3so8x5tfusetsv.png\')', border: '0px solid', borderRadius: '0px', padding: '0px', boxShadow: 'none' } as React.CSSProperties}></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="SHHJa64_7M" className="jsx-1828971989 text-box-component" style={{ position: 'absolute', top: '1960.2px', left: '13.5564px', width: '455.04px', height: 'auto', zIndex: '82', cursor: 'default', transform: 'rotate(0deg)' } as React.CSSProperties}>
+                      <div data-transition-key="SHHJa64_7M-fade-in-1.6-0-ease-out-false" data-node-id="SHHJa64_7M"
+                        style={{ transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1828971989" style={{ position: 'relative', width: '100%', height: '100%', padding: '0px', borderRadius: '0px', boxShadow: 'none', backgroundColor: 'transparent', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', opacity: '1', border: '0px solid' } as React.CSSProperties}>
+                          <div contentEditable="false" style={{ height: 'auto', width: '100%', minWidth: '20px', color: 'rgb(58, 74, 58)', fontSize: '18.96px', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', fontWeight: 'bold', fontFamily: 'PlayfairDisplay', textAlign: 'center', lineHeight: 'normal', letterSpacing: '0px', textTransform: 'none', textDecoration: 'none', fontStyle: 'normal', pointerEvents: 'none', overflow: 'hidden', wordBreak: 'break-word' } as React.CSSProperties}>
+                            LỄ THÀNH HÔN ĐƯỢC TỔ CHỨC VÀO
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="YxI6E2zihS" className="jsx-1828971989 text-box-component" style={{ position: 'absolute', top: '1998.21px', left: '96.3168px', width: '275.868px', height: 'auto', zIndex: '3', cursor: 'default', transform: 'rotate(0deg)' } as React.CSSProperties}>
+                      <div data-transition-key="YxI6E2zihS-scale-in-1.6-0-ease-out-false" data-node-id="YxI6E2zihS"
+                        style={{ transition: '1.6s ease-out', transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1828971989" style={{ position: 'relative', width: '100%', height: '100%', padding: '0px', borderRadius: '0px', boxShadow: 'none', backgroundColor: 'transparent', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', opacity: '1', border: '0px solid' } as React.CSSProperties}>
+                          <div contentEditable="false" style={{ height: 'auto', width: '100%', minWidth: '20px', color: 'rgb(58, 74, 58)', fontSize: '22.752px', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', fontWeight: 'bold', fontFamily: 'Signora', textAlign: 'center', lineHeight: 'normal', letterSpacing: '0px', textTransform: 'none', textDecoration: 'none', fontStyle: 'normal', pointerEvents: 'none', overflow: 'hidden', wordBreak: 'break-word' } as React.CSSProperties}>
+                            11 : 00 , THỨ BA
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="RSMpDWfuiz" className="jsx-17337941 text-box-component" style={{ position: 'absolute', top: '2053.31px', left: '19.2918px', width: '167.891px', height: 'auto', zIndex: '4', cursor: 'default', transform: 'rotate(0deg)' } as React.CSSProperties}>
+                      <div data-transition-key="RSMpDWfuiz-slide-right-1.6-0-ease-out-false" data-node-id="RSMpDWfuiz"
+                        style={{ transition: '1.6s ease-out', transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-17337941" style={{ position: 'relative', width: '100%', height: '100%', padding: '0px', borderRadius: '0px', boxShadow: 'none', backgroundColor: 'transparent', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', opacity: '1', borderTop: '2px solid', borderBottom: '2px solid' } as React.CSSProperties}>
+                          <div contentEditable="false" style={{ height: 'auto', width: '100%', minWidth: '20px', color: 'rgb(58, 74, 58)', fontSize: '34.128px', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', fontWeight: 'normal', fontFamily: 'Signora', textAlign: 'center', lineHeight: '1.46', letterSpacing: '0px', textTransform: 'none', textDecoration: 'none', fontStyle: 'normal', pointerEvents: 'none', overflow: 'hidden', wordBreak: 'break-word' } as React.CSSProperties}>
+                            THÁNG 04
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="7E0BRtUUvh" className="jsx-1828971989 text-box-component" style={{ position: 'absolute', top: '2048.52px', left: '167.938px', width: '122.576px', height: 'auto', zIndex: '4', cursor: 'default', transform: 'rotate(0deg)' } as React.CSSProperties}>
+                      <div data-transition-key="7E0BRtUUvh-zoom-in-1.6-0-cubic-bezier(0.68, -0.55, 0.265, 1.55)-false"
+                        data-node-id="7E0BRtUUvh" style={{ transition: '1.6s cubic-bezier(0.68, -0.55, 0.265, 1.55)', transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1828971989" style={{ position: 'relative', width: '100%', height: '100%', padding: '0px', borderRadius: '0px', boxShadow: 'none', backgroundColor: 'transparent', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', opacity: '1', border: '0px solid' } as React.CSSProperties}>
+                          <div contentEditable="false" style={{ height: 'auto', width: '100%', minWidth: '20px', color: 'rgb(58, 74, 58)', fontSize: '45.504px', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', fontWeight: 'normal', fontFamily: 'Signora', textAlign: 'center', lineHeight: 'normal', letterSpacing: '0px', textTransform: 'none', textDecoration: 'none', fontStyle: 'normal', pointerEvents: 'none', overflow: 'hidden', wordBreak: 'break-word' } as React.CSSProperties}>
+                            22
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="eWBj3RTo_b" className="jsx-17337941 text-box-component" style={{ position: 'absolute', top: '2053.3px', left: '275.584px', width: '174.811px', height: 'auto', zIndex: '5', cursor: 'default', transform: 'rotate(0deg)' } as React.CSSProperties}>
+                      <div data-transition-key="eWBj3RTo_b-slide-left-1.6-0-ease-out-false" data-node-id="eWBj3RTo_b"
+                        style={{ transition: '1.6s ease-out', transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-17337941" style={{ position: 'relative', width: '100%', height: '100%', padding: '0px', borderRadius: '0px', boxShadow: 'none', backgroundColor: 'transparent', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', opacity: '1', borderTop: '2px solid', borderBottom: '2px solid' } as React.CSSProperties}>
+                          <div contentEditable="false" style={{ height: 'auto', width: '100%', minWidth: '20px', color: 'rgb(58, 74, 58)', fontSize: '34.128px', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', fontWeight: 'normal', fontFamily: 'Signora', textAlign: 'center', lineHeight: '1.46', letterSpacing: '0px', textTransform: 'none', textDecoration: 'none', fontStyle: 'normal', pointerEvents: 'none', overflow: 'hidden', wordBreak: 'break-word' } as React.CSSProperties}>
+                            NĂM 2026
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="PYIU9GtXHR" className="jsx-1828971989 text-box-component" style={{ position: 'absolute', top: '2118.34px', left: '49.77px', width: '392.756px', height: 'auto', zIndex: '4', cursor: 'default', transform: 'rotate(0deg)' } as React.CSSProperties}>
+                      <div data-transition-key="PYIU9GtXHR-fade-in-1.6-0-ease-out-false" data-node-id="PYIU9GtXHR"
+                        style={{ transition: '1.6s ease-out', transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1828971989" style={{ position: 'relative', width: '100%', height: '100%', padding: '0px', borderRadius: '0px', boxShadow: 'none', backgroundColor: 'transparent', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', opacity: '1', border: '0px solid' } as React.CSSProperties}>
+                          <div contentEditable="false" style={{ height: 'auto', width: '100%', minWidth: '20px', color: 'rgb(51, 51, 51)', fontSize: '18.96px', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', fontWeight: 'normal', fontFamily: 'Quicksand', textAlign: 'center', lineHeight: 'normal', letterSpacing: '0px', textTransform: 'none', textDecoration: 'none', fontStyle: 'normal', pointerEvents: 'none', overflow: 'hidden', wordBreak: 'break-word' } as React.CSSProperties}>
+                            (Nhằm ngày 06 tháng 03 năm Bính Ngọ)
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="LBfV9zTGRY" className="jsx-1828971989 text-box-component" style={{ position: 'absolute', top: '2153.01px', left: '6.7308px', width: '469.924px', height: 'auto', zIndex: '5', cursor: 'default', transform: 'rotate(0deg)' } as React.CSSProperties}>
+                      <div data-transition-key="LBfV9zTGRY-bounce-in-1.6-0-ease-out-false" data-node-id="LBfV9zTGRY"
+                        style={{ transition: '1.6s ease-out', transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1828971989" style={{ position: 'relative', width: '100%', height: '100%', padding: '0px', borderRadius: '0px', boxShadow: 'none', backgroundColor: 'transparent', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', opacity: '1', border: '0px solid' } as React.CSSProperties}>
+                          <div contentEditable="false" style={{ height: 'auto', width: '100%', minWidth: '20px', color: 'rgb(58, 74, 58)', fontSize: '17.064px', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', fontWeight: 'bold', fontFamily: '\'Scarlet Bradley.regular\'', textAlign: 'center', lineHeight: '1.42', letterSpacing: '0px', textTransform: 'uppercase', textDecoration: 'none', fontStyle: 'normal', pointerEvents: 'none', overflow: 'hidden', wordBreak: 'break-word' } as React.CSSProperties}>
+                            tại:&nbsp;<span style={{ letterSpacing: '0px', backgroundColor: 'transparent' } as React.CSSProperties}>NHÀ HÀNG HIỆP ÁNH</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="Pntr8Do75f" className="jsx-1828971989 text-box-component" style={{ position: 'absolute', top: '2194.23px', left: '31.521px', width: '403.184px', height: 'auto', zIndex: '5', cursor: 'default', transform: 'rotate(0deg)' } as React.CSSProperties}>
+                      <div data-transition-key="Pntr8Do75f-slide-left-1.6-0-ease-out-false" data-node-id="Pntr8Do75f"
+                        style={{ transition: '1.6s ease-out', transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1828971989" style={{ position: 'relative', width: '100%', height: '100%', padding: '0px', borderRadius: '0px', boxShadow: 'none', backgroundColor: 'transparent', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', opacity: '1', border: '0px solid' } as React.CSSProperties}>
+                          <div contentEditable="false" style={{ height: 'auto', width: '100%', minWidth: '20px', color: 'rgb(58, 74, 58)', fontSize: '18.012px', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', fontWeight: 'bold', fontFamily: 'Quicksand', textAlign: 'center', lineHeight: 'normal', letterSpacing: '0px', textTransform: 'none', textDecoration: 'none', fontStyle: 'normal', pointerEvents: 'none', overflow: 'hidden', wordBreak: 'break-word' } as React.CSSProperties}>
+                            Thôn Quảng Phước, Kiến Đức, Lâm Đồng
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-node-id="i3IljXSvRQ" className="jsx-1944329802" style={{ position: 'absolute', top: '1883.36px', left: '182.319px', width: '76.8032px', height: '67.2024px', zIndex: '72', cursor: 'default', transform: 'rotate(0deg) scale(1, 1)' } as React.CSSProperties}>
+                      <div data-transition-key="i3IljXSvRQ-fade-in-1.6-0-ease-out-false" data-node-id="i3IljXSvRQ"
+                        style={{ transform: 'none', opacity: '1', width: '100%', height: '100%' } as React.CSSProperties}>
+                        <div className="jsx-1944329802" style={{ position: 'relative', width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box', border: '0px solid', padding: '0px', backgroundColor: 'transparent', textShadow: 'rgba(0, 0, 0, 0) 0px 0px 2px', opacity: '1', boxShadow: 'none', borderRadius: '0px' } as React.CSSProperties}>
+                          <div className="jsx-1944329802 photo-component" style={{ WebkitMaskBoxImageSource: 'none', WebkitMaskBoxImageSlice: '0 fill', maskImage: 'none', maskSize: '100% 100%', maskRepeat: 'no-repeat' } as React.CSSProperties}>
+                            <div className="jsx-1944329802 photo-bg-wrap" style={{ backgroundImage: 'url(\'/assets/bd7bf8f4-643f-47c8-995f-3bd8ce3235d1__crop_200_337_167_134.png\')', borderRadius: '0px' } as React.CSSProperties}></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <span>
+                    <div className="workarea-resize-handle" style={{ position: 'absolute', userSelect: 'none', width: '100%', height: '10px', bottom: '-5px', left: '0px', cursor: 'row-resize' } as React.CSSProperties}></div>
+                  </span>
+                </div>
+                <div className="__resizable_base__" style={{ width: '100%', height: '100%', position: 'absolute', transform: 'scale(0, 0)', left: '0px', flex: '0 1 0%' } as React.CSSProperties}></div>
+              </div>
+            </div>
+            <div id="blessing-box" style={{ opacity: '0' } as React.CSSProperties} className="jsx-3895218497"></div>
+            <div id="cinelove-toolbar" className="jsx-1401461546">
+              <div className="jsx-1401461546 toolbar">
+                <div className="jsx-831523885 toolbar-left">
+                  <div className="jsx-831523885 message-box-button">
+                    <span style={{ display: 'inline-block', width: 'calc(100% - 24px)' } as React.CSSProperties} className="jsx-831523885">Gửi lời
+                      chúc...</span><img style={{ height: '24px', verticalAlign: 'middle' } as React.CSSProperties} src="/assets/message.24f9a1e2.png"
+                      className="jsx-831523885" />
+                  </div>
+                </div>
+                <div className="jsx-2074202128 toolbar-right">
+                  <div id="animation-gift-preview-btn" className="jsx-2074202128">
+                    <img src="/assets/biubiu.png" className="jsx-2074202128" /><span className="jsx-2074202128">Bắn tim</span>
+                  </div>
+                  <div id="cinelove-gift-button" className="jsx-2074202128"></div>
+                  <div id="cinelove-like-button" className="jsx-2074202128 like-button">
+                    <div id="cinelove-like-count" className="jsx-2074202128">1</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="jsx-2770182321 received-gifts-wrapper"></div>
+            <div id="cinelove-animation-box" className="jsx-848010737">
+              <canvas id="cinelove-canvas" className="jsx-848010737"></canvas><canvas id="cinelove-canvas-preview"
+                className="jsx-848010737"></canvas>
+            </div>
+            <div role="button" tabIndex={0} aria-label="Đóng thanh công cụ"
+              className="jsx-773491098 toolbar-toggle-button toolbar-toggle-has-thumbnail">
+              <div className="jsx-773491098 toolbar-toggle-pill">
+                <img alt="G10_Huy &amp; Mai Wedding Invitation" title="G10_Huy &amp; Mai Wedding Invitation"
+                  loading="lazy" width="36" height="36" decoding="async"
+                  src="/assets/bb15926f-2778-41db-a920-dab70f75b24e.JPG" className="jsx-773491098 thumbnail" /><svg
+                  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
+                  aria-hidden="true" className="jsx-773491098 icon-svg">
+                  <path d="M18 6 6 18" className="jsx-773491098"></path>
+                  <path d="m6 6 12 12" className="jsx-773491098"></path>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div className="fixed top-2 left-2 z-50"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    </>
+  );
+};
+
+export default InvitationContent;

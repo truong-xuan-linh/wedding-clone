@@ -1,16 +1,11 @@
-import type { GetStaticProps, NextPage } from 'next';
+import type { NextPage } from 'next';
 import Head from 'next/head';
 import { useEffect } from 'react';
-import fs from 'fs';
-import path from 'path';
+import InvitationContent from '../components/InvitationContent';
 
 const WEDDING_DATE = new Date('2026-04-22T11:00:00+07:00');
 
-interface HomeProps {
-  pageContent: string;
-}
-
-const Home: NextPage<HomeProps> = ({ pageContent }) => {
+const Home: NextPage = () => {
   useEffect(() => {
     // --- Audio Control ---
     const audioEl = document.querySelector('audio') as HTMLAudioElement | null;
@@ -187,23 +182,10 @@ const Home: NextPage<HomeProps> = ({ pageContent }) => {
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
         <meta name="description" content="G10_Huy &amp; Mai Wedding Invitation - Thiệp cưới online trên CineLove" />
       </Head>
-      <div
-        dangerouslySetInnerHTML={{ __html: pageContent }}
-        suppressHydrationWarning
-      />
+      <InvitationContent />
     </>
   );
 };
 
-export const getStaticProps: GetStaticProps = async () => {
-  const filePath = path.join(process.cwd(), 'content', 'pageContent.html');
-  const pageContent = fs.readFileSync(filePath, 'utf-8');
-
-  return {
-    props: {
-      pageContent,
-    },
-  };
-};
-
 export default Home;
+
