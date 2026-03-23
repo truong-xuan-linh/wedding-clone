@@ -86,14 +86,7 @@ const Home: NextPage = () => {
     const scrollContainer = document.querySelector('.styles_customScroll__X5r6w') as HTMLElement | null;
     const envelope = document.querySelector('.envelope-container') as HTMLElement | null;
 
-    // Build the "Chạm để mở thiệp" hint overlay (mimics the original JS modal)
     const overlay = document.createElement('div');
-    overlay.id = 'envelope-hint-overlay';
-    overlay.style.cssText = [
-      'position:absolute', 'inset:0', 'z-index:9999',
-      'display:flex', 'align-items:center', 'justify-content:center',
-      'background:rgba(0,0,0,0.4)', 'cursor:pointer', 'flex-direction:column', 'gap:16px',
-    ].join(';');
 
     const hintText = document.createElement('div');
     hintText.style.cssText = [
