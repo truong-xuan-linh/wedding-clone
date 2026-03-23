@@ -16,7 +16,7 @@ export default function Document() {
         <meta property="og:description" content="G10_Huy &amp; Mai Wedding Invitation - Thiệp cưới online trên CineLove" />
         <meta property="og:url" content="https://cinelove.me/s/U615a00ZccaiU1J11Jc60O0U6hi51J0Ga" />
         <meta property="og:site_name" content="CineLove" />
-        <meta property="og:image" content="https://img.cinelove.me/uploads/81f921b5-2580-4dd8-a528-cf59a24c18e6/bb15926f-2778-41db-a920-dab70f75b24e.JPG?crop=2,0,1821,1214&resize=1000x&format=webp" />
+        <meta property="og:image" content="/assets/bb15926f__og_crop.webp" />
         <meta property="og:image:alt" content="G10_Huy &amp; Mai Wedding Invitation" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />

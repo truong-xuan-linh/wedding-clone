@@ -56,8 +56,9 @@ const Home: NextPage = () => {
 
     if (playBtn) {
       playBtn.addEventListener('click', () => {
-        const scrollContainer = document.querySelector('.styles_customScroll__X5r6w');
-        if (!scrollContainer) return;
+        const sc = document.querySelector('.styles_customScroll__X5r6w');
+        if (!sc) return;
+        const scrollContainer = sc;
 
         if (isScrolling) {
           if (scrollInterval) clearInterval(scrollInterval);
@@ -81,13 +82,54 @@ const Home: NextPage = () => {
       });
     }
 
-    // --- Envelope Animation ---
-    const envelope = document.querySelector('.envelope-container');
+    // --- Envelope Animation + Scroll-prevention overlay ---
+    const scrollContainer = document.querySelector('.styles_customScroll__X5r6w') as HTMLElement | null;
+    const envelope = document.querySelector('.envelope-container') as HTMLElement | null;
+
+    // Build the "Chạm để mở thiệp" hint overlay (mimics the original JS modal)
+    const overlay = document.createElement('div');
+    overlay.id = 'envelope-hint-overlay';
+    overlay.style.cssText = [
+      'position:absolute', 'inset:0', 'z-index:9999',
+      'display:flex', 'align-items:center', 'justify-content:center',
+      'background:rgba(0,0,0,0.4)', 'cursor:pointer', 'flex-direction:column', 'gap:16px',
+    ].join(';');
+
+    const hintText = document.createElement('div');
+    hintText.style.cssText = [
+      'color:rgb(75,83,32)', 'font-size:24.232px', 'font-weight:bold',
+      'font-family:Signora', 'text-align:center', 'font-style:italic',
+      'background:rgba(255,255,255,0.9)', 'padding:16px 32px', 'border-radius:8px',
+      'pointer-events:none',
+    ].join(';');
+    hintText.textContent = 'Chạm để mở thiệp';
+    overlay.appendChild(hintText);
+
+    const openEnvelope = () => {
+      if (envelope) {
+        envelope.classList.remove('close');
+        envelope.classList.add('open');
+      }
+      overlay.remove();
+      // Allow scroll
+      if (scrollContainer) scrollContainer.style.overflowY = 'auto';
+      window.dispatchEvent(new CustomEvent('envelope-opened'));
+    };
+
+    overlay.addEventListener('click', openEnvelope);
+
+    // Mount overlay inside the scroll container so it covers the card
+    const pcContent = document.querySelector('.pc-content') as HTMLElement | null;
+    if (pcContent) {
+      pcContent.style.position = 'relative';
+      pcContent.appendChild(overlay);
+      // Lock scroll until envelope is opened
+      if (scrollContainer) scrollContainer.style.overflowY = 'hidden';
+    }
+
+    // Also allow clicking the envelope directly to open it
     if (envelope) {
-      envelope.addEventListener('click', () => {
-        envelope.classList.toggle('close');
-        envelope.classList.toggle('open');
-      });
+      envelope.addEventListener('click', openEnvelope);
     }
 
     // --- Countdown Timer ---
