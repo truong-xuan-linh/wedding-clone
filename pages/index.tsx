@@ -124,7 +124,73 @@ const Home: NextPage = () => {
       envelope.addEventListener('click', openEnvelope);
     }
 
+    // --- Scroll-triggered Animations ---
+    const parseTransitionKey = (key: string) => {
+      const withoutFlag = key.replace(/-(true|false)$/, '');
+      const match = withoutFlag.match(
+        /(fade-in|rotate-in|scale-in|slide-right|slide-left|slide-up|slide-down|zoom-in|bounce-in|flip-in)-(\d+\.?\d*)-(\d+\.?\d*)-(.+)$/
+      );
+      if (!match) return null;
+      return {
+        animationType: match[1],
+        duration: parseFloat(match[2]),
+        delay: parseFloat(match[3]),
+        easing: match[4],
+      };
+    };
+
+    const getInitialStyle = (animType: string): { opacity: string; transform: string } => {
+      switch (animType) {
+        case 'fade-in':     return { opacity: '0', transform: 'none' };
+        case 'rotate-in':   return { opacity: '0', transform: 'rotate(-180deg)' };
+        case 'scale-in':    return { opacity: '0', transform: 'scale(0.5)' };
+        case 'slide-right': return { opacity: '0', transform: 'translateX(-60px)' };
+        case 'slide-left':  return { opacity: '0', transform: 'translateX(60px)' };
+        case 'slide-up':    return { opacity: '0', transform: 'translateY(60px)' };
+        case 'slide-down':  return { opacity: '0', transform: 'translateY(-60px)' };
+        case 'zoom-in':     return { opacity: '0', transform: 'scale(0.2)' };
+        case 'bounce-in':   return { opacity: '0', transform: 'scale(0.5)' };
+        case 'flip-in':     return { opacity: '0', transform: 'perspective(400px) rotateY(90deg)' };
+        default:            return { opacity: '0', transform: 'none' };
+      }
+    };
+
+    const animRoot = document.querySelector('.styles_customScroll__X5r6w');
+    const animElements = document.querySelectorAll<HTMLElement>('[data-transition-key]');
+
+    animElements.forEach((el) => {
+      const key = el.getAttribute('data-transition-key');
+      if (!key) return;
+      const parsed = parseTransitionKey(key);
+      if (!parsed) return;
+      const initial = getInitialStyle(parsed.animationType);
+      el.style.opacity = initial.opacity;
+      el.style.transform = initial.transform;
+      el.style.willChange = 'opacity, transform';
+    });
+
+    const animObserver = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (!entry.isIntersecting) return;
+          const el = entry.target as HTMLElement;
+          const key = el.getAttribute('data-transition-key');
+          if (!key) return;
+          const parsed = parseTransitionKey(key);
+          if (!parsed) return;
+          el.style.transition = `opacity ${parsed.duration}s ${parsed.easing} ${parsed.delay}s, transform ${parsed.duration}s ${parsed.easing} ${parsed.delay}s`;
+          el.style.opacity = '1';
+          el.style.transform = 'none';
+          animObserver.unobserve(el);
+        });
+      },
+      { root: animRoot, threshold: 0.1 }
+    );
+
+    animElements.forEach((el) => animObserver.observe(el));
+
     // --- Countdown Timer ---
+    let timer: ReturnType<typeof setInterval> | null = null;
     const countdownEl = document.querySelector('.jsx-3272123691.countdown.componentBOX');
     if (countdownEl) {
       const children = countdownEl.querySelectorAll(':scope > div');
@@ -163,14 +229,12 @@ const Home: NextPage = () => {
       };
 
       tick();
-      const timer = setInterval(tick, 1000);
-      return () => {
-        clearInterval(timer);
-        if (scrollInterval) clearInterval(scrollInterval);
-      };
+      timer = setInterval(tick, 1000);
     }
 
     return () => {
+      animObserver.disconnect();
+      if (timer) clearInterval(timer);
       if (scrollInterval) clearInterval(scrollInterval);
     };
   }, []);
