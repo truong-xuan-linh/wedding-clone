@@ -818,7 +818,7 @@ const InvitationContent: React.FC = () => {
                                       textDecoration: "none",
                                       fontStyle: "normal",
                                       pointerEvents: "none",
-                                      overflow: "hidden",
+                                      overflow: "visible",
                                       wordBreak: "break-word",
                                     } as React.CSSProperties
                                   }
@@ -1132,7 +1132,7 @@ const InvitationContent: React.FC = () => {
                                       textDecoration: "none",
                                       fontStyle: "normal",
                                       pointerEvents: "none",
-                                      overflow: "hidden",
+                                      overflow: "visible",
                                       wordBreak: "break-word",
                                     } as React.CSSProperties
                                   }
@@ -1288,12 +1288,12 @@ const InvitationContent: React.FC = () => {
                                       textDecoration: "none",
                                       fontStyle: "normal",
                                       pointerEvents: "none",
-                                      overflow: "hidden",
+                                      overflow: "visible",
                                       wordBreak: "break-word",
                                     } as React.CSSProperties
                                   }
                                 >
-                                  DIễm MY
+                                  DIỄM MY
                                 </div>
                               </div>
                             </div>
@@ -7211,7 +7211,7 @@ const InvitationContent: React.FC = () => {
                                       textDecoration: "none",
                                       fontStyle: "normal",
                                       pointerEvents: "none",
-                                      overflow: "hidden",
+                                      overflow: "visible",
                                       wordBreak: "break-word",
                                     } as React.CSSProperties
                                   }
@@ -7289,7 +7289,7 @@ const InvitationContent: React.FC = () => {
                                       textDecoration: "none",
                                       fontStyle: "normal",
                                       pointerEvents: "none",
-                                      overflow: "hidden",
+                                      overflow: "visible",
                                       wordBreak: "break-word",
                                     } as React.CSSProperties
                                   }
@@ -7681,7 +7681,7 @@ const InvitationContent: React.FC = () => {
                                       textDecoration: "none",
                                       fontStyle: "normal",
                                       pointerEvents: "none",
-                                      overflow: "hidden",
+                                      overflow: "visible",
                                       wordBreak: "break-word",
                                     } as React.CSSProperties
                                   }
