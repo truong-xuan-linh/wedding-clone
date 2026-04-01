@@ -41,11 +41,7 @@ const InvitationContent: React.FC = () => {
                       </div>
                     </div>
                   </div>
-                  <audio
-                    src="https://assets.cinelove.me/audio/81f921b5-2580-4dd8-a528-cf59a24c18e6/dd057ac8-b42b-42b5-ab96-8ed37de61973.mp3"
-                    loop
-                    preload="auto"
-                  ></audio>
+                  <audio src="/assets/audio/audio.mp3" loop preload="auto"></audio>
                   <div
                     className="relative overflow-x-hidden styles_customScroll__X5r6w h-full"
                     style={{ backgroundColor: "#fff", overflowY: "auto", touchAction: "auto" } as React.CSSProperties}
@@ -266,7 +262,12 @@ const InvitationContent: React.FC = () => {
                                 <div className="jsx-1974917414 front pocket"></div>
                                 <div
                                   className="jsx-1974917414 wax-seal"
-                                  style={{ backgroundImage: "url('/assets/wax-seal.webp')" } as React.CSSProperties}
+                                  style={
+                                    {
+                                      backgroundImage: "url('/assets/images/logo.webp')",
+                                      transform: "translateX(-50%) scale(3.8) translateY(4%)", // Adjust the '1.3' value to increase/decrease size
+                                    } as React.CSSProperties
+                                  }
                                 ></div>
                                 <div className="jsx-1974917414 letter">
                                   <img
@@ -7906,7 +7907,7 @@ const InvitationContent: React.FC = () => {
                           />
                         </div>
                       </div>
-                      <div className="jsx-2074202128 toolbar-right">
+                      {/* <div className="jsx-2074202128 toolbar-right">
                         <div id="animation-gift-preview-btn" className="jsx-2074202128">
                           <img src="/assets/biubiu.png" className="jsx-2074202128" />
                           <span className="jsx-2074202128">Bắn tim</span>
@@ -7917,7 +7918,7 @@ const InvitationContent: React.FC = () => {
                             1
                           </div>
                         </div>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                   <div className="jsx-2770182321 received-gifts-wrapper"></div>
@@ -7925,7 +7926,7 @@ const InvitationContent: React.FC = () => {
                     <canvas id="cinelove-canvas" className="jsx-848010737"></canvas>
                     <canvas id="cinelove-canvas-preview" className="jsx-848010737"></canvas>
                   </div>
-                  <div
+                  {/* <div
                     role="button"
                     tabIndex={0}
                     aria-label="Đóng thanh công cụ"
@@ -7959,7 +7960,7 @@ const InvitationContent: React.FC = () => {
                         <path d="m6 6 12 12" className="jsx-773491098"></path>
                       </svg>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
                 <div className="fixed top-2 left-2 z-50"></div>
               </div>

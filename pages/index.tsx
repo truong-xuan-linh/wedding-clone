@@ -7,6 +7,9 @@ const WEDDING_DATE = new Date('2026-04-22T11:00:00+07:00');
 
 const Home: NextPage = () => {
   useEffect(() => {
+    const controller = new AbortController();
+    const { signal } = controller;
+
     // --- Audio Control ---
     const audioEl = document.querySelector('audio') as HTMLAudioElement | null;
     const audioWrapper = document.getElementById('audio-control-wrapper');
@@ -34,7 +37,7 @@ const Home: NextPage = () => {
           audioEl.pause();
           updateToggleState(false);
         }
-      });
+      }, { signal });
 
       // Auto-play on first user interaction with the page
       const handleFirstInteraction = () => {
@@ -44,8 +47,8 @@ const Home: NextPage = () => {
         document.removeEventListener('click', handleFirstInteraction);
         document.removeEventListener('touchstart', handleFirstInteraction);
       };
-      document.addEventListener('click', handleFirstInteraction);
-      document.addEventListener('touchstart', handleFirstInteraction);
+      document.addEventListener('click', handleFirstInteraction, { signal });
+      document.addEventListener('touchstart', handleFirstInteraction, { signal });
     }
 
     // --- Auto-scroll Play Button ---
@@ -78,7 +81,7 @@ const Home: NextPage = () => {
             }
           }, 16);
         }
-      });
+      }, { signal });
     }
 
     // --- Envelope Animation + Scroll-prevention overlay ---
@@ -108,7 +111,7 @@ const Home: NextPage = () => {
       window.dispatchEvent(new CustomEvent('envelope-opened'));
     };
 
-    overlay.addEventListener('click', openEnvelope);
+    overlay.addEventListener('click', openEnvelope, { signal });
 
     // Mount overlay inside the scroll container so it covers the card
     const pcContent = document.querySelector('.pc-content') as HTMLElement | null;
@@ -121,7 +124,170 @@ const Home: NextPage = () => {
 
     // Also allow clicking the envelope directly to open it
     if (envelope) {
-      envelope.addEventListener('click', openEnvelope);
+      envelope.addEventListener('click', openEnvelope, { signal });
+    }
+
+    // --- Gửi lời chúc (Send Wishes) ---
+    const wishBtn = document.querySelector('.message-box-button') as HTMLElement | null;
+    const blessingBox = document.getElementById('blessing-box') as HTMLElement | null;
+
+    if (wishBtn && blessingBox) {
+      wishBtn.style.cursor = 'pointer';
+
+      // Set up blessing-box as a vertical chat stack (newest at bottom)
+      blessingBox.style.flexDirection = 'column';
+      blessingBox.style.justifyContent = 'flex-end';
+      blessingBox.style.gap = '4px';
+      blessingBox.style.padding = '0 0 4px 0';
+      blessingBox.style.boxSizing = 'border-box';
+      blessingBox.style.position = 'absolute';
+
+      const showBlessingMessage = (name: string, message: string) => {
+        blessingBox.style.opacity = '1';
+
+        const msgEl = document.createElement('div');
+        msgEl.className = 'blessing-message jsx-3895218497';
+        msgEl.textContent = name ? `${name}: ${message}` : message;
+        // Override absolute positioning from CSS — use flow layout inside flex box
+        msgEl.style.position = 'relative';
+        msgEl.style.bottom = 'auto';
+        msgEl.style.left = 'auto';
+        msgEl.style.right = 'auto';
+        msgEl.style.opacity = '0';
+        msgEl.style.transform = 'translateY(20px)';
+        msgEl.style.transition = 'opacity 0.35s ease, transform 0.35s ease';
+
+        blessingBox.appendChild(msgEl);
+
+        // Slide in
+        requestAnimationFrame(() => {
+          requestAnimationFrame(() => {
+            msgEl.style.opacity = '1';
+            msgEl.style.transform = 'translateY(0)';
+          });
+        });
+
+        // Fade out after 6s, then remove
+        setTimeout(() => {
+          msgEl.style.transition = 'opacity 0.5s ease';
+          msgEl.style.opacity = '0';
+          setTimeout(() => {
+            msgEl.remove();
+            if (blessingBox.children.length === 0) {
+              blessingBox.style.opacity = '0';
+            }
+          }, 500);
+        }, 6000);
+      };
+
+      let sheetOpen = false;
+
+      const openWishModal = () => {
+        if (sheetOpen) return;
+        sheetOpen = true;
+
+        const appEl = document.getElementById('app-view-index');
+        const appRect = appEl ? appEl.getBoundingClientRect() : { left: 0, width: window.innerWidth };
+
+        const overlay = document.createElement('div');
+        overlay.style.cssText = `position:fixed;top:0;left:${appRect.left}px;width:${appRect.width}px;height:100%;background:rgba(0,0,0,0.4);z-index:999999;`;
+
+        const sheet = document.createElement('div');
+        sheet.style.cssText = [
+          `position:fixed;left:${appRect.left}px;width:${appRect.width}px;bottom:0;z-index:1000000;`,
+          'background:white;border-radius:20px 20px 0 0;padding:24px 20px 32px;',
+          'box-sizing:border-box;',
+          'transform:translateY(100%);transition:transform 0.35s cubic-bezier(0.32,0.72,0,1);',
+        ].join('');
+
+        const handle = document.createElement('div');
+        handle.style.cssText = 'width:40px;height:4px;border-radius:2px;background:#ddd;margin:0 auto 20px;';
+
+        const title = document.createElement('h3');
+        title.textContent = 'Gửi lời chúc';
+        title.style.cssText = 'margin:0 0 20px;font-family:Signora;color:rgb(58,74,58);font-size:22px;text-align:center;font-weight:normal;';
+
+        const nameLabel = document.createElement('label');
+        nameLabel.textContent = 'Tên của bạn';
+        nameLabel.style.cssText = 'display:block;font-size:13px;color:#888;margin-bottom:6px;';
+
+        const nameInput = document.createElement('input');
+        nameInput.type = 'text';
+        nameInput.placeholder = 'Nhập tên...';
+        nameInput.style.cssText = 'width:100%;box-sizing:border-box;border:1.5px solid #eee;border-radius:10px;padding:10px 14px;font-size:14px;margin-bottom:14px;outline:none;font-family:inherit;background:#fafafa;';
+
+        const msgLabel = document.createElement('label');
+        msgLabel.textContent = 'Lời chúc';
+        msgLabel.style.cssText = 'display:block;font-size:13px;color:#888;margin-bottom:6px;';
+
+        const msgInput = document.createElement('textarea');
+        msgInput.placeholder = 'Nhập lời chúc...';
+        msgInput.style.cssText = 'width:100%;box-sizing:border-box;border:1.5px solid #eee;border-radius:10px;padding:10px 14px;font-size:14px;height:88px;resize:none;outline:none;margin-bottom:18px;font-family:inherit;display:block;background:#fafafa;';
+
+        const submitBtn = document.createElement('button');
+        submitBtn.textContent = 'Gửi lời chúc';
+        submitBtn.style.cssText = 'width:100%;padding:14px;border:none;background:rgb(58,74,58);color:white;border-radius:12px;cursor:pointer;font-size:15px;font-family:inherit;letter-spacing:0.5px;';
+
+        const closeSheet = () => {
+          sheetOpen = false;
+          sheet.style.transform = 'translateY(100%)';
+          overlay.style.opacity = '0';
+          overlay.style.transition = 'opacity 0.3s ease';
+          setTimeout(() => { sheet.remove(); overlay.remove(); }, 350);
+        };
+
+        overlay.addEventListener('click', closeSheet);
+
+        submitBtn.addEventListener('click', async () => {
+          const name = nameInput.value.trim();
+          const message = msgInput.value.trim();
+          if (!message) {
+            msgInput.style.borderColor = '#e57373';
+            return;
+          }
+          closeSheet();
+          showBlessingMessage(name, message);
+          try {
+            await fetch('/api/blessings', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({ name, message }),
+            });
+          } catch (_) {}
+        });
+
+        sheet.appendChild(handle);
+        sheet.appendChild(title);
+        sheet.appendChild(nameLabel);
+        sheet.appendChild(nameInput);
+        sheet.appendChild(msgLabel);
+        sheet.appendChild(msgInput);
+        sheet.appendChild(submitBtn);
+        document.body.appendChild(overlay);
+        document.body.appendChild(sheet);
+
+        // Slide up
+        requestAnimationFrame(() => {
+          requestAnimationFrame(() => {
+            sheet.style.transform = 'translateY(0)';
+          });
+        });
+
+        setTimeout(() => nameInput.focus(), 400);
+      };
+
+      wishBtn.addEventListener('click', openWishModal, { signal });
+
+      // Show recent blessings on load
+      fetch('/api/blessings', { signal })
+        .then((r) => r.json())
+        .then((blessings: Array<{ name: string; message: string }>) => {
+          const recent = blessings.slice(-5);
+          recent.forEach((b, i) => {
+            setTimeout(() => showBlessingMessage(b.name, b.message), i * 2000);
+          });
+        })
+        .catch(() => {});
     }
 
     // --- Scroll-triggered Animations ---
@@ -233,6 +399,7 @@ const Home: NextPage = () => {
     }
 
     return () => {
+      controller.abort();
       animObserver.disconnect();
       if (timer) clearInterval(timer);
       if (scrollInterval) clearInterval(scrollInterval);
