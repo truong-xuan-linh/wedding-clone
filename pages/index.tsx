@@ -146,27 +146,35 @@ const Home: NextPage = () => {
       envelope.addEventListener("click", openEnvelope, { signal });
     }
 
-    // --- RSVP Radio Visual State ---
-    const rsvpRadios = document.querySelectorAll<HTMLInputElement>('[name="rsvp-attendance"]');
-    rsvpRadios.forEach((radio) => {
-      radio.addEventListener(
-        "change",
-        () => {
-          rsvpRadios.forEach((r) => {
-            const radioSpan = r.closest("span.ant-radio");
-            const wrapperLabel = r.closest("label.ant-radio-wrapper");
-            if (r.checked) {
-              radioSpan?.classList.add("ant-radio-checked");
-              wrapperLabel?.classList.add("ant-radio-wrapper-checked");
-            } else {
-              radioSpan?.classList.remove("ant-radio-checked");
-              wrapperLabel?.classList.remove("ant-radio-wrapper-checked");
-            }
-          });
-        },
-        { signal },
-      );
-    });
+    // --- RSVP Card Radio Visual State ---
+    const rsvpCardYes = document.querySelector<HTMLLabelElement>('label.rsvp-card-yes');
+    const rsvpCardNo = document.querySelector<HTMLLabelElement>('label.rsvp-card-no');
+
+    const applyCardState = (selected: 'yes' | 'no') => {
+      if (!rsvpCardYes || !rsvpCardNo) return;
+      if (selected === 'yes') {
+        rsvpCardYes.style.background = 'rgb(58,74,58)';
+        rsvpCardYes.style.color = 'white';
+        rsvpCardYes.style.border = '1.5px solid rgb(58,74,58)';
+        rsvpCardNo.style.background = 'transparent';
+        rsvpCardNo.style.color = 'rgba(75,83,32,0.7)';
+        rsvpCardNo.style.border = '1.5px solid rgba(150,130,70,0.4)';
+      } else {
+        rsvpCardNo.style.background = 'rgb(58,74,58)';
+        rsvpCardNo.style.color = 'white';
+        rsvpCardNo.style.border = '1.5px solid rgb(58,74,58)';
+        rsvpCardYes.style.background = 'transparent';
+        rsvpCardYes.style.color = 'rgba(75,83,32,0.7)';
+        rsvpCardYes.style.border = '1.5px solid rgba(150,130,70,0.4)';
+      }
+    };
+
+    if (rsvpCardYes) {
+      rsvpCardYes.addEventListener('click', () => applyCardState('yes'), { signal });
+    }
+    if (rsvpCardNo) {
+      rsvpCardNo.addEventListener('click', () => applyCardState('no'), { signal });
+    }
 
     // --- RSVP Form ---
     const rsvpForm = document.querySelector(".rsvp-form form") as HTMLFormElement | null;

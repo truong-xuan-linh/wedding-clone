@@ -5967,173 +5967,216 @@ const InvitationContent: React.FC = () => {
                                   className="rsvp-form"
                                   style={
                                     {
-                                      backgroundColor: "rgb(250, 247, 247)",
+                                      background: "linear-gradient(160deg, #fffdf8 0%, #f7f2ea 100%)",
                                       color: "rgb(75, 83, 32)",
-                                      boxShadow: "rgba(0, 0, 0, 0.1) 0px 2px 10px 0px",
-                                      borderRadius: "5px",
-                                      padding: "16px",
+                                      boxShadow: "0 8px 32px rgba(75,83,32,0.13), 0 1.5px 6px rgba(75,83,32,0.07)",
+                                      borderRadius: "16px",
+                                      padding: "28px 22px 24px",
                                       minHeight: "100%",
                                       width: "100%",
-                                      fontSize: "14.22px",
+                                      fontSize: "13.5px",
                                       fontFamily: "Arial",
                                       display: "flex",
                                       flexDirection: "column",
-                                      justifyContent: "center",
                                       alignItems: "center",
                                       position: "relative",
                                       overflow: "visible",
-                                      border: "1px solid rgb(224, 224, 224)",
+                                      border: "1px solid rgba(180,160,100,0.25)",
+                                      boxSizing: "border-box",
                                     } as React.CSSProperties
                                   }
                                 >
+                                  {/* Decorative top ornament */}
+                                  <div style={{ textAlign: "center", marginBottom: "4px", lineHeight: 1 } as React.CSSProperties}>
+                                    <span style={{ color: "rgba(150,130,70,0.5)", fontSize: "11px", letterSpacing: "6px" } as React.CSSProperties}>✦ ✦ ✦</span>
+                                  </div>
                                   <h3
                                     style={
                                       {
-                                        marginBottom: "16px",
+                                        margin: "0 0 4px",
                                         color: "rgb(75, 83, 32)",
-                                        fontWeight: "bold",
-                                        fontSize: "18.22px",
+                                        fontWeight: "normal",
+                                        fontSize: "22px",
                                         textAlign: "center",
+                                        fontFamily: "Signora, serif",
+                                        letterSpacing: "0.5px",
                                       } as React.CSSProperties
                                     }
                                   >
                                     Xác nhận tham dự
                                   </h3>
+                                  {/* Divider */}
+                                  <div style={{ display: "flex", alignItems: "center", gap: "8px", margin: "8px 0 18px", width: "100%" } as React.CSSProperties}>
+                                    <div style={{ flex: 1, height: "1px", background: "linear-gradient(to right, transparent, rgba(150,130,70,0.4))" } as React.CSSProperties} />
+                                    <span style={{ color: "rgba(150,130,70,0.6)", fontSize: "10px" } as React.CSSProperties}>♥</span>
+                                    <div style={{ flex: 1, height: "1px", background: "linear-gradient(to left, transparent, rgba(150,130,70,0.4))" } as React.CSSProperties} />
+                                  </div>
+
                                   <form
                                     style={
-                                      { display: "flex", flexDirection: "column", gap: "16px" } as React.CSSProperties
+                                      { display: "flex", flexDirection: "column", gap: "18px", width: "100%" } as React.CSSProperties
                                     }
                                   >
+                                    {/* Name field */}
                                     <div>
                                       <label
                                         htmlFor="rsvp-name"
                                         style={
                                           {
                                             display: "block",
-                                            marginBottom: "6px",
-                                            fontSize: "14.22px",
+                                            marginBottom: "7px",
+                                            fontSize: "11px",
+                                            letterSpacing: "1.5px",
+                                            textTransform: "uppercase",
+                                            color: "rgba(75,83,32,0.65)",
+                                            fontWeight: "600",
                                           } as React.CSSProperties
                                         }
                                       >
                                         Họ và tên
                                       </label>
                                       <input
-                                        placeholder="Nhập tên của bạn"
+                                        placeholder="Nhập tên của bạn..."
                                         type="text"
                                         defaultValue=""
                                         name="rsvp-name"
                                         style={
                                           {
                                             width: "100%",
-                                            padding: "4px 8px",
-                                            borderRadius: "4px",
-                                            border: "1px solid rgb(224, 224, 224)",
-                                            fontSize: "14.22px",
-                                            backgroundColor: "white",
+                                            padding: "8px 0",
+                                            border: "none",
+                                            borderBottom: "1.5px solid rgba(150,130,70,0.35)",
+                                            background: "transparent",
+                                            fontSize: "14px",
                                             color: "rgb(51, 51, 51)",
+                                            outline: "none",
+                                            boxSizing: "border-box",
+                                            fontFamily: "Arial",
                                           } as React.CSSProperties
                                         }
                                       />
                                     </div>
+
+                                    {/* Attendance field — custom card-style radio */}
                                     <div>
                                       <label
-                                        htmlFor="rsvp-attendance"
                                         style={
                                           {
                                             display: "block",
-                                            marginBottom: "6px",
-                                            fontSize: "14.22px",
+                                            marginBottom: "10px",
+                                            fontSize: "11px",
+                                            letterSpacing: "1.5px",
+                                            textTransform: "uppercase",
+                                            color: "rgba(75,83,32,0.65)",
+                                            fontWeight: "600",
                                           } as React.CSSProperties
                                         }
                                       >
                                         Bạn sẽ tham dự chứ?
                                       </label>
-                                      <div
-                                        className="ant-radio-group ant-radio-group-outline css-var-«R36» ant-radio-css-var"
-                                        style={{ width: "100%" } as React.CSSProperties}
-                                      >
-                                        <div
+                                      <div style={{ display: "flex", gap: "10px" } as React.CSSProperties}>
+                                        <label
+                                          className="rsvp-card-yes"
                                           style={
                                             {
+                                              flex: 1,
                                               display: "flex",
                                               flexDirection: "column",
-                                              gap: "8px",
+                                              alignItems: "center",
+                                              gap: "4px",
+                                              padding: "10px 6px",
+                                              borderRadius: "10px",
+                                              border: "1.5px solid rgb(58,74,58)",
+                                              background: "rgb(58,74,58)",
+                                              color: "white",
+                                              cursor: "pointer",
+                                              fontSize: "12.5px",
+                                              textAlign: "center",
+                                              transition: "all 0.2s",
+                                              userSelect: "none",
                                             } as React.CSSProperties
                                           }
                                         >
-                                          <label
-                                            className="ant-radio-wrapper ant-radio-wrapper-checked css-var-«R36» ant-radio-css-var"
-                                            style={
-                                              {
-                                                fontSize: "14.22px",
-                                                fontFamily: "Arial",
-                                                whiteSpace: "break-spaces",
-                                                color: "rgb(75, 83, 32)",
-                                              } as React.CSSProperties
-                                            }
-                                          >
-                                            <span className="ant-radio ant-wave-target ant-radio-checked">
-                                              <input
-                                                className="ant-radio-input"
-                                                type="radio"
-                                                value="yes"
-                                                defaultChecked
-                                                name="rsvp-attendance"
-                                              />
-                                              <span className="ant-radio-inner"></span>
-                                            </span>
-                                            <span className="ant-radio-label">Có, tôi sẽ tham dự</span>
-                                          </label>
-                                          <label
-                                            className="ant-radio-wrapper css-var-«R36» ant-radio-css-var"
-                                            style={
-                                              {
-                                                fontSize: "14.22px",
-                                                fontFamily: "Arial",
-                                                whiteSpace: "break-spaces",
-                                                color: "rgb(75, 83, 32)",
-                                              } as React.CSSProperties
-                                            }
-                                          >
-                                            <span className="ant-radio ant-wave-target">
-                                              <input
-                                                className="ant-radio-input"
-                                                type="radio"
-                                                value="no"
-                                                name="rsvp-attendance"
-                                              />
-                                              <span className="ant-radio-inner"></span>
-                                            </span>
-                                            <span className="ant-radio-label">Tôi bận, rất tiếc không thể tham dự</span>
-                                          </label>
-                                        </div>
+                                          <input
+                                            type="radio"
+                                            value="yes"
+                                            defaultChecked
+                                            name="rsvp-attendance"
+                                            style={{ display: "none" } as React.CSSProperties}
+                                          />
+                                          <span style={{ fontSize: "18px" } as React.CSSProperties}>🌸</span>
+                                          <span style={{ fontWeight: "600" } as React.CSSProperties}>Có, tôi sẽ đến</span>
+                                        </label>
+                                        <label
+                                          className="rsvp-card-no"
+                                          style={
+                                            {
+                                              flex: 1,
+                                              display: "flex",
+                                              flexDirection: "column",
+                                              alignItems: "center",
+                                              gap: "4px",
+                                              padding: "10px 6px",
+                                              borderRadius: "10px",
+                                              border: "1.5px solid rgba(150,130,70,0.4)",
+                                              background: "transparent",
+                                              color: "rgba(75,83,32,0.7)",
+                                              cursor: "pointer",
+                                              fontSize: "12.5px",
+                                              textAlign: "center",
+                                              transition: "all 0.2s",
+                                              userSelect: "none",
+                                            } as React.CSSProperties
+                                          }
+                                        >
+                                          <input
+                                            type="radio"
+                                            value="no"
+                                            name="rsvp-attendance"
+                                            style={{ display: "none" } as React.CSSProperties}
+                                          />
+                                          <span style={{ fontSize: "18px" } as React.CSSProperties}>🍃</span>
+                                          <span>Rất tiếc, tôi bận</span>
+                                        </label>
                                       </div>
                                     </div>
+
+                                    {/* Attendee count */}
                                     <div>
                                       <label
                                         htmlFor="rsvp-attendee-count"
                                         style={
                                           {
                                             display: "block",
-                                            marginBottom: "6px",
-                                            fontSize: "14.22px",
+                                            marginBottom: "7px",
+                                            fontSize: "11px",
+                                            letterSpacing: "1.5px",
+                                            textTransform: "uppercase",
+                                            color: "rgba(75,83,32,0.65)",
+                                            fontWeight: "600",
                                           } as React.CSSProperties
                                         }
                                       >
-                                        Số lượng người tham dự
+                                        Số người tham dự
                                       </label>
                                       <select
                                         id="rsvp-attendee-count"
                                         style={
                                           {
                                             width: "100%",
-                                            padding: "4px 8px",
-                                            borderRadius: "4px",
-                                            border: "1px solid rgb(224, 224, 224)",
-                                            fontSize: "14.22px",
-                                            backgroundColor: "white",
+                                            padding: "8px 0",
+                                            border: "none",
+                                            borderBottom: "1.5px solid rgba(150,130,70,0.35)",
+                                            background: "transparent",
+                                            fontSize: "14px",
                                             color: "rgb(51, 51, 51)",
                                             cursor: "pointer",
+                                            outline: "none",
+                                            fontFamily: "Arial",
+                                            appearance: "none",
+                                            backgroundImage: "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='rgba(75,83,32,0.5)'/%3E%3C/svg%3E\")",
+                                            backgroundRepeat: "no-repeat",
+                                            backgroundPosition: "right 4px center",
                                           } as React.CSSProperties
                                         }
                                       >
@@ -6149,19 +6192,24 @@ const InvitationContent: React.FC = () => {
                                         <option value="10">10 người</option>
                                       </select>
                                     </div>
+
+                                    {/* Submit button */}
                                     <button
                                       type="submit"
                                       style={
                                         {
-                                          backgroundColor: "rgb(58, 74, 58)",
+                                          background: "linear-gradient(135deg, rgb(75,83,32) 0%, rgb(58,74,58) 100%)",
                                           color: "rgb(255, 255, 255)",
-                                          padding: "6px 12px",
-                                          borderRadius: "4px",
+                                          padding: "12px 16px",
+                                          borderRadius: "10px",
                                           border: "none",
-                                          fontSize: "14.22px",
+                                          fontSize: "13.5px",
                                           cursor: "pointer",
-                                          marginTop: "8px",
-                                          opacity: "1",
+                                          marginTop: "4px",
+                                          width: "100%",
+                                          letterSpacing: "1px",
+                                          fontFamily: "Signora, Arial",
+                                          boxShadow: "0 4px 14px rgba(58,74,58,0.3)",
                                         } as React.CSSProperties
                                       }
                                     >
