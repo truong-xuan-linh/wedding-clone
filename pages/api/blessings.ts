@@ -1,35 +1,38 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
-import fs from 'fs';
-import path from 'path';
+import { supabase } from '../../lib/supabase';
 
-const filePath = path.join(process.cwd(), 'data', 'blessings.json');
-
-const ensureFile = () => {
-  const dir = path.dirname(filePath);
-  if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
-  if (!fs.existsSync(filePath)) fs.writeFileSync(filePath, '[]');
-};
-
-export default function handler(req: NextApiRequest, res: NextApiResponse) {
-  ensureFile();
-
+export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   if (req.method === 'GET') {
-    const data = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
-    return res.json(data);
+    const { data, error } = await supabase
+      .from('blessings')
+      .select('name, message')
+      .order('created_at', { ascending: true });
+
+    if (error) {
+      console.error('Supabase blessings GET error:', error);
+      return res.status(500).json({ error: 'Failed to fetch blessings' });
+    }
+
+    return res.json(data ?? []);
   }
 
   if (req.method === 'POST') {
     const { name, message } = req.body;
+
     if (!message || typeof message !== 'string') {
       return res.status(400).json({ error: 'Message required' });
     }
-    const data = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
-    data.push({
+
+    const { error } = await supabase.from('blessings').insert({
       name: (typeof name === 'string' && name.trim()) ? name.trim() : 'Ẩn danh',
       message: message.trim(),
-      timestamp: Date.now(),
     });
-    fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
+
+    if (error) {
+      console.error('Supabase blessings POST error:', error);
+      return res.status(500).json({ error: 'Failed to save blessing' });
+    }
+
     return res.status(201).json({ ok: true });
   }
 

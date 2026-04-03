@@ -127,6 +127,50 @@ const Home: NextPage = () => {
       envelope.addEventListener('click', openEnvelope, { signal });
     }
 
+    // --- RSVP Form ---
+    const rsvpForm = document.querySelector('.rsvp-form form') as HTMLFormElement | null;
+    if (rsvpForm) {
+      rsvpForm.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const nameInput = rsvpForm.querySelector<HTMLInputElement>('[name="rsvp-name"]');
+        const attendanceInput = rsvpForm.querySelector<HTMLInputElement>('[name="rsvp-attendance"]:checked');
+        const countSelect = rsvpForm.querySelector<HTMLSelectElement>('#rsvp-attendee-count');
+        const submitBtn = rsvpForm.querySelector<HTMLButtonElement>('[type="submit"]');
+
+        const name = nameInput?.value.trim() ?? '';
+        const attending = (attendanceInput?.value ?? 'yes') === 'yes';
+        const attendeeCount = Number(countSelect?.value ?? '1');
+
+        if (submitBtn) {
+          submitBtn.disabled = true;
+          submitBtn.textContent = 'Đang gửi...';
+        }
+
+        try {
+          const res = await fetch('/api/rsvp', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ name, attending, attendeeCount }),
+          });
+
+          if (submitBtn) {
+            if (res.ok) {
+              submitBtn.textContent = attending ? '✓ Đã xác nhận tham dự!' : '✓ Đã ghi nhận';
+              submitBtn.style.background = '#4caf50';
+            } else {
+              submitBtn.disabled = false;
+              submitBtn.textContent = 'Gửi xác nhận';
+            }
+          }
+        } catch (_) {
+          if (submitBtn) {
+            submitBtn.disabled = false;
+            submitBtn.textContent = 'Gửi xác nhận';
+          }
+        }
+      }, { signal });
+    }
+
     // --- Gửi lời chúc (Send Wishes) ---
     const wishBtn = document.querySelector('.message-box-button') as HTMLElement | null;
     const blessingBox = document.getElementById('blessing-box') as HTMLElement | null;

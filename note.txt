@@ -1,0 +1,15 @@
+Các bước cần làm tiếp                                                                                           
+                                                                                                                
+1. Tạo bảng trong Supabase — mở Supabase SQL Editor, chạy nội dung file supabase-schema.sql                     
+                                                                                                                
+2. Điền thông tin vào .env.local:                                                                               
+                                                                                                                
+NEXT_PUBLIC_SUPABASE_URL=https://xxxx.supabase.co                                                               
+SUPABASE_SERVICE_ROLE_KEY=eyJhb...   # lấy trong Project Settings > API                                         
+SMTP_HOST=smtp.gmail.com                                                                                        
+SMTP_PORT=587                                                                                                   
+SMTP_USER=email-cua-ban@gmail.com                                                                               
+SMTP_PASS=app-password-gmail         # bật 2FA rồi tạo App Password                                             
+OWNER_EMAIL=email-nhan-thong-bao@gmail.com                                                                      
+                                                                                                                
+▎ Gmail cần dùng App Password (vào myaccount.google.com > Security > 2-Step Verification > App passwords)       
