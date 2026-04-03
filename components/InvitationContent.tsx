@@ -3742,7 +3742,7 @@ const InvitationContent: React.FC = () => {
                                     } as React.CSSProperties
                                   }
                                 >
-                                  designed by cinelove.me
+                                  designed by linhtruong.me
                                 </div>
                               </div>
                             </div>
@@ -6020,7 +6020,7 @@ const InvitationContent: React.FC = () => {
                                       <input
                                         placeholder="Nhập tên của bạn"
                                         type="text"
-                                        value=""
+                                        defaultValue=""
                                         name="rsvp-name"
                                         style={
                                           {
@@ -7890,7 +7890,7 @@ const InvitationContent: React.FC = () => {
                     style={{ opacity: "0" } as React.CSSProperties}
                     className="jsx-3895218497"
                   ></div>
-                  <div id="cinelove-toolbar" className="jsx-1401461546">
+                  <div id="linhtruong-toolbar" className="jsx-1401461546">
                     <div className="jsx-1401461546 toolbar">
                       <div className="jsx-831523885 toolbar-left">
                         <div className="jsx-831523885 message-box-button">
@@ -7912,9 +7912,9 @@ const InvitationContent: React.FC = () => {
                           <img src="/assets/biubiu.png" className="jsx-2074202128" />
                           <span className="jsx-2074202128">Bắn tim</span>
                         </div>
-                        <div id="cinelove-gift-button" className="jsx-2074202128"></div>
-                        <div id="cinelove-like-button" className="jsx-2074202128 like-button">
-                          <div id="cinelove-like-count" className="jsx-2074202128">
+                        <div id="linhtruong-gift-button" className="jsx-2074202128"></div>
+                        <div id="linhtruong-like-button" className="jsx-2074202128 like-button">
+                          <div id="linhtruong-like-count" className="jsx-2074202128">
                             1
                           </div>
                         </div>
@@ -7922,45 +7922,10 @@ const InvitationContent: React.FC = () => {
                     </div>
                   </div>
                   <div className="jsx-2770182321 received-gifts-wrapper"></div>
-                  <div id="cinelove-animation-box" className="jsx-848010737">
-                    <canvas id="cinelove-canvas" className="jsx-848010737"></canvas>
-                    <canvas id="cinelove-canvas-preview" className="jsx-848010737"></canvas>
+                  <div id="linhtruong-animation-box" className="jsx-848010737">
+                    <canvas id="linhtruong-canvas" className="jsx-848010737"></canvas>
+                    <canvas id="linhtruong-canvas-preview" className="jsx-848010737"></canvas>
                   </div>
-                  {/* <div
-                    role="button"
-                    tabIndex={0}
-                    aria-label="Đóng thanh công cụ"
-                    className="jsx-773491098 toolbar-toggle-button toolbar-toggle-has-thumbnail"
-                  >
-                    <div className="jsx-773491098 toolbar-toggle-pill">
-                      <img
-                        alt="G10_Huy &amp; Mai Wedding Invitation"
-                        title="G10_Huy &amp; Mai Wedding Invitation"
-                        loading="lazy"
-                        width="36"
-                        height="36"
-                        decoding="async"
-                        src="/assets/bb15926f-2778-41db-a920-dab70f75b24e.JPG"
-                        className="jsx-773491098 thumbnail"
-                      />
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        aria-hidden="true"
-                        className="jsx-773491098 icon-svg"
-                      >
-                        <path d="M18 6 6 18" className="jsx-773491098"></path>
-                        <path d="m6 6 12 12" className="jsx-773491098"></path>
-                      </svg>
-                    </div>
-                  </div> */}
                 </div>
                 <div className="fixed top-2 left-2 z-50"></div>
               </div>
