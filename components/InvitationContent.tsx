@@ -3820,16 +3820,9 @@ const InvitationContent: React.FC = () => {
                                     } as React.CSSProperties
                                   }
                                 >
-                                  Mọi thứ bắt đầu từ một cuộc gặp giản đơn, nhưng đã thay đổi cả cuộc đời chúng
-                                  tôi.&nbsp;
-                                  <div>
-                                    Qua những khoảnh khắc cười đùa, những buổi hẹn hò ấm áp bên nhau, chúng tôi đã cùng
-                                    nhau lớn lên, học hỏi và yêu thương.&nbsp;
-                                  </div>
-                                  <div>
-                                    Hôm nay, chúng tôi hân hoan chia sẻ hành trình này với những người thân yêu, và mong
-                                    chờ được cùng các bạn chung vui với tình yêu của chúng tôi.
-                                  </div>
+                                  Gặp nhau những năm tháng cấp 3, chúng tôi đã cùng nhau đi qua tuổi trẻ để học cách yêu
+                                  thương và trưởng thành. Hôm nay, hành trình từ thanh xuân đến ngày chung đôi đã sẵn
+                                  sàng viết tiếp chương mới. Hân hoan chào đón bạn đến chung vui cùng chúng tôi.
                                 </div>
                               </div>
                             </div>
@@ -5987,8 +5980,22 @@ const InvitationContent: React.FC = () => {
                                   }
                                 >
                                   {/* Decorative top ornament */}
-                                  <div style={{ textAlign: "center", marginBottom: "4px", lineHeight: 1 } as React.CSSProperties}>
-                                    <span style={{ color: "rgba(150,130,70,0.5)", fontSize: "11px", letterSpacing: "6px" } as React.CSSProperties}>✦ ✦ ✦</span>
+                                  <div
+                                    style={
+                                      { textAlign: "center", marginBottom: "4px", lineHeight: 1 } as React.CSSProperties
+                                    }
+                                  >
+                                    <span
+                                      style={
+                                        {
+                                          color: "rgba(150,130,70,0.5)",
+                                          fontSize: "11px",
+                                          letterSpacing: "6px",
+                                        } as React.CSSProperties
+                                      }
+                                    >
+                                      ✦ ✦ ✦
+                                    </span>
                                   </div>
                                   <h3
                                     style={
@@ -6006,15 +6013,50 @@ const InvitationContent: React.FC = () => {
                                     Xác nhận tham dự
                                   </h3>
                                   {/* Divider */}
-                                  <div style={{ display: "flex", alignItems: "center", gap: "8px", margin: "8px 0 18px", width: "100%" } as React.CSSProperties}>
-                                    <div style={{ flex: 1, height: "1px", background: "linear-gradient(to right, transparent, rgba(150,130,70,0.4))" } as React.CSSProperties} />
-                                    <span style={{ color: "rgba(150,130,70,0.6)", fontSize: "10px" } as React.CSSProperties}>♥</span>
-                                    <div style={{ flex: 1, height: "1px", background: "linear-gradient(to left, transparent, rgba(150,130,70,0.4))" } as React.CSSProperties} />
+                                  <div
+                                    style={
+                                      {
+                                        display: "flex",
+                                        alignItems: "center",
+                                        gap: "8px",
+                                        margin: "8px 0 18px",
+                                        width: "100%",
+                                      } as React.CSSProperties
+                                    }
+                                  >
+                                    <div
+                                      style={
+                                        {
+                                          flex: 1,
+                                          height: "1px",
+                                          background: "linear-gradient(to right, transparent, rgba(150,130,70,0.4))",
+                                        } as React.CSSProperties
+                                      }
+                                    />
+                                    <span
+                                      style={{ color: "rgba(150,130,70,0.6)", fontSize: "10px" } as React.CSSProperties}
+                                    >
+                                      ♥
+                                    </span>
+                                    <div
+                                      style={
+                                        {
+                                          flex: 1,
+                                          height: "1px",
+                                          background: "linear-gradient(to left, transparent, rgba(150,130,70,0.4))",
+                                        } as React.CSSProperties
+                                      }
+                                    />
                                   </div>
 
                                   <form
                                     style={
-                                      { display: "flex", flexDirection: "column", gap: "18px", width: "100%" } as React.CSSProperties
+                                      {
+                                        display: "flex",
+                                        flexDirection: "column",
+                                        gap: "18px",
+                                        width: "100%",
+                                      } as React.CSSProperties
                                     }
                                   >
                                     {/* Name field */}
@@ -6105,7 +6147,9 @@ const InvitationContent: React.FC = () => {
                                             style={{ display: "none" } as React.CSSProperties}
                                           />
                                           <span style={{ fontSize: "18px" } as React.CSSProperties}>🌸</span>
-                                          <span style={{ fontWeight: "600" } as React.CSSProperties}>Có, tôi sẽ đến</span>
+                                          <span style={{ fontWeight: "600" } as React.CSSProperties}>
+                                            Có, tôi sẽ đến
+                                          </span>
                                         </label>
                                         <label
                                           className="rsvp-card-no"
@@ -6174,7 +6218,8 @@ const InvitationContent: React.FC = () => {
                                             outline: "none",
                                             fontFamily: "Arial",
                                             appearance: "none",
-                                            backgroundImage: "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='rgba(75,83,32,0.5)'/%3E%3C/svg%3E\")",
+                                            backgroundImage:
+                                              "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='rgba(75,83,32,0.5)'/%3E%3C/svg%3E\")",
                                             backgroundRepeat: "no-repeat",
                                             backgroundPosition: "right 4px center",
                                           } as React.CSSProperties

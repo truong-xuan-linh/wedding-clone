@@ -1820,3 +1820,162 @@
   top: -15vh;
   left: 0;
 }
+
+/* ================================================================
+   WEDDING INVITATION — VISUAL ENHANCEMENTS
+   ================================================================ */
+
+/* 1. Romantic outer container background */
+/* .jsx-3147566159.pc-container {
+  background: radial-gradient(
+    ellipse at 50% 20%,
+    #fef5e4 0%,
+    #f5ddb5 35%,
+    #e8c370 68%,
+    #d4a340 100%
+  ) !important;
+} */
+
+/* 2. Card — warm golden glow border */
+.jsx-3147566159.pc-content {
+  border-color: rgba(200, 158, 40, 0.5) !important;
+  box-shadow:
+    0 0 0 2px rgba(212, 175, 55, 0.18),
+    0 0 55px rgba(212, 175, 55, 0.32),
+    0 30px 80px rgba(0, 0, 0, 0.4) !important;
+  animation: weddingCardGlow 5s ease-in-out infinite !important;
+}
+
+@keyframes weddingCardGlow {
+  0%, 100% {
+    box-shadow:
+      0 0 0 2px rgba(212, 175, 55, 0.18),
+      0 0 55px rgba(212, 175, 55, 0.32),
+      0 30px 80px rgba(0, 0, 0, 0.4);
+  }
+  50% {
+    box-shadow:
+      0 0 0 2px rgba(212, 175, 55, 0.38),
+      0 0 80px rgba(212, 175, 55, 0.55),
+      0 35px 95px rgba(0, 0, 0, 0.5);
+  }
+}
+
+/* 3. Silk scrollbar with gold gradient */
+.styles_customScroll__X5r6w::-webkit-scrollbar { width: 2px; }
+.styles_customScroll__X5r6w::-webkit-scrollbar-track { background: transparent; }
+.styles_customScroll__X5r6w::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, rgba(212, 175, 55, 0.6), rgba(180, 100, 55, 0.6));
+  border-radius: 2px;
+}
+
+/* 4. Falling petals */
+@keyframes weddingPetalFall {
+  0%   { transform: translateY(-5vh) rotate(0deg);    opacity: 0;   }
+  5%   {                                               opacity: 0.9; }
+  85%  {                                               opacity: 0.6; }
+  100% { transform: translateY(105vh) rotate(560deg); opacity: 0;   }
+}
+@keyframes weddingPetalSway {
+  0%   { margin-left: 0;     }
+  20%  { margin-left: 26px;  }
+  40%  { margin-left: -18px; }
+  60%  { margin-left: 20px;  }
+  80%  { margin-left: -10px; }
+  100% { margin-left: 0;     }
+}
+.wedding-petal {
+  position: fixed;
+  top: 0;
+  pointer-events: none;
+  z-index: 999997;
+  will-change: transform, opacity, margin-left;
+  user-select: none;
+  animation:
+    weddingPetalFall linear infinite,
+    weddingPetalSway ease-in-out infinite;
+}
+
+/* 5. Cursor / touch sparkles */
+@keyframes weddingSparkle {
+  0%   { transform: scale(0) rotate(0deg);    opacity: 1;   }
+  55%  { transform: scale(1.2) rotate(160deg); opacity: 0.8; }
+  100% { transform: scale(0) rotate(360deg);  opacity: 0;   }
+}
+.wedding-sparkle {
+  position: fixed;
+  pointer-events: none;
+  z-index: 999999;
+  user-select: none;
+  line-height: 1;
+  animation: weddingSparkle 0.65s ease-out forwards;
+}
+
+/* 6. Heart / flower burst on RSVP success */
+@keyframes weddingHeartBurst {
+  0%   { transform: translateY(0)      scale(0.3); opacity: 1;   }
+  65%  {                                            opacity: 0.8; }
+  100% { transform: translateY(-185px) scale(1.1); opacity: 0;   }
+}
+.wedding-heart-burst {
+  position: fixed;
+  pointer-events: none;
+  z-index: 999998;
+  user-select: none;
+  line-height: 1;
+  animation: weddingHeartBurst ease-out forwards;
+}
+
+/* 7. Hint overlay keyframes */
+@keyframes weddingHintIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+@keyframes weddingHintPulse {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.12), 0 0 25px rgba(212,175,55,0.22);
+  }
+  50% {
+    transform: scale(1.025);
+    box-shadow: 0 12px 40px rgba(0,0,0,0.18), 0 0 42px rgba(212,175,55,0.38);
+  }
+}
+@keyframes weddingHintBounce {
+  0%, 100% { transform: translateY(0)   rotate(-6deg) scale(1);   }
+  50%       { transform: translateY(-8px) rotate(5deg)  scale(1.12); }
+}
+
+/* 8. Countdown digit flip */
+@keyframes weddingCountFlip {
+  0%   { transform: translateY(-14px) scaleY(0.6); opacity: 0;   }
+  60%  { transform: translateY(2px)   scaleY(1.05); opacity: 1; }
+  100% { transform: translateY(0)     scaleY(1);    opacity: 1; }
+}
+.wedding-digit-flash {
+  animation: weddingCountFlip 0.28s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+  display: inline-block;
+}
+
+/* 9. Enhanced blessing messages */
+.blessing-message.jsx-3895218497 {
+  background: linear-gradient(
+    135deg,
+    rgba(212, 175, 55, 0.38),
+    rgba(180, 100, 55, 0.32)
+  ) !important;
+  border: 1px solid rgba(212, 175, 55, 0.42) !important;
+  box-shadow: 0 3px 16px rgba(0, 0, 0, 0.28) !important;
+  backdrop-filter: blur(10px) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.45) !important;
+}
+
+/* 10. Audio control golden glow */
+#audio-control-wrapper {
+  filter: drop-shadow(0 0 5px rgba(212, 175, 55, 0.55));
+  transition: filter 0.4s ease;
+}
+#audio-control-wrapper:hover {
+  filter: drop-shadow(0 0 10px rgba(212, 175, 55, 0.9));
+}

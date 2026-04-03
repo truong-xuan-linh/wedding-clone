@@ -130,50 +130,39 @@ const Home: NextPage = () => {
       window.dispatchEvent(new CustomEvent("envelope-opened"));
     };
 
-    overlay.addEventListener("click", openEnvelope, { signal });
-
-    // Mount overlay inside the scroll container so it covers the card
-    const pcContent = document.querySelector(".pc-content") as HTMLElement | null;
-    if (pcContent) {
-      pcContent.style.position = "relative";
-      pcContent.appendChild(overlay);
-      // Lock scroll until envelope is opened
-      if (scrollContainer) scrollContainer.style.overflowY = "hidden";
-    }
-
-    // Also allow clicking the envelope directly to open it
+    // Allow clicking the envelope to open it
     if (envelope) {
       envelope.addEventListener("click", openEnvelope, { signal });
     }
 
     // --- RSVP Card Radio Visual State ---
-    const rsvpCardYes = document.querySelector<HTMLLabelElement>('label.rsvp-card-yes');
-    const rsvpCardNo = document.querySelector<HTMLLabelElement>('label.rsvp-card-no');
+    const rsvpCardYes = document.querySelector<HTMLLabelElement>("label.rsvp-card-yes");
+    const rsvpCardNo = document.querySelector<HTMLLabelElement>("label.rsvp-card-no");
 
-    const applyCardState = (selected: 'yes' | 'no') => {
+    const applyCardState = (selected: "yes" | "no") => {
       if (!rsvpCardYes || !rsvpCardNo) return;
-      if (selected === 'yes') {
-        rsvpCardYes.style.background = 'rgb(58,74,58)';
-        rsvpCardYes.style.color = 'white';
-        rsvpCardYes.style.border = '1.5px solid rgb(58,74,58)';
-        rsvpCardNo.style.background = 'transparent';
-        rsvpCardNo.style.color = 'rgba(75,83,32,0.7)';
-        rsvpCardNo.style.border = '1.5px solid rgba(150,130,70,0.4)';
+      if (selected === "yes") {
+        rsvpCardYes.style.background = "rgb(58,74,58)";
+        rsvpCardYes.style.color = "white";
+        rsvpCardYes.style.border = "1.5px solid rgb(58,74,58)";
+        rsvpCardNo.style.background = "transparent";
+        rsvpCardNo.style.color = "rgba(75,83,32,0.7)";
+        rsvpCardNo.style.border = "1.5px solid rgba(150,130,70,0.4)";
       } else {
-        rsvpCardNo.style.background = 'rgb(58,74,58)';
-        rsvpCardNo.style.color = 'white';
-        rsvpCardNo.style.border = '1.5px solid rgb(58,74,58)';
-        rsvpCardYes.style.background = 'transparent';
-        rsvpCardYes.style.color = 'rgba(75,83,32,0.7)';
-        rsvpCardYes.style.border = '1.5px solid rgba(150,130,70,0.4)';
+        rsvpCardNo.style.background = "rgb(58,74,58)";
+        rsvpCardNo.style.color = "white";
+        rsvpCardNo.style.border = "1.5px solid rgb(58,74,58)";
+        rsvpCardYes.style.background = "transparent";
+        rsvpCardYes.style.color = "rgba(75,83,32,0.7)";
+        rsvpCardYes.style.border = "1.5px solid rgba(150,130,70,0.4)";
       }
     };
 
     if (rsvpCardYes) {
-      rsvpCardYes.addEventListener('click', () => applyCardState('yes'), { signal });
+      rsvpCardYes.addEventListener("click", () => applyCardState("yes"), { signal });
     }
     if (rsvpCardNo) {
-      rsvpCardNo.addEventListener('click', () => applyCardState('no'), { signal });
+      rsvpCardNo.addEventListener("click", () => applyCardState("no"), { signal });
     }
 
     // --- RSVP Form ---
@@ -207,7 +196,29 @@ const Home: NextPage = () => {
             if (submitBtn) {
               if (res.ok) {
                 submitBtn.textContent = attending ? "✓ Đã xác nhận tham dự!" : "✓ Đã ghi nhận";
-                submitBtn.style.background = "#4caf50";
+                submitBtn.style.background = "linear-gradient(135deg, #4caf50, #2e7d32)";
+                submitBtn.style.boxShadow = "0 4px 20px rgba(76,175,80,0.45)";
+                submitBtn.style.transition = "all 0.3s ease";
+                // Heart / flower burst celebration
+                const btnRect = submitBtn.getBoundingClientRect();
+                const burstChars = attending
+                  ? ["❤️", "💕", "💖", "💗", "🌸", "✨", "💝", "🌺"]
+                  : ["🙏", "💚", "✨", "🌿", "💫"];
+                for (let i = 0; i < 14; i++) {
+                  setTimeout(() => {
+                    const heart = document.createElement("span");
+                    heart.className = "wedding-heart-burst";
+                    heart.textContent = burstChars[Math.floor(Math.random() * burstChars.length)];
+                    const x = btnRect.left + 10 + Math.random() * Math.max(btnRect.width - 20, 1);
+                    const y = btnRect.top + Math.random() * btnRect.height;
+                    heart.style.left = `${x}px`;
+                    heart.style.top = `${y}px`;
+                    heart.style.fontSize = `${14 + Math.random() * 16}px`;
+                    heart.style.animationDuration = `${1.4 + Math.random() * 1.1}s`;
+                    document.body.appendChild(heart);
+                    setTimeout(() => heart.remove(), 3000);
+                  }, i * 80);
+                }
               } else {
                 submitBtn.disabled = false;
                 submitBtn.textContent = "Gửi xác nhận";
@@ -470,6 +481,63 @@ const Home: NextPage = () => {
 
     animElements.forEach((el) => animObserver.observe(el));
 
+    // --- Falling Petals ---
+    const petalEmojis = ["🌸", "🌺", "🌹", "🌼", "✿"];
+    const cardEl = document.querySelector(".pc-content") as HTMLElement | null;
+
+    const spawnPetal = () => {
+      if (!cardEl) return;
+      const rect = cardEl.getBoundingClientRect();
+      const petal = document.createElement("span");
+      petal.className = "wedding-petal";
+      petal.textContent = petalEmojis[Math.floor(Math.random() * petalEmojis.length)];
+      const fallDuration = 9 + Math.random() * 9;
+      const swayDuration = 2.5 + Math.random() * 2.5;
+      const size = 10 + Math.random() * 10;
+      petal.style.left = `${rect.left + Math.random() * rect.width}px`;
+      petal.style.fontSize = `${size}px`;
+      petal.style.animationDuration = `${fallDuration}s,${swayDuration}s`;
+      document.body.appendChild(petal);
+      setTimeout(() => petal.remove(), (fallDuration + 1) * 1000);
+    };
+
+    for (let i = 0; i < 7; i++) {
+      setTimeout(spawnPetal, i * 1100);
+    }
+    const petalTimer = setInterval(spawnPetal, 2000);
+
+    // --- Cursor / Touch Sparkles ---
+    const sparkleChars = ["✦", "✧", "★", "✸", "✿", "❋", "✺"];
+    let sparkleThrottle = false;
+
+    const createSparkle = (x: number, y: number) => {
+      if (sparkleThrottle) return;
+      sparkleThrottle = true;
+      setTimeout(() => {
+        sparkleThrottle = false;
+      }, 85);
+      const spark = document.createElement("span");
+      spark.className = "wedding-sparkle";
+      spark.textContent = sparkleChars[Math.floor(Math.random() * sparkleChars.length)];
+      const size = 10 + Math.random() * 9;
+      spark.style.left = `${x - 4}px`;
+      spark.style.top = `${y - 4}px`;
+      spark.style.fontSize = `${size}px`;
+      spark.style.color = `rgba(${200 + Math.floor(Math.random() * 55)},${138 + Math.floor(Math.random() * 60)},${18 + Math.floor(Math.random() * 32)},0.92)`;
+      document.body.appendChild(spark);
+      setTimeout(() => spark.remove(), 750);
+    };
+
+    document.addEventListener("mousemove", (e: MouseEvent) => createSparkle(e.clientX, e.clientY), { signal });
+    document.addEventListener(
+      "touchmove",
+      (e: TouchEvent) => {
+        const t = e.touches[0];
+        if (t) createSparkle(t.clientX, t.clientY);
+      },
+      { signal },
+    );
+
     // --- Countdown Timer ---
     let timer: ReturnType<typeof setInterval> | null = null;
     const countdownEl = document.querySelector(".jsx-3272123691.countdown.componentBOX");
@@ -503,10 +571,17 @@ const Home: NextPage = () => {
         const minutesEl = getValueEl(minutesBox);
         const secondsEl = getValueEl(secondsBox);
 
-        if (daysEl) daysEl.textContent = String(days);
-        if (hoursEl) hoursEl.textContent = String(hours);
-        if (minutesEl) minutesEl.textContent = String(minutes);
-        if (secondsEl) secondsEl.textContent = String(seconds);
+        const flashDigit = (el: Element | null, value: string) => {
+          if (!el || el.textContent === value) return;
+          el.textContent = value;
+          (el as HTMLElement).classList.remove("wedding-digit-flash");
+          void (el as HTMLElement).offsetWidth; // force reflow
+          (el as HTMLElement).classList.add("wedding-digit-flash");
+        };
+        flashDigit(daysEl, String(days));
+        flashDigit(hoursEl, String(hours));
+        flashDigit(minutesEl, String(minutes));
+        flashDigit(secondsEl, String(seconds));
       };
 
       tick();
@@ -518,6 +593,8 @@ const Home: NextPage = () => {
       animObserver.disconnect();
       if (timer) clearInterval(timer);
       if (scrollInterval) clearInterval(scrollInterval);
+      clearInterval(petalTimer);
+      document.querySelectorAll(".wedding-petal, .wedding-sparkle, .wedding-heart-burst").forEach((el) => el.remove());
     };
   }, []);
 
