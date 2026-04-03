@@ -16,11 +16,11 @@ export default function Document() {
         <meta property="og:description" content="Kính mời bạn đến chung vui cùng gia đình chúng mình!" />
         <meta
           property="og:image"
-          content="https://wedding-groom-side.vercel.app/assets/images/4011796024475880260.jpg"
+          content="https://wedding-groom-side.vercel.app/assets/images/4011796024475880260.webp"
         />
         <meta
           property="twitter:image"
-          content="https://wedding-groom-side.vercel.app/assets/images/4011796024475880260.jpg"
+          content="https://wedding-groom-side.vercel.app/assets/images/4011796024475880260.webp"
         />
         <meta property="og:image:alt" content="Công Tú & Diễm My Wedding Invitation" />
         <meta property="og:image:width" content="1200" />

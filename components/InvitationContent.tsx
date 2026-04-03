@@ -5678,7 +5678,7 @@ const InvitationContent: React.FC = () => {
                                     className="jsx-1944329802 photo-bg-wrap"
                                     style={
                                       {
-                                        backgroundImage: "url('/assets/images/4011796024475880260.jpg')",
+                                        backgroundImage: "url('/assets/images/4011796024475880260.webp')",
                                         borderRadius: "0px",
                                       } as React.CSSProperties
                                     }
@@ -6405,7 +6405,7 @@ const InvitationContent: React.FC = () => {
                                     className="jsx-1944329802 photo-bg-wrap"
                                     style={
                                       {
-                                        backgroundImage: "url('/assets/images/4011796024475880260.jpg')",
+                                        backgroundImage: "url('/assets/images/4011796024475880260.webp')",
                                         borderRadius: "0px",
                                       } as React.CSSProperties
                                     }
