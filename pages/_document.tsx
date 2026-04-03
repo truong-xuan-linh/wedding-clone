@@ -11,9 +11,17 @@ export default function Document() {
         <meta name="twitter:creator" content="@linhtruong" />
         <meta property="og:locale" content="vi_VN" />
         <meta property="og:type" content="website" />
-        <meta property="og:description" content="Công Tú &amp; Diễm My Wedding Invitation" />
-        <meta property="og:image" content="/assets/images/4011796024475880260.jpg" />
-        <meta property="og:image:alt" content="Công Tú &amp; Diễm My Wedding Invitation" />
+        <meta property="og:title" content="Công Tú & Diễm My Wedding Invitation" />
+        <meta property="og:description" content="Kính mời bạn đến chung vui cùng gia đình chúng mình!" />
+        <meta
+          property="og:image"
+          content="https://wedding-groom-side.vercel.app/assets/images/4011796024475880260.jpg"
+        />
+        <meta
+          property="twitter:image"
+          content="https://wedding-groom-side.vercel.app/assets/images/4011796024475880260.jpg"
+        />
+        <meta property="og:image:alt" content="Công Tú & Diễm My Wedding Invitation" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta name="msapplication-TileColor" content="#da532c" />
