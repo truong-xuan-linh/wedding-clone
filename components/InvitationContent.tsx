@@ -11,7 +11,8 @@ const InvitationContent: React.FC = () => {
                 {
                   backgroundColor: "#f0f2f5",
                   height: "100vh",
-                  width: "100vw",
+                  width: "100%",
+                  overflowX: "hidden",
                   paddingTop: "5vh",
                 } as React.CSSProperties
               }

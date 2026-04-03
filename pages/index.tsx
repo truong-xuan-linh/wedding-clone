@@ -602,7 +602,7 @@ const Home: NextPage = () => {
     <>
       <Head>
         <title>Công Tú &amp; Diễm My Wedding Invitation</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+        <meta name="viewport" content="width=474, maximum-scale=1, user-scalable=no" />
         <meta name="description" content="Công Tú &amp; Diễm My Wedding Invitation" />
       </Head>
       <InvitationContent />
