@@ -274,7 +274,7 @@ const InvitationContent: React.FC = () => {
                                   <img
                                     alt="Letter"
                                     className="jsx-1974917414 letter-image"
-                                    src="/assets/images/9621243010577606206.jpg"
+                                    src="/assets/images/184678666368024556014.jpg"
                                   />
                                 </div>
                                 <div className="jsx-1974917414 hearts">
