@@ -11,6 +11,7 @@ export default function Document() {
         <meta name="twitter:creator" content="@linhtruong" />
         <meta property="og:locale" content="vi_VN" />
         <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://wedding-groom-side.vercel.app" />
         <meta property="og:title" content="Công Tú & Diễm My Wedding Invitation" />
         <meta property="og:description" content="Kính mời bạn đến chung vui cùng gia đình chúng mình!" />
         <meta
