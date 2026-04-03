@@ -401,8 +401,7 @@ const Home: NextPage = () => {
       fetch("/api/blessings", { signal })
         .then((r) => r.json())
         .then((blessings: Array<{ name: string; message: string }>) => {
-          const recent = blessings.slice(-5);
-          recent.forEach((b, i) => {
+          blessings.forEach((b, i) => {
             setTimeout(() => showBlessingMessage(b.name, b.message), i * 2000);
           });
         })
