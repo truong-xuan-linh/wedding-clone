@@ -8095,8 +8095,8 @@ const InvitationContent: React.FC = () => {
                             position: "absolute",
                             top: "7060px",
                             left: "9px",
-                            width: "453px",
-                            height: "300px",
+                            width: "218px",
+                            height: "328px",
                             zIndex: "60",
                             cursor: "default",
                             transform: "rotate(0deg) scale(1, 1)",
@@ -8158,10 +8158,10 @@ const InvitationContent: React.FC = () => {
                           className="jsx-1944329802"
                           style={{
                             position: "absolute",
-                            top: "7380px",
-                            left: "9px",
-                            width: "218px",
-                            height: "218px",
+                            top: "7060px",
+                            left: "238px",
+                            width: "224px",
+                            height: "224px",
                             zIndex: "60",
                             cursor: "default",
                             transform: "rotate(0deg) scale(1, 1)",
@@ -8223,10 +8223,10 @@ const InvitationContent: React.FC = () => {
                           className="jsx-1944329802"
                           style={{
                             position: "absolute",
-                            top: "7380px",
-                            left: "238px",
-                            width: "224px",
-                            height: "337px",
+                            top: "7400px",
+                            left: "9px",
+                            width: "218px",
+                            height: "224px",
                             zIndex: "60",
                             cursor: "default",
                             transform: "rotate(0deg) scale(1, 1)",
@@ -8288,9 +8288,9 @@ const InvitationContent: React.FC = () => {
                           className="jsx-1944329802"
                           style={{
                             position: "absolute",
-                            top: "7620px",
-                            left: "9px",
-                            width: "218px",
+                            top: "7295px",
+                            left: "238px",
+                            width: "224px",
                             height: "328px",
                             zIndex: "60",
                             cursor: "default",
@@ -8353,10 +8353,10 @@ const InvitationContent: React.FC = () => {
                           className="jsx-1944329802"
                           style={{
                             position: "absolute",
-                            top: "7740px",
-                            left: "237px",
-                            width: "225px",
-                            height: "294px",
+                            top: "7635px",
+                            left: "9px",
+                            width: "218px",
+                            height: "328px",
                             zIndex: "60",
                             cursor: "default",
                             transform: "rotate(0deg) scale(1, 1)",
@@ -8418,10 +8418,10 @@ const InvitationContent: React.FC = () => {
                           className="jsx-1944329802"
                           style={{
                             position: "absolute",
-                            top: "7970px",
-                            left: "9px",
-                            width: "218px",
-                            height: "218px",
+                            top: "7635px",
+                            left: "238px",
+                            width: "224px",
+                            height: "224px",
                             zIndex: "60",
                             cursor: "default",
                             transform: "rotate(0deg) scale(1, 1)",
@@ -8483,10 +8483,10 @@ const InvitationContent: React.FC = () => {
                           className="jsx-1944329802"
                           style={{
                             position: "absolute",
-                            top: "8060px",
-                            left: "237px",
-                            width: "221px",
-                            height: "284px",
+                            top: "7875px",
+                            left: "238px",
+                            width: "224px",
+                            height: "337px",
                             zIndex: "60",
                             cursor: "default",
                             transform: "rotate(0deg) scale(1, 1)",
