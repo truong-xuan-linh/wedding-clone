@@ -7938,7 +7938,7 @@ const InvitationContent: React.FC = () => {
                     style={{ opacity: "0" } as React.CSSProperties}
                     className="jsx-3895218497"
                   ></div>
-                  <div id="linhtruong-toolbar" className="jsx-1401461546">
+                  <div id="cinelove-toolbar" className="jsx-1401461546">
                     <div className="jsx-1401461546 toolbar">
                       <div className="jsx-831523885 toolbar-left">
                         <div className="jsx-831523885 message-box-button">
@@ -7970,9 +7970,9 @@ const InvitationContent: React.FC = () => {
                     </div>
                   </div>
                   <div className="jsx-2770182321 received-gifts-wrapper"></div>
-                  <div id="linhtruong-animation-box" className="jsx-848010737">
-                    <canvas id="linhtruong-canvas" className="jsx-848010737"></canvas>
-                    <canvas id="linhtruong-canvas-preview" className="jsx-848010737"></canvas>
+                  <div id="cinelove-animation-box" className="jsx-848010737">
+                    <canvas id="cinelove-canvas" className="jsx-848010737"></canvas>
+                    <canvas id="cinelove-canvas-preview" className="jsx-848010737"></canvas>
                   </div>
                 </div>
                 <div className="fixed top-2 left-2 z-50"></div>
