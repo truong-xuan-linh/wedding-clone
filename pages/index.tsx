@@ -101,6 +101,10 @@ const Home: NextPage = () => {
     const scrollContainer = document.querySelector(".styles_customScroll__X5r6w") as HTMLElement | null;
     const envelope = document.querySelector(".envelope-container") as HTMLElement | null;
 
+    if (scrollContainer) {
+      scrollContainer.style.overflowY = "hidden";
+    }
+
     const overlay = document.createElement("div");
 
     const hintText = document.createElement("div");
