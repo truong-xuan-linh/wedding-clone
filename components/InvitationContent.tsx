@@ -7389,7 +7389,7 @@ const InvitationContent: React.FC = () => {
                                     } as React.CSSProperties
                                   }
                                 >
-                                  11 : 00 , THỨ BA
+                                  11 : 00 , THỨ TƯ
                                 </div>
                               </div>
                             </div>
