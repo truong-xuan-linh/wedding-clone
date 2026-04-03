@@ -7389,7 +7389,7 @@ const InvitationContent: React.FC = () => {
                                     } as React.CSSProperties
                                   }
                                 >
-                                  11 : 00 , THỨ TƯ
+                                  09 : 00 , THỨ TƯ
                                 </div>
                               </div>
                             </div>
@@ -7787,7 +7787,7 @@ const InvitationContent: React.FC = () => {
                                       { letterSpacing: "0px", backgroundColor: "transparent" } as React.CSSProperties
                                     }
                                   >
-                                    NHÀ HÀNG HIỆP ÁNH
+                                    TƯ GIA NHÀ TRAI
                                   </span>
                                 </div>
                               </div>
@@ -7866,7 +7866,7 @@ const InvitationContent: React.FC = () => {
                                     } as React.CSSProperties
                                   }
                                 >
-                                  Thôn Quảng Phước, Kiến Đức, Lâm Đồng
+                                  Thôn Quảng Đạt, Kiến Đức, Lâm Đồng
                                 </div>
                               </div>
                             </div>
