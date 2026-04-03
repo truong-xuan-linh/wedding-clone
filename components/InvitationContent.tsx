@@ -1452,7 +1452,7 @@ const InvitationContent: React.FC = () => {
                                     } as React.CSSProperties
                                   }
                                 >
-                                  11 : 00 , THỨ BA
+                                  11 : 00 , THỨ TƯ
                                 </div>
                               </div>
                             </div>
@@ -7947,297 +7947,604 @@ const InvitationContent: React.FC = () => {
                             </div>
                           </div>
                         </div>
-                        
-      <div
-        data-node-id="57kehtgkf5"
-        className="jsx-1944329802"
-        style={{
-          position: "absolute",
-          top: "7060px",
-          left: "0.8532px",
-          width: "475.327px",
-          height: "645.244px",
-          zIndex: "0",
-          cursor: "default",
-          transform: "rotate(0deg) scale(1, 1)",
-        }}
-      >
-        <div data-transition-key="57kehtgkf5-fade-in-1.6-0-ease-out-false" data-node-id="57kehtgkf5" style={{ transform: "none", opacity: "1", width: "100%", height: "100%" }}>
-          <div
-            className="jsx-1944329802"
-            style={{ position: "relative", width: "100%", height: "100%", display: "flex", alignItems: "center", justifyContent: "center", boxSizing: "border-box", opacity: "1" }}
-          >
-            <div className="jsx-1944329802 photo-component" style={{ WebkitMaskBoxImageSource: "none", maskImage: "none", maskSize: "100% 100%" }}>
-              <div
-                className="jsx-1944329802 photo-bg-wrap"
-                style={{ backgroundImage: "url('/assets/a4575674-74a4-4283-a7cd-ff2d64f7c490.png')", borderRadius: "0px" }}
-              ></div>
-            </div>
-          </div>
-        </div>
-      </div>
-  
-      <div
-        data-node-id="wql7ni9qf1"
-        className="jsx-1944329802"
-        style={{
-          position: "absolute",
-          top: "7660px",
-          left: "0.8532px",
-          width: "475.327px",
-          height: "645.244px",
-          zIndex: "0",
-          cursor: "default",
-          transform: "rotate(0deg) scale(1, 1)",
-        }}
-      >
-        <div data-transition-key="wql7ni9qf1-fade-in-1.6-0-ease-out-false" data-node-id="wql7ni9qf1" style={{ transform: "none", opacity: "1", width: "100%", height: "100%" }}>
-          <div
-            className="jsx-1944329802"
-            style={{ position: "relative", width: "100%", height: "100%", display: "flex", alignItems: "center", justifyContent: "center", boxSizing: "border-box", opacity: "1" }}
-          >
-            <div className="jsx-1944329802 photo-component" style={{ WebkitMaskBoxImageSource: "none", maskImage: "none", maskSize: "100% 100%" }}>
-              <div
-                className="jsx-1944329802 photo-bg-wrap"
-                style={{ backgroundImage: "url('/assets/a4575674-74a4-4283-a7cd-ff2d64f7c490.png')", borderRadius: "0px" }}
-              ></div>
-            </div>
-          </div>
-        </div>
-      </div>
-  
-      <div
-        data-node-id="0ix20iyddh"
-        className="jsx-1944329802"
-        style={{
-          position: "absolute",
-          top: "8260px",
-          left: "0.8532px",
-          width: "475.327px",
-          height: "645.244px",
-          zIndex: "0",
-          cursor: "default",
-          transform: "rotate(0deg) scale(1, 1)",
-        }}
-      >
-        <div data-transition-key="0ix20iyddh-fade-in-1.6-0-ease-out-false" data-node-id="0ix20iyddh" style={{ transform: "none", opacity: "1", width: "100%", height: "100%" }}>
-          <div
-            className="jsx-1944329802"
-            style={{ position: "relative", width: "100%", height: "100%", display: "flex", alignItems: "center", justifyContent: "center", boxSizing: "border-box", opacity: "1" }}
-          >
-            <div className="jsx-1944329802 photo-component" style={{ WebkitMaskBoxImageSource: "none", maskImage: "none", maskSize: "100% 100%" }}>
-              <div
-                className="jsx-1944329802 photo-bg-wrap"
-                style={{ backgroundImage: "url('/assets/a4575674-74a4-4283-a7cd-ff2d64f7c490.png')", borderRadius: "0px" }}
-              ></div>
-            </div>
-          </div>
-        </div>
-      </div>
-  
-      <div
-        data-node-id="10ye040sl3"
-        className="jsx-1944329802"
-        style={{
-          position: "absolute",
-          top: "7060px",
-          left: "9px",
-          width: "453px",
-          height: "300px",
-          zIndex: "60",
-          cursor: "default",
-          transform: "rotate(0deg) scale(1, 1)",
-        }}
-      >
-        <div data-transition-key="10ye040sl3-flip-in-1.6-0-ease-out-false" data-node-id="10ye040sl3" style={{ transition: "1.6s ease-out", transform: "none", opacity: "1", width: "100%", height: "100%" }}>
-          <div
-            className="jsx-1944329802"
-            style={{ position: "relative", width: "100%", height: "100%", display: "flex", alignItems: "center", justifyContent: "center", boxSizing: "border-box", opacity: "1", border: "0px solid", padding: "0px", backgroundColor: "transparent", textShadow: "rgba(0, 0, 0, 0) 0px 0px 2px", boxShadow: "none", borderRadius: "0px" }}
-          >
-            <div className="jsx-1944329802 photo-component" style={{ WebkitMaskBoxImageSource: "none", WebkitMaskBoxImageSlice: "0 fill", maskImage: "none", maskSize: "100% 100%", maskRepeat: "no-repeat" }}>
-              <div
-                className="jsx-1944329802 photo-bg-wrap"
-                style={{ backgroundImage: "url('/assets/images/102943104078502942116.jpg')", borderRadius: "0px" }}
-              ></div>
-            </div>
-          </div>
-        </div>
-      </div>
-  
-      <div
-        data-node-id="jrnfy3pmtc"
-        className="jsx-1944329802"
-        style={{
-          position: "absolute",
-          top: "7380px",
-          left: "9px",
-          width: "218px",
-          height: "218px",
-          zIndex: "60",
-          cursor: "default",
-          transform: "rotate(0deg) scale(1, 1)",
-        }}
-      >
-        <div data-transition-key="jrnfy3pmtc-fade-in-1.6-0-ease-out-false" data-node-id="jrnfy3pmtc" style={{ transition: "1.6s ease-out", transform: "none", opacity: "1", width: "100%", height: "100%" }}>
-          <div
-            className="jsx-1944329802"
-            style={{ position: "relative", width: "100%", height: "100%", display: "flex", alignItems: "center", justifyContent: "center", boxSizing: "border-box", opacity: "1", border: "0px solid", padding: "0px", backgroundColor: "transparent", textShadow: "rgba(0, 0, 0, 0) 0px 0px 2px", boxShadow: "none", borderRadius: "0px" }}
-          >
-            <div className="jsx-1944329802 photo-component" style={{ WebkitMaskBoxImageSource: "none", WebkitMaskBoxImageSlice: "0 fill", maskImage: "none", maskSize: "100% 100%", maskRepeat: "no-repeat" }}>
-              <div
-                className="jsx-1944329802 photo-bg-wrap"
-                style={{ backgroundImage: "url('/assets/images/193888583255200643410.jpg')", borderRadius: "0px" }}
-              ></div>
-            </div>
-          </div>
-        </div>
-      </div>
-  
-      <div
-        data-node-id="s18eonx1nj"
-        className="jsx-1944329802"
-        style={{
-          position: "absolute",
-          top: "7380px",
-          left: "238px",
-          width: "224px",
-          height: "337px",
-          zIndex: "60",
-          cursor: "default",
-          transform: "rotate(0deg) scale(1, 1)",
-        }}
-      >
-        <div data-transition-key="s18eonx1nj-slide-down-1.6-0-ease-out-false" data-node-id="s18eonx1nj" style={{ transition: "1.6s ease-out", transform: "none", opacity: "1", width: "100%", height: "100%" }}>
-          <div
-            className="jsx-1944329802"
-            style={{ position: "relative", width: "100%", height: "100%", display: "flex", alignItems: "center", justifyContent: "center", boxSizing: "border-box", opacity: "1", border: "0px solid", padding: "0px", backgroundColor: "transparent", textShadow: "rgba(0, 0, 0, 0) 0px 0px 2px", boxShadow: "none", borderRadius: "0px" }}
-          >
-            <div className="jsx-1944329802 photo-component" style={{ WebkitMaskBoxImageSource: "none", WebkitMaskBoxImageSlice: "0 fill", maskImage: "none", maskSize: "100% 100%", maskRepeat: "no-repeat" }}>
-              <div
-                className="jsx-1944329802 photo-bg-wrap"
-                style={{ backgroundImage: "url('/assets/images/20460463570702871779.jpg')", borderRadius: "0px" }}
-              ></div>
-            </div>
-          </div>
-        </div>
-      </div>
-  
-      <div
-        data-node-id="kp3o3tijat"
-        className="jsx-1944329802"
-        style={{
-          position: "absolute",
-          top: "7620px",
-          left: "9px",
-          width: "218px",
-          height: "328px",
-          zIndex: "60",
-          cursor: "default",
-          transform: "rotate(0deg) scale(1, 1)",
-        }}
-      >
-        <div data-transition-key="kp3o3tijat-slide-up-1.6-0-ease-out-false" data-node-id="kp3o3tijat" style={{ transition: "1.6s ease-out", transform: "none", opacity: "1", width: "100%", height: "100%" }}>
-          <div
-            className="jsx-1944329802"
-            style={{ position: "relative", width: "100%", height: "100%", display: "flex", alignItems: "center", justifyContent: "center", boxSizing: "border-box", opacity: "1", border: "0px solid", padding: "0px", backgroundColor: "transparent", textShadow: "rgba(0, 0, 0, 0) 0px 0px 2px", boxShadow: "none", borderRadius: "0px" }}
-          >
-            <div className="jsx-1944329802 photo-component" style={{ WebkitMaskBoxImageSource: "none", WebkitMaskBoxImageSlice: "0 fill", maskImage: "none", maskSize: "100% 100%", maskRepeat: "no-repeat" }}>
-              <div
-                className="jsx-1944329802 photo-bg-wrap"
-                style={{ backgroundImage: "url('/assets/images/36817307803945082541.jpg')", borderRadius: "0px" }}
-              ></div>
-            </div>
-          </div>
-        </div>
-      </div>
-  
-      <div
-        data-node-id="vrmnf0k4bm"
-        className="jsx-1944329802"
-        style={{
-          position: "absolute",
-          top: "7740px",
-          left: "237px",
-          width: "225px",
-          height: "294px",
-          zIndex: "60",
-          cursor: "default",
-          transform: "rotate(0deg) scale(1, 1)",
-        }}
-      >
-        <div data-transition-key="vrmnf0k4bm-slide-left-1.6-0-ease-out-false" data-node-id="vrmnf0k4bm" style={{ transition: "1.6s ease-out", transform: "none", opacity: "1", width: "100%", height: "100%" }}>
-          <div
-            className="jsx-1944329802"
-            style={{ position: "relative", width: "100%", height: "100%", display: "flex", alignItems: "center", justifyContent: "center", boxSizing: "border-box", opacity: "1", border: "0px solid", padding: "0px", backgroundColor: "transparent", textShadow: "rgba(0, 0, 0, 0) 0px 0px 2px", boxShadow: "none", borderRadius: "0px" }}
-          >
-            <div className="jsx-1944329802 photo-component" style={{ WebkitMaskBoxImageSource: "none", WebkitMaskBoxImageSlice: "0 fill", maskImage: "none", maskSize: "100% 100%", maskRepeat: "no-repeat" }}>
-              <div
-                className="jsx-1944329802 photo-bg-wrap"
-                style={{ backgroundImage: "url('/assets/images/36817307803945082542.jpg')", borderRadius: "0px" }}
-              ></div>
-            </div>
-          </div>
-        </div>
-      </div>
-  
-      <div
-        data-node-id="e1vno6g9nk"
-        className="jsx-1944329802"
-        style={{
-          position: "absolute",
-          top: "7970px",
-          left: "9px",
-          width: "218px",
-          height: "218px",
-          zIndex: "60",
-          cursor: "default",
-          transform: "rotate(0deg) scale(1, 1)",
-        }}
-      >
-        <div data-transition-key="e1vno6g9nk-fade-in-1.6-0-ease-out-false" data-node-id="e1vno6g9nk" style={{ transition: "1.6s ease-out", transform: "none", opacity: "1", width: "100%", height: "100%" }}>
-          <div
-            className="jsx-1944329802"
-            style={{ position: "relative", width: "100%", height: "100%", display: "flex", alignItems: "center", justifyContent: "center", boxSizing: "border-box", opacity: "1", border: "0px solid", padding: "0px", backgroundColor: "transparent", textShadow: "rgba(0, 0, 0, 0) 0px 0px 2px", boxShadow: "none", borderRadius: "0px" }}
-          >
-            <div className="jsx-1944329802 photo-component" style={{ WebkitMaskBoxImageSource: "none", WebkitMaskBoxImageSlice: "0 fill", maskImage: "none", maskSize: "100% 100%", maskRepeat: "no-repeat" }}>
-              <div
-                className="jsx-1944329802 photo-bg-wrap"
-                style={{ backgroundImage: "url('/assets/images/387299715805235554815.jpg')", borderRadius: "0px" }}
-              ></div>
-            </div>
-          </div>
-        </div>
-      </div>
-  
-      <div
-        data-node-id="z879v00iyj"
-        className="jsx-1944329802"
-        style={{
-          position: "absolute",
-          top: "8060px",
-          left: "237px",
-          width: "221px",
-          height: "284px",
-          zIndex: "60",
-          cursor: "default",
-          transform: "rotate(0deg) scale(1, 1)",
-        }}
-      >
-        <div data-transition-key="z879v00iyj-slide-up-1.6-0-ease-out-false" data-node-id="z879v00iyj" style={{ transition: "1.6s ease-out", transform: "none", opacity: "1", width: "100%", height: "100%" }}>
-          <div
-            className="jsx-1944329802"
-            style={{ position: "relative", width: "100%", height: "100%", display: "flex", alignItems: "center", justifyContent: "center", boxSizing: "border-box", opacity: "1", border: "0px solid", padding: "0px", backgroundColor: "transparent", textShadow: "rgba(0, 0, 0, 0) 0px 0px 2px", boxShadow: "none", borderRadius: "0px" }}
-          >
-            <div className="jsx-1944329802 photo-component" style={{ WebkitMaskBoxImageSource: "none", WebkitMaskBoxImageSlice: "0 fill", maskImage: "none", maskSize: "100% 100%", maskRepeat: "no-repeat" }}>
-              <div
-                className="jsx-1944329802 photo-bg-wrap"
-                style={{ backgroundImage: "url('/assets/images/4277553449265611778.jpg')", borderRadius: "0px" }}
-              ></div>
-            </div>
-          </div>
-        </div>
-      </div>
-  \n<span>
+                        <div
+                          data-node-id="57kehtgkf5"
+                          className="jsx-1944329802"
+                          style={{
+                            position: "absolute",
+                            top: "7060px",
+                            left: "0.8532px",
+                            width: "475.327px",
+                            height: "645.244px",
+                            zIndex: "0",
+                            cursor: "default",
+                            transform: "rotate(0deg) scale(1, 1)",
+                          }}
+                        >
+                          <div
+                            data-transition-key="57kehtgkf5-fade-in-1.6-0-ease-out-false"
+                            data-node-id="57kehtgkf5"
+                            style={{ transform: "none", opacity: "1", width: "100%", height: "100%" }}
+                          >
+                            <div
+                              className="jsx-1944329802"
+                              style={{
+                                position: "relative",
+                                width: "100%",
+                                height: "100%",
+                                display: "flex",
+                                alignItems: "center",
+                                justifyContent: "center",
+                                boxSizing: "border-box",
+                                opacity: "1",
+                              }}
+                            >
+                              <div
+                                className="jsx-1944329802 photo-component"
+                                style={{ WebkitMaskBoxImageSource: "none", maskImage: "none", maskSize: "100% 100%" }}
+                              >
+                                <div
+                                  className="jsx-1944329802 photo-bg-wrap"
+                                  style={{
+                                    backgroundImage: "url('/assets/a4575674-74a4-4283-a7cd-ff2d64f7c490.png')",
+                                    borderRadius: "0px",
+                                  }}
+                                ></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          data-node-id="wql7ni9qf1"
+                          className="jsx-1944329802"
+                          style={{
+                            position: "absolute",
+                            top: "7660px",
+                            left: "0.8532px",
+                            width: "475.327px",
+                            height: "645.244px",
+                            zIndex: "0",
+                            cursor: "default",
+                            transform: "rotate(0deg) scale(1, 1)",
+                          }}
+                        >
+                          <div
+                            data-transition-key="wql7ni9qf1-fade-in-1.6-0-ease-out-false"
+                            data-node-id="wql7ni9qf1"
+                            style={{ transform: "none", opacity: "1", width: "100%", height: "100%" }}
+                          >
+                            <div
+                              className="jsx-1944329802"
+                              style={{
+                                position: "relative",
+                                width: "100%",
+                                height: "100%",
+                                display: "flex",
+                                alignItems: "center",
+                                justifyContent: "center",
+                                boxSizing: "border-box",
+                                opacity: "1",
+                              }}
+                            >
+                              <div
+                                className="jsx-1944329802 photo-component"
+                                style={{ WebkitMaskBoxImageSource: "none", maskImage: "none", maskSize: "100% 100%" }}
+                              >
+                                <div
+                                  className="jsx-1944329802 photo-bg-wrap"
+                                  style={{
+                                    backgroundImage: "url('/assets/a4575674-74a4-4283-a7cd-ff2d64f7c490.png')",
+                                    borderRadius: "0px",
+                                  }}
+                                ></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          data-node-id="0ix20iyddh"
+                          className="jsx-1944329802"
+                          style={{
+                            position: "absolute",
+                            top: "8260px",
+                            left: "0.8532px",
+                            width: "475.327px",
+                            height: "645.244px",
+                            zIndex: "0",
+                            cursor: "default",
+                            transform: "rotate(0deg) scale(1, 1)",
+                          }}
+                        >
+                          <div
+                            data-transition-key="0ix20iyddh-fade-in-1.6-0-ease-out-false"
+                            data-node-id="0ix20iyddh"
+                            style={{ transform: "none", opacity: "1", width: "100%", height: "100%" }}
+                          >
+                            <div
+                              className="jsx-1944329802"
+                              style={{
+                                position: "relative",
+                                width: "100%",
+                                height: "100%",
+                                display: "flex",
+                                alignItems: "center",
+                                justifyContent: "center",
+                                boxSizing: "border-box",
+                                opacity: "1",
+                              }}
+                            >
+                              <div
+                                className="jsx-1944329802 photo-component"
+                                style={{ WebkitMaskBoxImageSource: "none", maskImage: "none", maskSize: "100% 100%" }}
+                              >
+                                <div
+                                  className="jsx-1944329802 photo-bg-wrap"
+                                  style={{
+                                    backgroundImage: "url('/assets/a4575674-74a4-4283-a7cd-ff2d64f7c490.png')",
+                                    borderRadius: "0px",
+                                  }}
+                                ></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          data-node-id="10ye040sl3"
+                          className="jsx-1944329802"
+                          style={{
+                            position: "absolute",
+                            top: "7060px",
+                            left: "9px",
+                            width: "453px",
+                            height: "300px",
+                            zIndex: "60",
+                            cursor: "default",
+                            transform: "rotate(0deg) scale(1, 1)",
+                          }}
+                        >
+                          <div
+                            data-transition-key="10ye040sl3-flip-in-1.6-0-ease-out-false"
+                            data-node-id="10ye040sl3"
+                            style={{
+                              transition: "1.6s ease-out",
+                              transform: "none",
+                              opacity: "1",
+                              width: "100%",
+                              height: "100%",
+                            }}
+                          >
+                            <div
+                              className="jsx-1944329802"
+                              style={{
+                                position: "relative",
+                                width: "100%",
+                                height: "100%",
+                                display: "flex",
+                                alignItems: "center",
+                                justifyContent: "center",
+                                boxSizing: "border-box",
+                                opacity: "1",
+                                border: "0px solid",
+                                padding: "0px",
+                                backgroundColor: "transparent",
+                                textShadow: "rgba(0, 0, 0, 0) 0px 0px 2px",
+                                boxShadow: "none",
+                                borderRadius: "0px",
+                              }}
+                            >
+                              <div
+                                className="jsx-1944329802 photo-component"
+                                style={{
+                                  WebkitMaskBoxImageSource: "none",
+                                  WebkitMaskBoxImageSlice: "0 fill",
+                                  maskImage: "none",
+                                  maskSize: "100% 100%",
+                                  maskRepeat: "no-repeat",
+                                }}
+                              >
+                                <div
+                                  className="jsx-1944329802 photo-bg-wrap"
+                                  style={{
+                                    backgroundImage: "url('/assets/images/102943104078502942116.jpg')",
+                                    borderRadius: "0px",
+                                  }}
+                                ></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          data-node-id="jrnfy3pmtc"
+                          className="jsx-1944329802"
+                          style={{
+                            position: "absolute",
+                            top: "7380px",
+                            left: "9px",
+                            width: "218px",
+                            height: "218px",
+                            zIndex: "60",
+                            cursor: "default",
+                            transform: "rotate(0deg) scale(1, 1)",
+                          }}
+                        >
+                          <div
+                            data-transition-key="jrnfy3pmtc-fade-in-1.6-0-ease-out-false"
+                            data-node-id="jrnfy3pmtc"
+                            style={{
+                              transition: "1.6s ease-out",
+                              transform: "none",
+                              opacity: "1",
+                              width: "100%",
+                              height: "100%",
+                            }}
+                          >
+                            <div
+                              className="jsx-1944329802"
+                              style={{
+                                position: "relative",
+                                width: "100%",
+                                height: "100%",
+                                display: "flex",
+                                alignItems: "center",
+                                justifyContent: "center",
+                                boxSizing: "border-box",
+                                opacity: "1",
+                                border: "0px solid",
+                                padding: "0px",
+                                backgroundColor: "transparent",
+                                textShadow: "rgba(0, 0, 0, 0) 0px 0px 2px",
+                                boxShadow: "none",
+                                borderRadius: "0px",
+                              }}
+                            >
+                              <div
+                                className="jsx-1944329802 photo-component"
+                                style={{
+                                  WebkitMaskBoxImageSource: "none",
+                                  WebkitMaskBoxImageSlice: "0 fill",
+                                  maskImage: "none",
+                                  maskSize: "100% 100%",
+                                  maskRepeat: "no-repeat",
+                                }}
+                              >
+                                <div
+                                  className="jsx-1944329802 photo-bg-wrap"
+                                  style={{
+                                    backgroundImage: "url('/assets/images/193888583255200643410.jpg')",
+                                    borderRadius: "0px",
+                                  }}
+                                ></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          data-node-id="s18eonx1nj"
+                          className="jsx-1944329802"
+                          style={{
+                            position: "absolute",
+                            top: "7380px",
+                            left: "238px",
+                            width: "224px",
+                            height: "337px",
+                            zIndex: "60",
+                            cursor: "default",
+                            transform: "rotate(0deg) scale(1, 1)",
+                          }}
+                        >
+                          <div
+                            data-transition-key="s18eonx1nj-slide-down-1.6-0-ease-out-false"
+                            data-node-id="s18eonx1nj"
+                            style={{
+                              transition: "1.6s ease-out",
+                              transform: "none",
+                              opacity: "1",
+                              width: "100%",
+                              height: "100%",
+                            }}
+                          >
+                            <div
+                              className="jsx-1944329802"
+                              style={{
+                                position: "relative",
+                                width: "100%",
+                                height: "100%",
+                                display: "flex",
+                                alignItems: "center",
+                                justifyContent: "center",
+                                boxSizing: "border-box",
+                                opacity: "1",
+                                border: "0px solid",
+                                padding: "0px",
+                                backgroundColor: "transparent",
+                                textShadow: "rgba(0, 0, 0, 0) 0px 0px 2px",
+                                boxShadow: "none",
+                                borderRadius: "0px",
+                              }}
+                            >
+                              <div
+                                className="jsx-1944329802 photo-component"
+                                style={{
+                                  WebkitMaskBoxImageSource: "none",
+                                  WebkitMaskBoxImageSlice: "0 fill",
+                                  maskImage: "none",
+                                  maskSize: "100% 100%",
+                                  maskRepeat: "no-repeat",
+                                }}
+                              >
+                                <div
+                                  className="jsx-1944329802 photo-bg-wrap"
+                                  style={{
+                                    backgroundImage: "url('/assets/images/20460463570702871779.jpg')",
+                                    borderRadius: "0px",
+                                  }}
+                                ></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          data-node-id="kp3o3tijat"
+                          className="jsx-1944329802"
+                          style={{
+                            position: "absolute",
+                            top: "7620px",
+                            left: "9px",
+                            width: "218px",
+                            height: "328px",
+                            zIndex: "60",
+                            cursor: "default",
+                            transform: "rotate(0deg) scale(1, 1)",
+                          }}
+                        >
+                          <div
+                            data-transition-key="kp3o3tijat-slide-up-1.6-0-ease-out-false"
+                            data-node-id="kp3o3tijat"
+                            style={{
+                              transition: "1.6s ease-out",
+                              transform: "none",
+                              opacity: "1",
+                              width: "100%",
+                              height: "100%",
+                            }}
+                          >
+                            <div
+                              className="jsx-1944329802"
+                              style={{
+                                position: "relative",
+                                width: "100%",
+                                height: "100%",
+                                display: "flex",
+                                alignItems: "center",
+                                justifyContent: "center",
+                                boxSizing: "border-box",
+                                opacity: "1",
+                                border: "0px solid",
+                                padding: "0px",
+                                backgroundColor: "transparent",
+                                textShadow: "rgba(0, 0, 0, 0) 0px 0px 2px",
+                                boxShadow: "none",
+                                borderRadius: "0px",
+                              }}
+                            >
+                              <div
+                                className="jsx-1944329802 photo-component"
+                                style={{
+                                  WebkitMaskBoxImageSource: "none",
+                                  WebkitMaskBoxImageSlice: "0 fill",
+                                  maskImage: "none",
+                                  maskSize: "100% 100%",
+                                  maskRepeat: "no-repeat",
+                                }}
+                              >
+                                <div
+                                  className="jsx-1944329802 photo-bg-wrap"
+                                  style={{
+                                    backgroundImage: "url('/assets/images/36817307803945082541.jpg')",
+                                    borderRadius: "0px",
+                                  }}
+                                ></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          data-node-id="vrmnf0k4bm"
+                          className="jsx-1944329802"
+                          style={{
+                            position: "absolute",
+                            top: "7740px",
+                            left: "237px",
+                            width: "225px",
+                            height: "294px",
+                            zIndex: "60",
+                            cursor: "default",
+                            transform: "rotate(0deg) scale(1, 1)",
+                          }}
+                        >
+                          <div
+                            data-transition-key="vrmnf0k4bm-slide-left-1.6-0-ease-out-false"
+                            data-node-id="vrmnf0k4bm"
+                            style={{
+                              transition: "1.6s ease-out",
+                              transform: "none",
+                              opacity: "1",
+                              width: "100%",
+                              height: "100%",
+                            }}
+                          >
+                            <div
+                              className="jsx-1944329802"
+                              style={{
+                                position: "relative",
+                                width: "100%",
+                                height: "100%",
+                                display: "flex",
+                                alignItems: "center",
+                                justifyContent: "center",
+                                boxSizing: "border-box",
+                                opacity: "1",
+                                border: "0px solid",
+                                padding: "0px",
+                                backgroundColor: "transparent",
+                                textShadow: "rgba(0, 0, 0, 0) 0px 0px 2px",
+                                boxShadow: "none",
+                                borderRadius: "0px",
+                              }}
+                            >
+                              <div
+                                className="jsx-1944329802 photo-component"
+                                style={{
+                                  WebkitMaskBoxImageSource: "none",
+                                  WebkitMaskBoxImageSlice: "0 fill",
+                                  maskImage: "none",
+                                  maskSize: "100% 100%",
+                                  maskRepeat: "no-repeat",
+                                }}
+                              >
+                                <div
+                                  className="jsx-1944329802 photo-bg-wrap"
+                                  style={{
+                                    backgroundImage: "url('/assets/images/36817307803945082542.jpg')",
+                                    borderRadius: "0px",
+                                  }}
+                                ></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          data-node-id="e1vno6g9nk"
+                          className="jsx-1944329802"
+                          style={{
+                            position: "absolute",
+                            top: "7970px",
+                            left: "9px",
+                            width: "218px",
+                            height: "218px",
+                            zIndex: "60",
+                            cursor: "default",
+                            transform: "rotate(0deg) scale(1, 1)",
+                          }}
+                        >
+                          <div
+                            data-transition-key="e1vno6g9nk-fade-in-1.6-0-ease-out-false"
+                            data-node-id="e1vno6g9nk"
+                            style={{
+                              transition: "1.6s ease-out",
+                              transform: "none",
+                              opacity: "1",
+                              width: "100%",
+                              height: "100%",
+                            }}
+                          >
+                            <div
+                              className="jsx-1944329802"
+                              style={{
+                                position: "relative",
+                                width: "100%",
+                                height: "100%",
+                                display: "flex",
+                                alignItems: "center",
+                                justifyContent: "center",
+                                boxSizing: "border-box",
+                                opacity: "1",
+                                border: "0px solid",
+                                padding: "0px",
+                                backgroundColor: "transparent",
+                                textShadow: "rgba(0, 0, 0, 0) 0px 0px 2px",
+                                boxShadow: "none",
+                                borderRadius: "0px",
+                              }}
+                            >
+                              <div
+                                className="jsx-1944329802 photo-component"
+                                style={{
+                                  WebkitMaskBoxImageSource: "none",
+                                  WebkitMaskBoxImageSlice: "0 fill",
+                                  maskImage: "none",
+                                  maskSize: "100% 100%",
+                                  maskRepeat: "no-repeat",
+                                }}
+                              >
+                                <div
+                                  className="jsx-1944329802 photo-bg-wrap"
+                                  style={{
+                                    backgroundImage: "url('/assets/images/387299715805235554815.jpg')",
+                                    borderRadius: "0px",
+                                  }}
+                                ></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          data-node-id="z879v00iyj"
+                          className="jsx-1944329802"
+                          style={{
+                            position: "absolute",
+                            top: "8060px",
+                            left: "237px",
+                            width: "221px",
+                            height: "284px",
+                            zIndex: "60",
+                            cursor: "default",
+                            transform: "rotate(0deg) scale(1, 1)",
+                          }}
+                        >
+                          <div
+                            data-transition-key="z879v00iyj-slide-up-1.6-0-ease-out-false"
+                            data-node-id="z879v00iyj"
+                            style={{
+                              transition: "1.6s ease-out",
+                              transform: "none",
+                              opacity: "1",
+                              width: "100%",
+                              height: "100%",
+                            }}
+                          >
+                            <div
+                              className="jsx-1944329802"
+                              style={{
+                                position: "relative",
+                                width: "100%",
+                                height: "100%",
+                                display: "flex",
+                                alignItems: "center",
+                                justifyContent: "center",
+                                boxSizing: "border-box",
+                                opacity: "1",
+                                border: "0px solid",
+                                padding: "0px",
+                                backgroundColor: "transparent",
+                                textShadow: "rgba(0, 0, 0, 0) 0px 0px 2px",
+                                boxShadow: "none",
+                                borderRadius: "0px",
+                              }}
+                            >
+                              <div
+                                className="jsx-1944329802 photo-component"
+                                style={{
+                                  WebkitMaskBoxImageSource: "none",
+                                  WebkitMaskBoxImageSlice: "0 fill",
+                                  maskImage: "none",
+                                  maskSize: "100% 100%",
+                                  maskRepeat: "no-repeat",
+                                }}
+                              >
+                                <div
+                                  className="jsx-1944329802 photo-bg-wrap"
+                                  style={{
+                                    backgroundImage: "url('/assets/images/4277553449265611778.jpg')",
+                                    borderRadius: "0px",
+                                  }}
+                                ></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        \n
+                        <span>
                           <div
                             className="workarea-resize-handle"
                             style={
