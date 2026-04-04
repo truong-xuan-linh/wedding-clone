@@ -3805,12 +3805,12 @@ const InvitationContent: React.FC = () => {
                                       width: "100%",
                                       minWidth: "20px",
                                       color: "rgb(75, 83, 32)",
-                                      fontSize: "18.012px",
+                                      fontSize: "16px",
                                       textShadow: "rgba(0, 0, 0, 0) 0px 0px 2px",
                                       fontWeight: "500",
                                       fontFamily: "Quicksand",
                                       textAlign: "center",
-                                      lineHeight: "1.82",
+                                      lineHeight: "1.5",
                                       letterSpacing: "0px",
                                       textTransform: "none",
                                       textDecoration: "none",
@@ -3821,9 +3821,14 @@ const InvitationContent: React.FC = () => {
                                     } as React.CSSProperties
                                   }
                                 >
-                                  Gặp nhau những năm tháng cấp 3, chúng tôi đã cùng nhau đi qua tuổi trẻ để học cách yêu
-                                  thương và trưởng thành. Hôm nay, hành trình từ thanh xuân đến ngày chung đôi đã sẵn
-                                  sàng viết tiếp chương mới. Hân hoan chào đón bạn đến chung vui cùng chúng tôi.
+                                  Em lớp 11, anh lớp 12 ,chỉ là hai người học chung một mái trường, thỉnh thoảng lướt
+                                  qua nhau giữa sân, vậy thôi. Ai ngờ lướt qua vài lần… lướt luôn vào tim nhau. Một
+                                  người còn vô tư, một người đã sắp rời đi… nhưng lại chọn ở lại trong tim nhau. Anh lên
+                                  đại học, em vẫn ở lại với những ngày thi cử. Yêu từ cấp 3, đi qua bao nhiêu khó khăn
+                                  ,mỗi người một hành trình… mà vẫn chọn ở lại bên nhau. Không ồn ào, không drama, cứ
+                                  bình yên mà thương đến tận bây giờ . Hôm nay hành trình từ thanh xuân đến ngày chung
+                                  đôi đã sẵn sàng viết tiếp chương mới . Hân hoan chào đón các bạn đến chung vui cùng
+                                  tụi mình ❤️
                                 </div>
                               </div>
                             </div>
